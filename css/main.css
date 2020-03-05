@@ -63,7 +63,7 @@ body {
 }
 
 .navbar ul li a:hover {
-  color: #9dc1cf;
+  color: #00924c;
 }
 
 /*########## Inicio ##########*/
@@ -202,7 +202,7 @@ body {
 }
 
 .btn.active {
-  background-color: #9dc1cf;
+  background-color: #00924c;
   color: white;
 }
 
@@ -253,7 +253,7 @@ html {
 }
 
 .cont p a:hover{
-  color: skyblue;
+  color: #00924c;
 }
 
 .cont::after, .row::after {
@@ -291,7 +291,7 @@ h2 {
 }
   
 .button:hover {
-  background-color:#9dc1cf;
+  background-color:#00924c;
   color: white;
 }
 
@@ -350,7 +350,7 @@ h2 {
 }
 
 .editais a:hover{
-  color: rgb(165, 211, 230);
+  color: #00924c;
 }
 
 .editais a button {
@@ -426,7 +426,7 @@ h2 {
 }
 
 .publicacoes a:hover{
-  color:#9dc1cf;
+  color:#00924c;
 }
 
 

@@ -36,6 +36,10 @@ h1{
   height: 3.75em;
 }
 
+.dropdown img{
+  height: 2em;
+}
+
 /* The dropdown container */
 .dropdown {
   float: left;

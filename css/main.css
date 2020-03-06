@@ -426,7 +426,6 @@ h2 {
   margin-block-end: 0rem;
   justify-self: center;
   margin-bottom: 2%;
-
 }
 
 .editais button a{
@@ -518,8 +517,8 @@ section p {
   padding: 3px;
 }
 
-@media (min-width: 821px){
-  .dropdown{
+@media (min-width: 820.1px) {
+  .dropdown {
     display: none;
   }
 }
@@ -598,58 +597,8 @@ section p {
 
   /* Sobre */
 
-  .sobre {
-    padding-top: 3.75em;
-    display: flex;
-    flex-direction:column;
-    align-items: initial;
-    background: #f4f4f4;
+  .sobre p2{
     width: 100%;
-    font-size: 1.4rem;
-    padding-bottom: 4em;
-  }
-  
-  .cont-sobre {
-    width: 80%;
-    align-content: center;
-    align-self: center; 
-    
-  }
-  
-  .sobre h1{
-    justify-content: baseline;
-    font-size: 3rem;
-    text-align: left;
-  }
-  
-  .cont-sobre p {
-    text-align: justify;
-    margin-top: 20px;
-    width: 100%;    
-  }
-  
-  .figuraDODF {
-    
-    margin-bottom: 5%;
-    align-items: left;
-    padding: none;
-  }
-  
-  .figuraDODF img {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  .responsive {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .sobre p2 {
-    text-align: justify;
-    margin-top: 2.5%;
-    float: left;
-    width: 100%;
-    padding: 2%;
   }
 
   /* Membros */
@@ -671,49 +620,10 @@ section p {
   }
 
   /* Publicacoes */
-  .publicacoes{
-    width: 100%;
-    height: 100vh; 
-    padding-top: 4em;
-  }
   
-  .dentro-publicacoes {
-    width: 80%;
-    margin: 0 auto;
-    font-family: arial;
-    justify-content: center;  
-  
-  }
-  
-  .publicacoes h1{
-    justify-content: baseline;
-    font-size: 3rem;
-    text-align: left;
-  }
-  
-  .publicacoes a{
-    color: black;
-    text-decoration: none;
-  }
-  
-  .bloco-publi{
-  
-    border-bottom: 1px solid #9dc1cf;
-    font-size: 1.3em;
-  }
-  
-  .titulo-publi{
-    
-    font-weight: bold;
-  }
-  
-  .descricao-publi{
-    text-align: justify;
-    font-size: smaller;
-    margin: 1.5%;
-  }
-  
-  .publicacoes a:hover{
-    color:#9dc1cf;
+
+  /* Editais */
+  .editais a button {
+    margin-left: 6%;
   }
 }

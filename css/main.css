@@ -522,6 +522,7 @@ section p {
   /* Navbar container */
   .navbar ul {
     color: #11283b;
+    text-decoration-color: #11283b;
   }
   
 
@@ -529,6 +530,10 @@ section p {
 .dropdown {
   float: left;
   overflow: hidden;
+}
+
+.dropdown img{
+  height: 2em;
 }
 
 /* Dropdown button */

@@ -516,7 +516,7 @@ section p {
 @media screen and (max-width: 820px) {
   /* Navbar */
   /* Navbar container */
-  .navbar ul {
+  .navbar {
     color: #11283b;
     text-decoration-color: #11283b;
   }

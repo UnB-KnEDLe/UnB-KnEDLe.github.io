@@ -595,8 +595,12 @@ section p {
   display: block;
 }
 
-  /* Sobre */
+  /* Titulo */
+  .titulo p{
+    font-size: 18px;
+  }
 
+  /* Sobre */
   .sobre p2{
     width: 100%;
   }
@@ -619,11 +623,8 @@ section p {
     font-size: 0.42cm;
   }
 
-  /* Publicacoes */
-  
-
   /* Editais */
   .editais a button {
-    margin-left: 6%;
+    margin-left: 3%;
   }
 }

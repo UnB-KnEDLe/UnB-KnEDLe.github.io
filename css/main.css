@@ -37,7 +37,7 @@ h1{
 }
 
 .dropdown img{
-  height: 2em;
+  height: 1.75em;
 }
 
 /* The dropdown container */
@@ -60,7 +60,7 @@ h1{
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #00924c;
 }
 
 /* Dropdown content (hidden by default) */
@@ -118,10 +118,6 @@ h1{
   font-size: 1.1em;
   color: #f4f4f4;
   
-}
-
-.navbar ul li a:hover {
-  color: #00924c;
 }
 
 /*########## Inicio ##########*/
@@ -533,7 +529,7 @@ section p {
 }
 
 .dropdown img{
-  height: 2em;
+  height: 1.75em;
 }
 
 /* Dropdown button */
@@ -550,7 +546,7 @@ section p {
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #41c284;
 }
 
 /* Dropdown content (hidden by default) */

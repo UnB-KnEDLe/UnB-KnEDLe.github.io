@@ -94,9 +94,7 @@ h1{
   display: block;
 }
 
-.dropdown{
-  display: ;
-}
+
 
 .nomeProjeto {
   margin-left: 15px;
@@ -601,11 +599,24 @@ section p {
   }
 
   /* Sobre */
+
+  .sobre h1{
+    font-size: 2rem;
+  }
+
+  .sobre p, p2{
+    font-size: 1rem;
+  }
+
   .sobre p2{
     width: 100%;
   }
 
   /* Membros */
+  .membros h1{
+    font-size: 2rem;
+  }
+
   .column {
     width: 100%; 
   }
@@ -624,7 +635,26 @@ section p {
   }
 
   /* Editais */
+  .editais h1{
+    font-size: 2rem;
+  }
+
+  .editais p{
+    font-size: 1.5rem;
+  }
+
+  .editais p2{
+    font-size: 1rem;
+  }
   .editais a button {
     margin-left: 3%;
+  }
+
+  .publicacoes h1{
+    font-size: 2rem;
+  }
+
+  .publicacoes p{
+    font-size:  1rem;
   }
 }

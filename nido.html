@@ -12,62 +12,62 @@
 <body>
     <div class="container">
 
-      <nav class="navbar">
+        <nav class="navbar">
         
-        <div class="nomeProjeto">
-          <img src="./img/UnB-logo.png" />
-          </div>
-      
-          <div class="topnav" id="mytopnav">
-              
-            <!--<a href="#editais">Editais</a> -->
-            <a href="#publicacoes">Publications</a>
-            <a href="#members">Members</a>
-            <a href="#about">About</a>
-            <a href="#home"> Home</a>  
-            <!--<li><a href="#contact">Contato</a></li> -->              
-          
-
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="./img/iconMenu.png" /></a> 
-          </div>
-          <!--<div class="dropdown">
-            <button class="dropbtn"> <img src="./img/iconMenu.png" />
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <a href="#home"> Início</a>
-              <a href="#about">Sobre</a>
-              <a href="#members">Membros</a>
-              <a href="#publicacoes">Publicações</a>
-                <a href="#editais">Editais</a>
+          <div class="nomeProjeto">
+            <img src="./img/UnB-logo.png" />
             </div>
-          
-          </div> -->
         
-        </nav>
+            <div class="topnav" id="mytopnav">
+                
+              <!--<a href="#editais">Editais</a> -->
+              <a href="#publicacoes">Publicações</a>
+              <a href="#members">Membros</a>
+              <a href="#about">Sobre</a>
+              <a href="#home"> Início</a>  
+              <!--<li><a href="#contact">Contato</a></li> -->              
+            
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="./img/iconMenu.png" /></a> 
+            </div>
+            <!--<div class="dropdown">
+              <button class="dropbtn"> <img src="./img/iconMenu.png" />
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#home"> Início</a>
+                <a href="#about">Sobre</a>
+                <a href="#members">Membros</a>
+                <a href="#publicacoes">Publicações</a>
+                  <a href="#editais">Editais</a>
+              </div>
+            
+            </div> -->
+          
+          </nav>
 
         <div class="titulo" id="home">
                         
             <div class="logo">
-              <img src="./img/Knedle1.png" class="responsive"/>
+              <img src="./img/projetonido1.png" class="responsive"/><br/>
+              <img src="./img/NIDOhome12.png" class="responsive"/>
             </div>
-            <p3> Knowledge Extraction from Documents of Legal content</p3>
-
-            <p2> <a href="./index.html"> (Portuguese version here)</a></p2>
+            <p> Navegando por Informações do Diário Oficial</p>
+            <p2> <a href="./index.html"> (Versão em inglês aqui)</a></p2>
             
         </div>
 
         <div class="sobre" id="about">
           <div class="cont-sobre">
-            <h1>About</h1>
+            <h1>Sobre o Projeto</h1>
             
-            <p> The project “KnEDLe - Knowledge Extraction from Documents of Legal content”  was proposed in order to employ official publications as a research object and to extract knowledge. The objective is to develop intelligent tools for extracting structured information from such publications, aiming to facilitate the search and retrieval of information, increasing government transparency and facilitating audit tasks and detecting problems related to the use of public resources.</p>
+            <p> O projeto “KnEDLe – Knowledge Extraction from Documents of Legal content” foi proposto com o intuito de empregar publicações oficiais como objeto de pesquisa e efetuar extração de conhecimento. O objetivo é desenvolver ferramentas inteligentes de extração de informação estruturada a partir de tais publicações, visando facilitar a busca e recuperação de informações, aumentando a transparência do governo e facilitando tarefas de auditoria e detecção de problemas relacionados ao emprego de recursos públicos.</p>
             
-            <p2> <p> Official publications such as the Diário Oficial do Distrito Federal (DODF) are sources of information on all official government acts. Although these documents are rich in knowledge, analyzing these texts manually by specialists is a complex and unfeasible task considering the growing volume of documents, the result of the frequent number of publications in the Distrito Federal Government's (GDF) communication vehicle.</p></p2>
+            <p2> <p>Publicações oficiais tais como o Diário Oficial do Distrito Federal (DODF) são fontes de informação sobre todos os atos oficiais do governo. Embora esses documentos sejam ricos em conhecimento, analisar esses textos manualmente por especialistas é uma tarefa complexa e inviável considerando o crescente volume de documentos, resultado da frequente quantidade de publicações no veículo de comunicação do Governo do Distrito Federal (GDF). </p></p2>
             
             <p2><div class="figuraDODF"><img src="./img/DODF.jpg" class="responsive" /></div></p2>
             
-            <p> This scenario is appropriate to employ computational techniques based on text mining and information visualization, in order to discover implicit and relevant knowledge in large textual data sets. It is known that these computational techniques receive data in a structured format. However, as DODF editions are originally published in unstructured format and in natural language, it is necessary to use techniques to prepare strategies in order to make the necessary adaptations to apply.</p>
+            <p> Esse cenário se apresenta apropriado para empregar técnicas computacionais baseadas em mineração de textos e visualização da informação, com o intuito de descobrir conhecimento implícito e relevante em grandes conjuntos de dados textuais. Sabe-se que essas técnicas computacionais recebem como entrada os dados em formato estruturado. No entanto, as edições do DODF são originalmente publicadas em formato não-estruturado e em linguagem natural, sendo necessário utilizar técnicas para preparar estratégias a fim de realizar as adaptações necessárias para aplicar.</p>
               
           </div> 
         </div>
@@ -75,15 +75,15 @@
         <div class="fora-membros">
         <div class="membros" id="members">
           <div class="dentro-membros">
-            <h1>Members</h1>
+            <h1>Membros do Projeto</h1>
 
             <div id="myBtnContainer" class="BtnContainer">
-              <button class="btn active" onclick="filterSelection('all')">Show all</button>
-              <button class="btn" onclick="filterSelection('doutor')"> PhDs</button>
-              <button class="btn" onclick="filterSelection('dotorando')"> Doctoral candidates</button>
-              <button class="btn" onclick="filterSelection('mestrando')"> Master students</button>
-              <button class="btn" onclick="filterSelection('graduando')"> Undergraduate students</button>
-              <button class="btn" onclick="filterSelection('colab')"> Collaborators</button>
+              <button class="btn active" onclick="filterSelection('all')">Todos</button>
+              <button class="btn" onclick="filterSelection('doutor')"> Doutores</button>
+              <button class="btn" onclick="filterSelection('dotorando')"> Doutorandos</button>
+              <button class="btn" onclick="filterSelection('mestrando')"> Mestrandos</button>
+              <button class="btn" onclick="filterSelection('graduando')"> Graduandos</button>
+              <button class="btn" onclick="filterSelection('colab')"> Colaboradores</button>
               <!--<button class="btn" onclick="filterSelection('faltapor')"> Rascunhos</button> -->
             </div>
 
@@ -97,12 +97,12 @@
                   <img src="./img/aProfTeofilo.png" alt="Mike" style="width:100%">
                   <div class="cont">
                     <h2>Teofilo Emidio De Campos</h2>
-                    <p class="cargo"> Principal Investigator & Doctor in Information Engineering</p>
+                    <p class="cargo"> Principal Investigator & Doutor em Information Engineering</p>
                     <p><img src="./img/iconEmail1.jpg" /> teodecampos@unb.br</p>
                     <p><img src="./img/iconHomepage1.png" /> <a href="https://cic.unb.br/~teodecampos/">Homepage </a></p>
                     <p><img src="./img/iconGithub.png" /> <a href="https://github.com/teodecampos"> Github</a></p>
                     <p><img src="./img/iconJob.png" /> Professor Adjunto - UnB<br/><br/></p>
-                    <p><a href="http://lattes.cnpq.br/5052452346402051"><button class="button">Curriculum Lattes</button></a></p>
+                    <p><a href="http://lattes.cnpq.br/5052452346402051"><button class="button">Currículo Lattes</button></a></p>
                   </div>
                 </div>
               </div>
@@ -113,12 +113,12 @@
                   <img src="./img/fotoProfThiago1.jpeg.png" alt="John" style="width:100%">
                   <div class="cont">
                     <h2>Thiago Paulo Faleiros</h2>
-                    <p class="cargo">co-PI & PhD in Computer Science<br/><br/></p>
+                    <p class="cargo">co-PI & Doutor em Ciência da Computação<br/><br/></p>
                     <p><img src="./img/iconEmail1.jpg" /> thiagodepaulo@unb.br</p>
                     <p><img src="./img/iconHomepage1.png" /> Homepage</p>
                     <p><img src="./img/iconGithub.png" /> Github</p>
                     <p><img src="./img/iconJob.png" /> Professor Adjunto - UnB <br/><br/></p>
-                    <p><a href="http://lattes.cnpq.br/1193412523364471"><button class="button">Curriculum Lattes</button></a></p>
+                    <p><a href="http://lattes.cnpq.br/1193412523364471"><button class="button">Currículo Lattes</button></a></p>
                   </div>
                 </div>
               </div>
@@ -129,12 +129,12 @@
                   <img src="./img/fotoProfVinicius1.jpg" alt="Jane" style="width:100%">
                   <div class="cont">
                     <h2>Vinicius Ruela Pereira Borges</h2>
-                    <p class="cargo">PhD in Computer Science and Computational Mathematics</p> 
+                    <p class="cargo">Doutor em Ciência da Computação e Matemática Computacional</p> 
                     <p><img src="./img/iconEmail1.jpg" /> viniciusrpb@unb.br</p>
                     <p><img src="./img/iconHomepage1.png" /> <a href="http://viniciusrpb.byethost6.com/">Homepage </a></p>
                     <p><img src="./img/iconGithub.png" /> <a href="https://github.com/viniciusrpb"> Github</a></p>
                     <p><img src="./img/iconJob.png" /> Professor Adjunto - UnB<br/><br/></p>
-                    <p><a href="http://lattes.cnpq.br/1841593572448050"><button class="button">Curriculum Lattes</button></a></p>
+                    <p><a href="http://lattes.cnpq.br/1841593572448050"><button class="button">Currículo Lattes</button></a></p>
                   </div>
                 </div>
               </div>
@@ -149,12 +149,12 @@
                   <img src="./img/aProfFabricio.jpg" alt="Jane" style="width:100%">
                   <div class="cont">
                     <h2>Fabricio Ataides Braz</h2>
-                    <p class="cargo">PhD in Electrical Engineering <br/><br/></p>
+                    <p class="cargo">Doutor em Engenharia Elétrica <br/><br/></p>
                     <p><img src="./img/iconEmail1.jpg" /> fabraz@unb.br </p>   
                     <p><img src="./img/iconHomepage1.png" />  <a href="http://softwareseguro.blogspot.com"> Homepage </a> </p>
                     <p><img src="./img/iconGithub.png" /> <a href="https://github.com/fabraz"> Github</a></p>
                     <p><img src="./img/iconJob.png" /> Professor Adjunto - UnB<br/><br/></p>
-                    <footer><a href="http://lattes.cnpq.br/1700216932505005"><button class="button">Curriculum Lattes</button></a></footer>
+                    <footer><a href="http://lattes.cnpq.br/1700216932505005"><button class="button">Currículo Lattes</button></a></footer>
                   </div>
                 </div>
               </div>
@@ -165,12 +165,12 @@
                   <img src="./img/aProfNilton.png" alt="Jane" style="width:100%">
                   <div class="cont">
                     <h2>Nilton Correia da Silva</h2>
-                    <p class="cargo">PhD in Data Processing and Environmental Analysis</p>
+                    <p class="cargo">Doutor em Processamento de Dados e Análise Ambiental</p>
                     <p><img src="./img/iconEmail1.jpg" /> niltonncs@unb.br </p>
                     <p><img src="./img/iconHomepage1.png" /> <a href="http://fga.unb.br/nilton.silva">Homepage </a></p> 
                     <p><img src="./img/iconGithub.png" />  Github</p>
-                    <p><img src="./img/iconJob.png" /> Professor / Researcher - UnB <br/><br/></p>
-                    <footer><a href="http://lattes.cnpq.br/5916642485883241"><button class="button">Curriculum Lattes</button></a></footer>
+                    <p><img src="./img/iconJob.png" /> Professor / Pesquisador - UnB <br/><br/></p>
+                    <footer><a href="http://lattes.cnpq.br/5916642485883241"><button class="button">Currículo Lattes</button></a></footer>
                   </div>
                 </div>
               </div>
@@ -183,11 +183,11 @@
                   <img src="./img/fotoAindaNaoTem.png" alt="Jane" style="width:100%">
                   <div class="cont">
                     <h2>Carolina Alves Okimoto</h2>
-                    <p class="cargo"> Specialised in Human Resources Management<br/><br/></p>
+                    <p class="cargo">Especializada em Gestão de Recursos Humanos<br/><br/></p>
                     <p><img src="./img/iconEmail1.jpg" /> carolinaalves@unb.br </p>
                     <p><img src="./img/iconLinkedIn.png" /> <a href="https://www.linkedin.com/in/carolina-alves-okimoto-b3598232/"> LinkedIn</a></p>
-                    <p><img src="./img/iconJob.png" /> Executive Secretary CiC/UnB<br/><br/><br/></p>
-                    <footer><a href="http://lattes.cnpq.br/7500862454896523"><button class="button">Curriculum Lattes</button></a></footer>
+                    <p><img src="./img/iconJob.png" /> Secretária Executiva CiC/UnB<br/><br/><br/></p>
+                    <footer><a href="http://lattes.cnpq.br/7500862454896523"><button class="button">Currículo Lattes</button></a></footer>
                   </div>
                 </div>
               </div>
@@ -204,12 +204,12 @@
                   <img src="./img/fotoAindaNaoTem.png" style="width:100%">
                   <div class="cont">
                     <h2>Lindeberg Pessoa Leite</h2>
-                    <p class="cargo">Doctoral candidate in Informatics<br/><br/></p>
+                    <p class="cargo">Doutorando em Informática<br/><br/></p>
                     <p><img src="./img/iconEmail1.jpg" /> lindpessoa@gmail.com</p>  
                     <p><img src="./img/iconLinkedIn.png" /> <a href="https://www.linkedin.com/in/lindeberg-leite-029618aa/"> LinkedIn</a></p> 
                     <p><img src="./img/iconGithub.png" /> Github</p>
-                    <p><img src="./img/iconJob.png" />  Federal Criminal Expert<br/><br/></p>
-                    <footer><a href="http://lattes.cnpq.br/5942436715284954"><button class="button">Curriculum Lattes</button></a></footer>
+                    <p><img src="./img/iconJob.png" /> Perito Criminal Federal <br/><br/></p>
+                    <footer><a href="http://lattes.cnpq.br/5942436715284954"><button class="button">Currículo Lattes</button></a></footer>
                   </div>
                 </div>
               </div>
@@ -220,12 +220,12 @@
                   <img src="./img/fotoAindaNaoTem.png" style="width:100%">
                   <div class="cont">
                     <h2>Patricia Medyna Drumond</h2> <!-- Patricia Medyna Lauritzen de Lucena Drumond -->
-                    <p class="cargo">Doctoral candidate in Informatics<br/><br/></p>
+                    <p class="cargo">Doutorando em Informática<br/><br/></p>
                     <p><img src="./img/iconEmail1.jpg" /> patriciamedyna@gmail.com</p>  
                     <p><img src="./img/iconLinkedIn.png" /> <a href="https://www.linkedin.com/in/patricia-drumond-285b5231/"> LinkedIn</a></p>  
                     <p><img src="./img/iconGithub.png" /> Github</p>
                     <p><img src="./img/iconJob.png" /> Professora Adjunta II - UFPI <br/><br/></p>
-                    <footer><a href="http://lattes.cnpq.br/4139401241377019"><button class="button">Curriculum Lattes</button></a></footer>
+                    <footer><a href="http://lattes.cnpq.br/4139401241377019"><button class="button">Currículo Lattes</button></a></footer>
                   </div>
                 </div>
               </div> 
@@ -242,12 +242,12 @@
                   <img src="./img/fotoAindaNaoTem.png" style="width:100%">
                   <div class="cont">
                     <h2>Frederico Guth</h2>
-                    <p class="cargo">Master student in Computer Science <br/><br/></p>
+                    <p class="cargo">Mestrando em Ciência da Computação<br/><br/></p>
                     <p><img src="./img/iconEmail1.jpg" /> fredguth@fredguth.com</p>  
                     <p><img src="./img/iconLinkedIn.png" /> <a href="https://www.linkedin.com/in/fredguth/"> LinkedIn</a></p> 
                     <p><img src="./img/iconGithub.png" /> <a href="https://github.com/fredguth"> Github</a></p>
-                    <p><img src="./img/iconJob.png" /> REMOTO Tecnologia CEO<br/><br/></p>
-                    <footer><a href="http://lattes.cnpq.br/1350650095882051"><button class="button">Curriculum Lattes</button></a></footer>
+                    <p><img src="./img/iconJob.png" /> Diretor Presidente da REMOTO Tecnologia <br/><br/></p>
+                    <footer><a href="http://lattes.cnpq.br/1350650095882051"><button class="button">Currículo Lattes</button></a></footer>
                   </div>
                 </div>
               </div>  
@@ -258,12 +258,12 @@
                   <img src="./img/fotoAindaNaoTem.png" style="width:100%">
                   <div class="cont">
                     <h2>José Reinaldo Neto</h2> <!-- José Reinaldo da Cunha Santos Aroso Vieira da Silva Neto -->
-                    <p class="cargo">Master student in Computer Science <br/><br/></p>
+                    <p class="cargo">Mestrando em Ciência da Computação<br/><br/></p>
                     <p><img src="./img/iconEmail1.jpg" /> josereinaldoneto@gmail.com</p>  
                     <p><img src="./img/iconLinkedIn.png" /> <a href="https://www.linkedin.com/in/jos%C3%A9-reinaldo-neto-630457b9/"> LinkedIn</a></p> 
                     <p><img src="./img/iconGithub.png" /> Github</p>
-                    <p><img src="./img/iconJob.png" /> Master's degree student - UnB<br/><br/></p>
-                    <footer><a href="http://lattes.cnpq.br/2808772465575284"><button class="button">Curriculum Lattes</button></a></footer>
+                    <p><img src="./img/iconJob.png" /> Aluno de Mestrado - UnB<br/><br/></p>
+                    <footer><a href="http://lattes.cnpq.br/2808772465575284"><button class="button">Currículo Lattes</button></a></footer>
                   </div>
                 </div>
               </div> 
@@ -274,12 +274,12 @@
                   <img src="./img/fotoAindaNaoTem.png" style="width:100%">
                   <div class="cont">
                     <h2>Pedro Henrique Luz de Araujo</h2>
-                    <p class="cargo">Master student in Computer Science <br/><br/></p>
+                    <p class="cargo">Mestrando em Ciência da Computação<br/><br/></p>
                     <p><img src="./img/iconEmail1.jpg" /> pedrohluzaraujo@gmail.com</p>  
                     <p><img src="./img/iconLinkedIn.png" /> <a href="https://www.linkedin.com/in/pedro-henrique-luz-de-araujo-7b9255143/"> LinkedIn</a></p> 
                     <p><img src="./img/iconGithub.png" /> <a href="https://github.com/peluz"> Github</a></p>
-                    <p><img src="./img/iconJob.png" /> Master's degree student - UnB <br/><br/></p>
-                    <footer><a href="http://lattes.cnpq.br/8374005378743328"><button class="button">Curriculum Lattes</button></a></footer>
+                    <p><img src="./img/iconJob.png" /> Aluno de Mestrado - UnB <br/><br/></p>
+                    <footer><a href="http://lattes.cnpq.br/8374005378743328"><button class="button">Currículo Lattes</button></a></footer>
                   </div>
                 </div>
               </div> 
@@ -296,12 +296,12 @@
                   <img src="./img/fotoAindaNaoTem.png" style="width:100%">
                   <div class="cont">
                     <h2>Davi Alves Bezerra</h2>
-                    <p class="cargo">Graduating in Software Engineering<br/><br/></p>
+                    <p class="cargo">Graduando em Engenharia de Software<br/><br/></p>
                     <p><img src="./img/iconEmail1.jpg" /> davialvb@gmail.com</p>  
-                    <p><img src="./img/iconLinkedIn.png" /> <a href="https://www.linkedin.com/in/davi-alves/"> LinkedIn</a></p> 
+                    <p><img src="./img/iconLinkedIn.png" /> <a href="https://www.linkedin.com/in/davi-alves/"> Linked In</a></p> 
                     <p><img src="./img/iconGithub.png" /> <a href="https://github.com/davialvb"> Github</a></p>
-                    <p><img src="./img/iconJob.png" /> Undergraduate student - UnB<br/><br/></p>
-                    <footer><a href="http://lattes.cnpq.br/5153131796013571"><button class="button">Curriculum Lattes</button></a></footer>
+                    <p><img src="./img/iconJob.png" /> Aluno da Graduação - UnB<br/><br/></p>
+                    <footer><a href="http://lattes.cnpq.br/5153131796013571"><button class="button">Currículo Lattes</button></a></footer>
                   </div>
                 </div>
               </div> 
@@ -312,12 +312,12 @@
                   <img src="./img/fotoAindaNaoTem.png" style="width:100%">
                   <div class="cont">
                     <h2>Gabriel Filipe Manso Araujo</h2>
-                    <p class="cargo">Graduating in Software Engineering<br/><br/></p>
+                    <p class="cargo">Graduando em Engenharia de Software<br/><br/></p>
                     <p><img src="./img/iconEmail1.jpg" /> gmanso@mit.edu</p>  
-                    <p><img src="./img/iconLinkedIn.png" /> <a href="https://www.linkedin.com/in/gabrielfilipe7/"> LinkedIn</a></p> 
+                    <p><img src="./img/iconLinkedIn.png" /> <a href="https://www.linkedin.com/in/gabrielfilipe7/"> Linked In</a></p> 
                     <p><img src="./img/iconGithub.png" /> <a href="https://github.com/gabrielfilipe7unb"> Github</a></p>
-                    <p><img src="./img/iconJob.png" /> Undergraduate student - UnB <br/><br/></p>
-                    <footer><a href="http://lattes.cnpq.br/5440834569202112"><button class="button">Curriculum Lattes</button></a></footer>
+                    <p><img src="./img/iconJob.png" /> Aluno da Graduação - UnB <br/><br/></p>
+                    <footer><a href="http://lattes.cnpq.br/5440834569202112"><button class="button">Currículo Lattes</button></a></footer>
                   </div>
                 </div>
               </div> 
@@ -328,12 +328,12 @@
                   <img src="./img/fotoAindaNaoTem.png" style="width:100%">
                   <div class="cont">
                     <h2>Khalil Carsten do Nascimento</h2>
-                    <p class="cargo">Graduating in Computer Science<br/><br/></p>
+                    <p class="cargo">Graduando em Ciência da Computação<br/><br/></p>
                     <p><img src="./img/iconEmail1.jpg" /> khalil.carsten@gmail.com</p>  
                     <p><img src="./img/iconLinkedIn.png" /> <a href="https://www.linkedin.com/in/khalil-carsten-783317162/"> LinkedIn</a></p> 
                     <p><img src="./img/iconGithub.png" /> <a href="https://github.com/Khalil09"> Github</a></p> 
-                    <p><img src="./img/iconJob.png" /> Undergraduate student - UnB <br/><br/></p>
-                    <footer><a href="http://lattes.cnpq.br/5911001965510322"><button class="button">Curriculum Lattes</button></a></footer>
+                    <p><img src="./img/iconJob.png" /> Aluno da Graduação - UnB <br/><br/></p>
+                    <footer><a href="http://lattes.cnpq.br/5911001965510322"><button class="button">Currículo Lattes</button></a></footer>
                   </div>
                 </div>
               </div> 
@@ -348,28 +348,28 @@
                   <img src="./img/aMaffei.jpg" style="width:100%">
                   <div class="cont">
                     <h2>Leonardo Maffei da Silva</h2>
-                    <p class="cargo">Graduating in Computer Science<br/><br/></p>
+                    <p class="cargo">Graduando em Ciência da Computação<br/><br/></p>
                     <p><img src="./img/iconEmail1.jpg" /> leoitu22hotmail.com@gmail.com</p>  
                     <p><img src="./img/iconLinkedIn.png" /> <a href="https://www.linkedin.com/in/leonardo-maffei-ti/"> LinkedIn</a></p> 
                     <p><img src="./img/iconGithub.png" /> <a href="https://github.com/maffei2443"> Github</a></p>
-                    <p><img src="./img/iconJob.png" /> Undergraduate student - UnB<br/><br/></p>
-                    <footer><a href="http://lattes.cnpq.br/3155443125935015"><button class="button">Curriculum Lattes</button></a></footer>
+                    <p><img src="./img/iconJob.png" /> Aluno da Graduação - UnB<br/><br/></p>
+                    <footer><a href="http://lattes.cnpq.br/3155443125935015"><button class="button">Currículo Lattes</button></a></footer>
                   </div>
                 </div>
               </div> 
 
-              <!-- Dados Livia (?) -->
+              <!-- Dados Livia Fonseca -->
               <div class="column graduando">
                 <div class="card">
                   <img src="./img/fotoAindaNaoTem.png" style="width:100%">
                   <div class="cont">
                     <h2>Lívia Gomes Costa Fonseca</h2>
-                    <p class="cargo">Graduating in Mechatronic Engineering <br/><br/></p>
+                    <p class="cargo">Graduanda em Engenharia Mecatrônica<br/><br/></p>
                     <p><img src="./img/iconEmail1.jpg" /> liviagcf@gmail.com</p>  
                     <p><img src="./img/iconLinkedIn.png" />  LinkedIn</p> 
                     <p><img src="./img/iconGithub.png" /> <a href="https://github.com/Liviagcf"> Github</a></p>
-                    <p><img src="./img/iconJob.png" /> Undergraduate student - UnB <br/><br/></p>
-                    <footer><a href="http://lattes.cnpq.br/4924609011551885"><button class="button">Curriculum Lattes</button></a></footer>
+                    <p><img src="./img/iconJob.png" /> Aluna da Graduação - UnB <br/><br/></p>
+                    <footer><a href="http://lattes.cnpq.br/4924609011551885"><button class="button">Currículo Lattes</button></a></footer>
                   </div>
                 </div>
               </div> 
@@ -380,12 +380,12 @@
                   <img src="./img/aMatheus.jpg" style="width:100%">
                   <div class="cont">
                     <h2>Matheus Stauffer Viana de Oliveira</h2>
-                    <p class="cargo">Graduating in Computation<br/><br/></p>
+                    <p class="cargo">Graduando em Computação<br/><br/></p>
                     <p><img src="./img/iconEmail1.jpg" /> matheusvostauffer@gmail.com</p>  
                     <p><img src="./img/iconLinkedIn.png" /> <a href="https://www.linkedin.com/in/matheus-stauffer-698b3b161/"> LinkedIn</a></p> 
                     <p><img src="./img/iconGithub.png" /> <a href="https://github.com/MatheusStauffer"> Github</a></p>
-                    <p><img src="./img/iconJob.png" /> Undergraduate student - UnB<br/><br/></p>
-                    <footer><a href="http://lattes.cnpq.br/3634456971616689"><button class="button">Curriculum Lattes</button></a></footer>
+                    <p><img src="./img/iconJob.png" /> Aluno da Graduação - UnB<br/><br/></p>
+                    <footer><a href="http://lattes.cnpq.br/3634456971616689"><button class="button">Currículo Lattes</button></a></footer>
                   </div>
                 </div>
               </div> 
@@ -400,12 +400,12 @@
                   <img src="./img/aRenato.jpg" style="width:100%">
                   <div class="cont">
                     <h2>Renato Avellar Nobre</h2>
-                    <p class="cargo">Graduating in Computer Science<br/><br/></p>
+                    <p class="cargo">Graduando em Ciência de Computação<br/><br/></p>
                     <p><img src="./img/iconEmail1.jpg" /> rekanobre@gmail.com</p>  
                     <p><img src="./img/iconLinkedIn.png" /> <a href="https://www.linkedin.com/in/rk-nobre/"> LinkedIn</a></p> 
                     <p><img src="./img/iconGithub.png" /> <a href="http://github.com/Skalwalker"> Github</a></p>
-                    <p><img src="./img/iconJob.png" /> Undergraduate student - UnB<br/><br/></p>
-                    <footer><a href="http://lattes.cnpq.br/9026115437295958"><button class="button"> Curriculum Lattes</button></a></footer>
+                    <p><img src="./img/iconJob.png" /> Aluno da Graduação - UnB<br/><br/></p>
+                    <footer><a href="http://lattes.cnpq.br/9026115437295958"><button class="button">Currículo Lattes</button></a></footer>
                   </div>
                 </div>
               </div> 
@@ -416,12 +416,12 @@
                   <img src="./img/aTatiana.jpg" style="width:100%">
                   <div class="cont">
                     <h2>Tatiana Franco Pereira</h2>
-                    <p class="cargo">Graduating in Computer Science<br/><br/></p>
+                    <p class="cargo">Graduanda em Ciência da Computação<br/><br/></p>
                     <p><img src="./img/iconEmail1.jpg" /> fpereira.tatiana@gmail.com</p>  
                     <p><img src="./img/iconLinkedIn.png" /> <a href="https://www.linkedin.com/in/tatiana-franco-pereira/"> LinkedIn</a></p> 
                     <p><img src="./img/iconGithub.png" /> <a href="https://www.linkedin.com/in/tatiana-franco-pereira/"> Github</a></p>
-                    <p><img src="./img/iconJob.png" /> Undergraduate student - UnB <br/><br/></p>
-                    <footer><a href="http://lattes.cnpq.br/6503681647703666"><button class="button"> Curriculum Lattes</button></a></footer>
+                    <p><img src="./img/iconJob.png" /> Aluna da Graduação - UnB <br/><br/></p>
+                    <footer><a href="http://lattes.cnpq.br/6503681647703666"><button class="button">Currículo Lattes</button></a></footer>
                   </div>
                 </div>
               </div>  
@@ -434,19 +434,21 @@
 
         <div class="publicacoes" id="publicacoes">
           <div class="dentro-publicacoes">
-          <h1> Publications </h1>
-
+          <h1>
+            Publicações
+          </h1>
           <p>
+          
             <div class="bloco-publi">
               <div class="titulo-publi"><br/> <a href="https://cic.unb.br/~teodecampos/KnEDLe/propor2020/">Inferring the source of official texts: can SVM beat ULMFiT?</a></div>
               <div class="descricao-publi"> "Official Gazettes are a rich source of relevant information to the public. Their careful examination may lead to the detection of frauds and irregularities that may prevent mismanagement of public funds. This paper presents a dataset composed of documents from the Official Gazette of the Federal District, containing both samples with document source annotation and unlabeled ones. We train, evaluate and compare a transfer learning based model..."</div>
             </div>
+          
           </p>
-
           </div>
         </div>
 
-        <!--<div class="editais" id="editais">
+        <!--  <div class="editais" id="editais">
           <div class="dentro-editais">
           <h1>Editais</h1>
   
@@ -460,10 +462,9 @@
         </div> 
       </div> 
         </div>
-        </div> 
-      -->
+        </div>
 
-        <!--     
+           
         <section id="contact">
             <h1>Contato</h1>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ex error, fuga incidunt impedit repellat doloremque autem, inventore eligendi deleniti eum esse assumenda ipsum facilis excepturi. Tempora et beatae at?</p>

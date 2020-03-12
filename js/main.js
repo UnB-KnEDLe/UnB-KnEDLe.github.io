@@ -47,3 +47,13 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("mytopnav");
+  if (x.className === "topnav") {
+    x.className += " response";
+  } else {
+    x.className = "topnav";
+  }
+}

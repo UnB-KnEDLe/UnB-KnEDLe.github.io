@@ -138,13 +138,14 @@
 
   .titulo .troca{
     margin-top: 4.5em;
-    margin-left: 90%;
     height: 3.5em;
     object-position: bottom;
   }
 
   .titulo .troca img{
     height: 3em;
+    float: right;
+    margin-right: 1em;
   }
 
   .titulo .troca img:hover{

@@ -37,9 +37,9 @@
       <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="scrollToEvents()">
+            <a class="nav-link" href="javascript:void(0)" onclick="scrollToNews()">
               <i class="now-ui-icons education_agenda-bookmark"></i>
-              <p>Eventos</p>
+              <p>Noticias</p>
             </a>
           </li>
           <li class="nav-item">
@@ -76,6 +76,7 @@
       </div>
     </div>
   </nav>
+  
   <!-- End Navbar -->
   <div class="wrapper">
     <div class="page-header clear-filter" filter-color="blue">
@@ -86,20 +87,27 @@
           <img class="n-logo" src="./assets/img/logo_knedle.svg" alt="">
           <h3>Knowledge Extraction from Documents of Legal content</h3>
         </div>
+        <!--<h6 class="category category-absolute">
+          <a href="https://www.unb.br/" target="_blank">
+            <img src="./assets/img/Logo_UnB.svg" class="invision-logo" />
+          </a>
+          <a href="http://www.fap.df.gov.br/" target="_blank">
+            <img src="./assets/img/logo_fapdf.png" class="creative-tim-logo" />
+          </a>.</h6> -->
       </div>
     </div>
     <div class="main">
       <div class="section section-images">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
-              <!-- <div class="hero-images-container">
+            <!--<div class="col-md-12">
+               <div class="hero-images-container">
                 <img src="assets/img/hero-image-1.png" alt="">
-              </div> -->
+              </div> 
               <div class="hero-images-container-1">
                 <img src="assets/img/hero-image-2.png" alt="">
               </div>
-            </div>
+            </div> -->
             <h1 class="title">Sobre</h1>
           </div>
         </div>
@@ -107,7 +115,7 @@
       <div class="section section-basic" id="basic-elements">
         <div class="container">
           <div class="col-lg-6 col-md-12">
-            <h3> O objetivo do projeto KnEDLe é desenvolver pesquisas e ferramentas inteligentes de extração de informação a 
+            <h3 style="text-align: justify;"> O objetivo do projeto KnEDLe é desenvolver pesquisas e ferramentas inteligentes de extração de informação a 
             partir de publicações oficiais, visando recuperar informações e conhecimento, aumentando a 
             transparência do governo e facilitando a busca de informações relacionadas aos recursos públicos.</h3>
           </div>          
@@ -116,7 +124,7 @@
       <div class="section" id="carousel">
         <div class="container">
           <div class="title">
-            <h1>Eventos</h1>
+            <h1>Notícias</h1>
           </div>
           <div class="row justify-content-center">
             <div class="col-lg-8 col-md-12">
@@ -209,19 +217,42 @@
           </div>
         </div>
       </div>
+      <!-- 
+      <div class="text-center col-md-12 col-lg-8">
+        <h5 class="description">O projeto “KnEDLe – Knowledge Extraction from Documents of Legal content” é financiado pela FAPDF (Fundação de Apoio à Pesquisa do Distrito Federal) através de uma parceria tripartite com a UnB (Universidade de Brasília) e Finatec (Fundação de Empreendimentos Científicos e Tecnológicos).</h5>
+        <br>
+        <br>
+        <br>
+        <h3>Fale conosco</h3>
+        <h5 class="description">ask_knedle@googlegroups.com</h5>
+        <h5 class="description">Universidade de Brasília, Departamento de Ciência da Computação</h5>
+
+      </div>End Section Tabs -->
       <!-- End Section Tabs -->
       <div class="section section-pagination" data-background-color="black">
         <div class="container">
-          <h1>ToolBox</h1>
           <div class="row">
-            <div class="col-md-6">
-              <h4>Progress Bars</h4>
-              
-              
+            <div class="text-center col-md-6">
+              <img src="./assets/img/logo_miner.png" >
+              <h4>Biblioteca de extração de dados</h4>
+              <br>
+              <br>
+              <p>Extração de dados de documentos em formato PDF referentes às publicações do Diário Oficial do Distrito Federal.</p>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <a href="https://dodfminer.readthedocs.io/en/stable/" class="btn btn-primary btn-lg btn-round" role="button">
+                Documentação
+              </a>
+              <a href="https://github.com/UnB-KnEDLe/DODFMiner" target="_blank" class="btn btn-lg btn-outline-primary btn-round" role="button">
+                Repositório
+              </a>
             </div>
             <div class="col-sm-6">
-              <h4>Pagination</h4>
-              
+              <img src="./assets/img/hero-image-2.png" >
             </div>
           </div>
         </div>
@@ -229,151 +260,196 @@
       
       <!--  end notifications -->
       <!-- Typography -->
-      <div class="section section-tabs">
+      
+      <div class="section section-tabs section-javascript">
         <div class="container">
-          <h1 >Time</h1>
+          <h1 >Equipe</h1>
+          <div class="space-50"></div>
+          <div id="images">
+            <div class="row">
+              <div class="col-sm-2">
+                <img src="./assets/img/time/aProfTeofilo.png" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body" 
+                  data-original-title="Principal Investigator & Doutor em Information Engineering" 
+                  data-toggle="modal" data-target="#teoModal" >
+                  Teofilo Emidio De Campos
+                </button>
+              </div>
+              <div class="col-sm-2">
+                <img src="./assets/img/time/aProfThiago.jpeg" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body" 
+                  data-original-title="co-PI & Doutor em Ciência da Computação" 
+                  data-toggle="modal" data-target="#thiagoModal" >
+                  Thiago de Paulo Faleiros
+                </button>
+              </div>
+              <div class="col-sm-2">
+                <img src="./assets/img/time/fotoProfVinicius1.jpg" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body" 
+                  data-original-title="Doutor em Ciência da Computação e Matemática Computacional" 
+                  data-toggle="modal" data-target="#viniciusModal" >
+                  Vinicius Ruela Pereira Borges
+                </button>
+              </div>
+              <div class="col-sm-2">
+                <img src="./assets/img/time/aProfFabricio.jpg" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body" 
+                  data-original-title="Doutor em Engenharia Elétrica" 
+                  data-toggle="modal" data-target="#fabricioModal" >
+                  Fabricio Ataides Braz
+                </button>
+              </div>
+              <div class="col-sm-2">
+                <img src="./assets/img/time/aProfNilton.png" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body" 
+                  data-original-title="Doutor em Processamento de Dados e Análise Ambiental" 
+                  data-toggle="modal" data-target="#niltonModal" >
+                  Nilton Correia da Silva
+                </button>
+              </div>
+            </div>
+          </div>
           
           <div class="space-50"></div>
           <div id="images">
-            <h4>Images</h4>
             <div class="row">
               <div class="col-sm-2">
-                <p class="category">Image</p>
-                <img src="./assets/img/julie.jpg" alt="Rounded Image" class="rounded">
+                <img src="./assets/img/time/aLindeberg.jpg" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body"  
+                  data-toggle="modal" data-target="#lindebergModal" >
+                  Lindeberg Pessoa Leite
+                </button>
               </div>
               <div class="col-sm-2">
-                <p class="category">Circle Image</p>
-                <img src="./assets/img/julie.jpg" alt="Circle Image" class="rounded-circle">
+                <img src="./assets/img/time/aPatricia.jpg" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body"  
+                  data-toggle="modal" data-target="#patriciaModal" >
+                  Patricia Medyna Drumond
+                </button>
               </div>
               <div class="col-sm-2">
-                <p class="category">Raised</p>
-                <img src="./assets/img/julie.jpg" alt="Raised Image" class="rounded img-raised">
+                <img src="./assets/img/time/aFred.jpg" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body"  
+                  data-toggle="modal" data-target="#fredericoModal" >
+                    Frederico Guth    
+                </button>
               </div>
               <div class="col-sm-2">
-                <p class="category">Circle Raised</p>
-                <img src="./assets/img/julie.jpg" alt="Thumbnail Image" class="rounded-circle img-raised">
+                <img src="./assets/img/time/aJose.jpeg" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body"  
+                  data-toggle="modal" data-target="#joseModal" >
+                  José Reinaldo Neto
+                </button>
+              </div>
+              <div class="col-sm-2">
+                <img src="./assets/img/time/aPedro.png" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body"  
+                  data-toggle="modal" data-target="#pedroModal" >
+                  Pedro Henrique Luz de Araujo
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="space-50"></div>
+          <div id="images">
+            <div class="row">
+              <div class="col-sm-2">
+                <img src="./assets/img/time/aCarol.jpeg" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body"  
+                  data-toggle="modal" data-target="#carolinaModal" >
+                  Carolina Alves Okimoto
+                </button>
+              </div>
+              <div class="col-sm-2">
+                <img src="./assets/img/time/aIsaque.jpg" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body"  
+                  data-toggle="modal" data-target="#isaqueModal" >
+                  Isaque Alves de Lima    
+                </button>
+              </div>
+              <div class="col-sm-2">
+                <img src="./assets/img/time/aKhalil.png" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body"  
+                  data-toggle="modal" data-target="#isaqueModal" >
+                  Khalil Carsten do Nascimento    
+                </button>
+              </div>
+              <div class="col-sm-2">
+                <img src="./assets/img/time/aMaffei.jpg" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body"  
+                  data-toggle="modal" data-target="#leonardoModal" >
+                  Leonardo Maffei da Silva    
+                </button>
+              </div>
+              <div class="col-sm-2">
+                <img src="" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body"  
+                  data-toggle="modal" data-target="#liviaModal" >
+                  Lívia Gomes Costa Fonseca    
+                </button>
+              </div>
+              <div class="col-sm-2">
+                <img src="./assets/img/time/aMatheus.jpg" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body"  
+                  data-toggle="modal" data-target="#matheusModal" >
+                  Matheus Stauffer Viana de Oliveira    
+                </button>
+              </div>
+              <div class="col-sm-2">
+                <img src="./assets/img/time/aRenato.jpeg" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body"  
+                  data-toggle="modal" data-target="#renatoModal" >
+                  Renato Avellar Nobre    
+                </button>
+              </div>
+              <div class="col-sm-2">
+                <img src="./assets/img/time/aTatiana.jpg" alt="Rounded Image" class="rounded img-raised">
+                <button type="button" class="btn btn-default" data-container="body"  
+                  data-toggle="modal" data-target="#tatianaModal" >
+                  Tatiana Franco Pereira    
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-    <!--  <div class="section section-javascript" id="javascriptComponents">
-        <div class="container">
-          <h3 class="title">Javascript components</h3>
-          <div class="row" id="modals">
-            <div class="col-md-6">
-              <h4>Modal</h4>
-              <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-                Launch Modal
-              </button>
-              <button class="btn btn-warning" data-toggle="modal" data-target="#myModal1">
-                Launch Modal Mini
-              </button>
-            </div>
-            <div class="col-md-6">
-              <h4>Popovers</h4>
-              <button type="button" class="btn btn-default" data-container="body" data-original-title="Popover On Left" data-toggle="popover" data-placement="left" data-content="Here will be some very useful information about his popover." data-color="primary">
-                On left
-              </button>
-              <button type="button" class="btn btn-default" data-container="body" data-original-title="Popover on Top" data-toggle="popover" data-placement="top" data-content="Here will be some very useful information about his popover.">
-                On top
-              </button>
-              <button type="button" class="btn btn-default" data-container="body" data-original-title="Popover on Right" data-toggle="popover" data-placement="right" data-content="Here will be some very useful information about his popover.<br> Here will be some very useful information about his popover.">
-                On right
-              </button>
-              <button type="button" class="btn btn-default" data-container="body" data-original-title="Popover on Bottom" data-toggle="popover" data-placement="bottom" data-content="Here will be some very useful information about his popover.">
-                On bottom
-              </button>
-            </div>
-            <br />
-            <br />
-            <div class="col-md-6">
-              <h4>Datepicker</h4>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="datepicker-container">
-                    <div class="form-group">
-                      <input type="text" class="form-control date-picker" value="10/05/2016" data-datepicker-color="primary">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <h4>Tooltips</h4>
-              <button type="button" class="btn btn-default btn-tooltip" data-toggle="tooltip" data-placement="left" title="Tooltip on left" data-container="body" data-animation="true" data-delay="100">On left</button>
-              <button type="button" class="btn btn-default btn-tooltip" data-toggle="tooltip" data-placement="top" title="Tooltip on top" data-container="body" data-animation="true">On top</button>
-              <button type="button" class="btn btn-default btn-tooltip" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom" data-container="body" data-animation="true">On bottom</button>
-              <button type="button" class="btn btn-default btn-tooltip" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body" data-animation="true">On right</button>
-              <div class="clearfix"></div>
-              <br>
-              <br>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      
-      
       <div class="section ">
         <div class="container text-center">
           <div class="row justify-content-md-center">
             <div class="col-md-12 col-lg-8">
               <h2 class="title">Parceiros</h2>
-              <h5 class="description">The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go. More importantly, looking at them will give you a picture of what you can built with this powerful Bootstrap 4 ui kit.</h5>
+              <br><br>
+              <h6 class="category category-absolute">
+                <a href="https://www.unb.br/" target="_blank">
+                  <img src="./assets/img/Logo_UnB.svg" class="invision-logo" />
+                </a>
+                <a href="http://www.fap.df.gov.br/" target="_blank">
+                  <img src="./assets/img/logo_fapdf.png" class="creative-tim-logo" />
+                </a>
+                <a href="http://www.fap.df.gov.br/" target="_blank">
+                  <img src="./assets/img/logo_finatec.png" class="creative-tim-logo" />
+                </a>
+              </h6>
             </div>
           </div>
         </div>
       </div>
-      
-      
       <div class="section section-download" id="#download-section" data-background-color="black">
         <div class="container">
-          <!--<div class="row justify-content-md-center">
-            <div class="text-center col-md-12 col-lg-8">
-              <h3 class="title">Do you love this Bootstrap 4 UI Kit?</h3>
-              <h5 class="description">Cause if you do, it can be yours for FREE. Hit the button below to navigate to Creative Tim or Invision where you can find the kit in HTML or Sketch/PSD format. Start a new project or give an old Bootstrap project a new look!</h5>
-            </div>
-            <div class="text-center col-md-12 col-lg-8">
-              <a href="https://www.creative-tim.com/product/now-ui-kit" class="btn btn-primary btn-lg btn-round" role="button">
-                Download HTML
-              </a>
-              <a href="https://www.invisionapp.com/now" target="_blank" class="btn btn-lg btn-outline-primary btn-round" role="button">
-                Download PSD/Sketch
-              </a>
-            </div>
-          </div> 
-          <br>
-          <br>
-          <br>
-          <div class="row text-center mt-5">
-            <div class="col-md-8 ml-auto mr-auto">
-              <h2>Want more?</h2>
-              <h5 class="description">We've just launched
-                <a href="http://demos.creative-tim.com/now-ui-kit-pro/presentation.html" target="_blank">Now UI Kit PRO</a>. It has a huge number of components, sections and example pages. Start Your Development With A Badass Bootstrap 4 UI Kit.</h5>
-            </div>
-            <div class="col-md-12">
-              <a href="http://demos.creative-tim.com/now-ui-kit-pro/presentation.html" class="btn btn-neutral btn-round btn-lg" target="_blank">
-                <i class="now-ui-icons arrows-1_share-66"></i> Upgrade to PRO
-              </a>
-            </div>
-          </div>-->
-          <br>
-          <br>
           <div class="row justify-content-md-center sharing-area text-center">
             <div class="text-center col-md-12 col-lg-8">
-              <h3>Thank you for supporting us!</h3>
+              <h5 class="description">O projeto “KnEDLe – Knowledge Extraction from Documents of Legal content” é financiado pela FAPDF (Fundação de Apoio à Pesquisa do Distrito Federal) através de uma parceria tripartite com a UnB (Universidade de Brasília) e Finatec (Fundação de Empreendimentos Científicos e Tecnológicos).</h5>
+              <br>
+              <br>
+              <br>
+              <h3>Fale conosco</h3>
+              <h5 class="description">ask_knedle@googlegroups.com</h5>
+              <h5 class="description">Universidade de Brasília, Departamento de Ciência da Computação</h5>
+
             </div>
             <div class="text-center col-md-12 col-lg-8">
-              <a target="_blank" href="https://www.twitter.com/creativetim" class="btn btn-neutral btn-icon btn-twitter btn-round btn-lg" rel="tooltip" title="Follow us">
-                <i class="fab fa-twitter"></i>
               </a>
-              <a target="_blank" href="https://www.facebook.com/creativetim" class="btn btn-neutral btn-icon btn-facebook btn-round btn-lg" rel="tooltip" title="Like us">
-                <i class="fab fa-facebook-square"></i>
-              </a>
-              <a target="_blank" href="https://www.linkedin.com/company-beta/9430489/" class="btn btn-neutral btn-icon btn-linkedin btn-lg btn-round" rel="tooltip" title="Follow us">
-                <i class="fab fa-linkedin"></i>
-              </a>
-              <a target="_blank" href="https://github.com/creativetimofficial/now-ui-kit" class="btn btn-neutral btn-icon btn-github btn-round btn-lg" rel="tooltip" title="Star on Github">
+              <a target="_blank" href="https://github.com/UnB-KnEDLe" class="btn btn-neutral btn-icon btn-github btn-round btn-lg" rel="tooltip" title="Star on Github">
                 <i class="fab fa-github"></i>
               </a>
             </div>
@@ -381,75 +457,139 @@
         </div>
       </div>
     </div>
-    <!-- Sart Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<!--######################### Member Information ################################################# -->
+    <!-- Teo Informations -->
+    <div class="modal fade" id="teoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header justify-content-center">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
               <i class="now-ui-icons ui-1_simple-remove"></i>
             </button>
-            <h4 class="title title-up">Modal title</h4>
+            <h4 class="cargo">Principal Investigator & PhD in Information Engineering</h4>
           </div>
           <div class="modal-body">
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-            </p>
+            <p><i class="now-ui-icons ui-1_email-85"></i> teodecampos@unb.br</p>
+            <p><i class="now-ui-icons education_agenda-bookmark"></i><a href="https://cic.unb.br/~teodecampos/"> Homepage </a></p>
+            <p><i class="fab fa-github"></i><a href="https://github.com/teodecampos"> Github</a></p>
+            <p><i class="now-ui-icons business_badge"></i> Professor Adjunto - UnB</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default">Nice Button</button>
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            <a href="http://lattes.cnpq.br/5052452346402051"><button type="button" class="btn btn-default">Curriculo Lattes</button></a>
+            <button type="button" class="btn btn-blue" data-dismiss="modal">Fechar</button>
           </div>
         </div>
       </div>
     </div>
     <!--  End Modal -->
-    <!-- Mini Modal -->
-    <div class="modal fade modal-mini modal-primary" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <!-- Thiago Informations -->
+    <div class="modal fade" id="thiagoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header justify-content-center">
-            <div class="modal-profile">
-              <i class="now-ui-icons users_circle-08"></i>
-            </div>
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              <i class="now-ui-icons ui-1_simple-remove"></i>
+            </button>
+            <h4 class="cargo">co-PI & Doutor em Ciência da Computação</h4>
           </div>
           <div class="modal-body">
-            <p>Always have an access to your profile</p>
+            <p><i class="now-ui-icons ui-1_email-85"></i> thiagodepaulo@unb.br</p>
+            <p><i class="now-ui-icons education_agenda-bookmark"></i><a href=""></a> Homepage </a></p>
+            <p><i class="fab fa-github"></i><a href="https://github.com/thiagodepaulo"> Github</a></p>
+            <p><i class="now-ui-icons business_badge"></i> Professor Adjunto - UnB</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-link btn-neutral">Back</button>
-            <button type="button" class="btn btn-link btn-neutral" data-dismiss="modal">Close</button>
+            <a href="http://lattes.cnpq.br/1193412523364471"><button type="button" class="btn btn-default">Curriculo Lattes</button></a>
+            <button type="button" class="btn btn-blue" data-dismiss="modal">Fechar</button>
           </div>
         </div>
       </div>
     </div>
     <!--  End Modal -->
+    <!-- Vinicius Informations -->
+    <div class="modal fade" id="viniciusModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              <i class="now-ui-icons ui-1_simple-remove"></i>
+            </button>
+            <h4 class="cargo">Doutor em Ciência da Computação e Matemática Computacional</h4>
+          </div>
+          <div class="modal-body">
+            <p><i class="now-ui-icons ui-1_email-85"></i> viniciusrpb@unb.br</p>
+            <p><i class="now-ui-icons education_agenda-bookmark"></i><a href="http://viniciusrpb.byethost6.com/"> Homepage </a></p>
+            <p><i class="fab fa-github"></i><a href="https://github.com/viniciusrpb"> Github</a></p>
+            <p><i class="now-ui-icons business_badge"></i> Professor Adjunto - UnB</p>
+          </div>
+          <div class="modal-footer">
+            <a href="http://lattes.cnpq.br/1841593572448050"><button type="button" class="btn btn-default">Curriculo Lattes</button></a>
+            <button type="button" class="btn btn-blue" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  End Modal -->
+    <!-- fabricio Informations -->
+    <div class="modal fade" id="fabricioModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              <i class="now-ui-icons ui-1_simple-remove"></i>
+            </button>
+            <h4 class="cargo">Doutor em Engenharia Elétrica</h4>
+          </div>
+          <div class="modal-body">
+            <p><i class="now-ui-icons ui-1_email-85"></i> fabraz@unb.br</p>
+            <p><i class="now-ui-icons education_agenda-bookmark"></i><a href="http://softwareseguro.blogspot.com"> Homepage </a></p>
+            <p><i class="fab fa-github"></i><a href="https://github.com/fabraz"> Github</a></p>
+            <p><i class="now-ui-icons business_badge"></i> Professor Adjunto - UnB</p>
+          </div>
+          <div class="modal-footer">
+            <a href="http://lattes.cnpq.br/1841593572448050"><button type="button" class="btn btn-default">Curriculo Lattes</button></a>
+            <button type="button" class="btn btn-blue" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  End Modal -->
+    <!-- nilton Informations -->
+    <div class="modal fade" id="niltonModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header justify-content-center">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              <i class="now-ui-icons ui-1_simple-remove"></i>
+            </button>
+            <h4 class="cargo">Doutor em Processamento de Dados e Análise Ambiental</h4>
+          </div>
+          <div class="modal-body">
+            <p><i class="now-ui-icons ui-1_email-85"></i> niltonncs@unb.br</p>
+            <p><i class="now-ui-icons education_agenda-bookmark"></i><a href="http://fga.unb.br/nilton.silva"> Homepage </a></p>
+            <p><i class="fab fa-github"></i><a href="https://github.com/fabraz"> Github</a></p>
+            <p><i class="now-ui-icons business_badge"></i> Professor / Pesquisador - UnB</p>
+          </div>
+          <div class="modal-footer">
+            <a href="http://lattes.cnpq.br/5916642485883241"><button type="button" class="btn btn-default">Curriculo Lattes</button></a>
+            <button type="button" class="btn btn-blue" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  End Modal -->
+<!--######################################## END ################################################# -->   
+    
     <footer class="footer" data-background-color="black">
-      <div class=" container ">
-        <nav>
-          <ul>
-            <li>
-              <a href="https://www.creative-tim.com">
-                Creative Tim
-              </a>
-            </li>
-            <li>
-              <a href="http://presentation.creative-tim.com">
-                About Us
-              </a>
-            </li>
-            <li>
-              <a href="http://blog.creative-tim.com">
-                Blog
-              </a>
-            </li>
-          </ul>
-        </nav>
+
+      <div class=" container">
+        
         <div class="copyright" id="copyright">
           &copy;
           <script>
             document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
-          </script>, Designed by
-          <a href="https://www.invisionapp.com" target="_blank">Invision</a>. Coded by
+          </script>, KnEDLe, Designed by
+          <a href="https://www.invisionapp.com" target="_blank">Invision</a> and
           <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
         </div>
       </div>
@@ -475,11 +615,11 @@
       nowuiKit.initSliders();
     });
 
-    function scrollToDownload() {
+    function scrollToNews() {
 
       if ($('.section-download').length != 0) {
         $("html, body").animate({
-          scrollTop: $('.section-download').offset().top
+          scrollTop: $('.section-news').offset().top
         }, 1000);
       }
     }

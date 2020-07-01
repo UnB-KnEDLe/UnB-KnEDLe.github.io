@@ -1680,7 +1680,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary {
-  background-color: #f96332;
+  background-color: #092472;
   color: #FFFFFF;
 }
 
@@ -2065,6 +2065,11 @@ fieldset[disabled] .btn-warning.active {
 
 .btn-danger {
   background-color: #FF3636;
+  color: #FFFFFF;
+}
+
+.btn-blue {
+  background-color: #092472;
   color: #FFFFFF;
 }
 
@@ -5964,6 +5969,16 @@ img {
 }
 
 .section .row+.category {
+  margin-top: 15px;
+}
+
+.section2 {
+  padding: 70px 0;
+  position: relative;
+  background: #2c2c2c;
+}
+
+.section2 .row+.category {
   margin-top: 15px;
 }
 

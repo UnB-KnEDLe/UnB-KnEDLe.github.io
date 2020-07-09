@@ -465,8 +465,14 @@
 }
 
 .invision-logo {
+  max-width: 300px;
+  top: -40px;
+  position: relative;
+}
+
+.unb-logo {
   max-width: 125px;
-  top: -30px;
+  top: -40px;
   position: relative;
 }
 

@@ -43,6 +43,10 @@ h1{
 .navbar .icon{
     display: none;
 }
+
+.navbar-nav {
+  place-items: center;
+}
   
 .icon img{
     height: 1.75em;
@@ -459,8 +463,8 @@ h2 {
   .publicacoes a:hover{
     color:#00924c;
   }
-  
-  
+
+
   
   section {
       background: #fefefe;

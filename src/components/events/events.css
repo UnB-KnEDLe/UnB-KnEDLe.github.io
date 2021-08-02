@@ -1,0 +1,81 @@
+.carousel {
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    width: 100%;
+}
+
+.events { 
+    padding-bottom: 4em;
+}
+
+.events ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.event-item {
+    display: none;
+}
+
+.event-item.show {
+    display: flex;
+    place-items: center;
+    gap: 25px;
+}
+
+.event-item-btn {
+    background-color: var(--theme-color);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.event-left {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: center;
+}
+
+.event-date {
+    margin-top: 40px;
+}
+
+.events-btn {
+    background: none;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.events-icon {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.events-btn:hover .events-icon{
+    color: #333;
+}
+
+.events-btn:hover {
+    background: #ffffff99;
+}
+
+.index-marker {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.marker-dot {
+    width: 10px;
+    height: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.marker-dot.marked {
+    background: white;
+}

@@ -1,0 +1,28 @@
+.dodfminer-content {
+    display: flex;
+    text-align: center;
+    place-items: center;
+}
+
+.miner-logo {
+    width: 80%;
+}
+
+.frame-img {
+    width: 100%;
+}
+.miner-btn a{
+    margin: 5px;
+}
+
+.miner-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.miner-info p {
+    margin-top: 4em;
+    opacity: .8;
+}

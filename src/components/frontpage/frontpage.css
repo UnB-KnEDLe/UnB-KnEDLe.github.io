@@ -1,0 +1,48 @@
+.frontpage {
+    background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(2, 66, 204, 0.514));
+    height: 100vh;
+}
+
+
+.frontpage-content {
+    padding-top: 100px;
+    display: grid;
+    place-items: center;
+    height: 80%;
+    justify-content: space-around;
+}
+
+.frontpage-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.frontpage-logo img {
+    max-width: 500px;
+}
+
+.frontpage-logo h4 {
+    color: white;
+    font-size: 1.5em;
+}
+
+.unbLogo { 
+    max-width: 300px;
+}
+
+.iconDown {
+    color: #fff;
+    animation: blink 2s infinite linear;
+}
+
+@keyframes blink {
+    0% {opacity: 1; }
+    50% {opacity: .4;}
+    100% {opacity: 1;}
+}
+
+.blankspace {
+    height: 70px;
+}

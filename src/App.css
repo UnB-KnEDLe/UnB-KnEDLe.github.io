@@ -1,0 +1,59 @@
+:root {
+  --theme-color: #0F4C81;
+}
+
+section {
+  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.btn {
+  background-color: var(--theme-color);
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+
+a {
+  color: #f96332;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}

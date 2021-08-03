@@ -8,27 +8,52 @@ const teachers = [
     {
         name: 'Teófilo Emídio de Campos',
         avatar: aProfTeofilo,
-        description: 'Principal Investigator & PhD in Information Engineering'
+        descr: {
+            resume: 'Principal Investigator & PhD in Information Engineering',
+            email: 'somemail@mail.com',
+            github: 'somelink',
+            linkedin: 'somelink',
+        }
     },
     {
         name: 'Vinicius Ruela Pereira Borges',
         avatar: aProfVinicius,
-        description: 'Doutor em Ciência da Computação e Matemática Computacional'
+        descr: {
+            resume: 'Principal Investigator & PhD in Information Engineering',
+            email: 'somemail@mail.com',
+            github: 'somelink',
+            linkedin: 'somelink',
+        }
     },
     {
         name: 'Thiago de Paulo Faleiros',
         avatar: aProfThiago,
-        description: 'Principal Investigator & PhD in Information Engineering'
+        descr: {
+            resume: 'Principal Investigator & PhD in Information Engineering',
+            email: 'somemail@mail.com',
+            github: 'somelink',
+            linkedin: 'somelink',
+        }
     },
     {
         name: 'Fabrício Ataides Braz',
         avatar: aProfFabricio,
-        description: 'Principal Investigator & PhD in Information Engineering'
+        descr: {
+            resume: 'Principal Investigator & PhD in Information Engineering',
+            email: 'somemail@mail.com',
+            github: 'somelink',
+            linkedin: 'somelink',
+        }
     },
     {
         name: 'Nilton Correia da Silva',
         avatar: aProfNilton,
-        description: 'Principal Investigator & PhD in Information Engineering'
+        descr: {
+            resume: 'Principal Investigator & PhD in Information Engineering',
+            email: 'somemail@mail.com',
+            github: 'somelink',
+            linkedin: 'somelink',
+        }
     }
 ]
 

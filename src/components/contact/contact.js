@@ -17,6 +17,7 @@ export default function Contact(){
                     <img src={githubIcon} alt="GitHub" />
                 </a>
             </div>
+            <p className="rights">© 2021, KnEDLe, Designed by Invision and Creative Tim.</p>
         </section>
     )
 }

@@ -13,14 +13,18 @@
     place-items: center;
     justify-content: center;
     width: 180px;
-    height: 250px;
+    height: 280px;
     border-radius: 15px;
     padding: 15px;
 }
 
 .flex-image.active {
+    position: absolute;
+    z-index: 200;
     justify-content: start;
-    width: 100%;
+    width: var(--container-width);
+    box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%)
+
 }
 
 .flex-image:hover {
@@ -29,10 +33,15 @@
 
 .flex-image-info {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     place-items: center;
     padding: 10px;
     gap: 15px;
+}
+
+.flex-image-info h4 {
+    margin: 0;
 }
 
 .flex-image img {
@@ -47,5 +56,26 @@
 
 .flex-image-description {
     display: none;
+    flex-direction: column;
+    text-align: left;
     margin-left: 50px;
+}
+
+.close-image {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #666;
+    padding: 5px 8px;
+    border-radius: 100%;
+}
+
+.members-icon {
+    width: 20px !important;
+    height: auto;
+}
+
+.close-image:hover {
+    color: white;
+    background: #666;
 }

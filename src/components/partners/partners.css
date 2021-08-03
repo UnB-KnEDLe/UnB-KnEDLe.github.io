@@ -1,0 +1,26 @@
+.partners { 
+    background: #f6f6f6;
+    margin: 3em 0;
+}
+
+.partners h2{
+    text-align: center;
+    font-weight: bold !important;
+}
+
+.partners-img {
+    display: flex;
+    margin-top: 100px;
+    place-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.partners-img img {
+    width: 200px;
+    height: auto;
+}
+
+.unb-logo {
+    width: 125px !important;
+}

@@ -1,17 +1,12 @@
-/* body {
-    scroll-snap-type: y mandatory;
-} */
-
 section {
     padding: 2em;
-    /* scroll-snap-align: start; */
 }
 
-section:nth-child(2n):not(.frontpage) {
-    background: #333;
+section:not(.frontpage, .partners):nth-child(2n) {
+    background: #2c2c2c;
     color: white;    
 }
 
-section:nth-child(2n - 1):not(.frontpage) {
+section:not(.frontpage, .partners):nth-child(2n - 1) {
     background: #f6f6f6;
 }

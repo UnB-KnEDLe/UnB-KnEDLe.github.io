@@ -1,5 +1,6 @@
 :root {
   --theme-color: #0F4C81;
+  background: #f6f6f6;
 }
 
 section {
@@ -32,8 +33,16 @@ h2 {
   font-size: 2.5em;
 }
 
+h3 {
+  font-size: 1.825em
+}
+
 h4 {
   font-size: 1.4em;
+}
+
+h5 {
+  font-size: 1.3em;
 }
 
 
@@ -45,15 +54,18 @@ a {
 @media (min-width: 768px) {
   .container {
     width: 750px;
+    --container-width: 750px;
   }
 }
 @media (min-width: 992px) {
   .container {
     width: 970px;
+    --container-width: 970px;
   }
 }
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+    --container-width: 1170px;
   }
 }

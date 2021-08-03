@@ -26,7 +26,9 @@ export default function Publications(){
                     })}
                 </ul>
                 <div className="publications-show-all">
-                    {!showAll ? <button className="btn show-all-btn" onClick={ () => setShowAll(true) }>Ver todas as publicações</button> : null}
+                    <button className="btn show-all-btn" onClick={ () => setShowAll(!showAll) }>
+                    {!showAll ? "Ver todas as publicações" : "Ver menos publicações"}
+                    </button>
                 </div>
             </div>
         </section>

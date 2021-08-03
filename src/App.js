@@ -7,8 +7,8 @@ import Events from './components/events/events'
 import Publications from './components/publications/publications'
 import DodfMiner from './components/dodfminer/dodfminer'
 import Members from './components/members/members'
-import Partners from './components/partners/index'
-import Contact from './components/contact/index'
+import Partners from './components/partners/partners'
+import Contact from './components/contact/contact'
 
 import './App.css';
 import './sections.css'

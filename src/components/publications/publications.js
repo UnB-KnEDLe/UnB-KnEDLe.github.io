@@ -22,7 +22,7 @@ export default function Publications(){
                                     <a href={item.link.url}>{item.link.title}</a>
                                 </li>
                             )
-                        }
+                        } else return null
                     })}
                 </ul>
                 <div className="publications-show-all">

@@ -29,7 +29,7 @@ export default function Events(){
                     <ul>
                         {eventsList.map(function(event, index){
                             return (
-                                <li className={index == slide ? 'event-item show' : 'event-item'} key={index}>
+                                <li className={index === slide ? 'event-item show' : 'event-item'} key={index}>
                                     <div className="event-left">
                                         <h2>{event.title}</h2>
                                         <a href={event.button.url}>

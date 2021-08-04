@@ -10,6 +10,17 @@ export default function Events(){
 
     const [slide, setSlide] = useState(0)
 
+    function convertDate(date){
+        const dateObj = new Date(date)
+        const months = [null, 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
+        var dateArray = dateObj.toLocaleDateString().split('/')
+        dateArray = dateArray.map( item => parseInt(item))
+        dateArray[1] = months[dateArray[1]]
+
+        return dateArray.join(' ')
+    }
+
     if(slide < 0) {
         setSlide(eventsList.length - 1)
     }
@@ -37,13 +48,14 @@ export default function Events(){
                                                 <p>{event.button.title}</p>
                                             </button>
                                         </a>
-                                        <h3 className="event-date">{String(event.date)}</h3>
+                                        <h3 className="event-date">{convertDate(event.date)}</h3>
+                                        <h4 className="description">{event.comment}</h4>
                                     </div>
                                     <ul>
                                         {event.schedule.map(function(event){
                                             return (
                                                 <li key={event}>
-                                                    <h3>{event}</h3>
+                                                    <p>{event}</p>
                                                 </li>
                                             )
                                         })}

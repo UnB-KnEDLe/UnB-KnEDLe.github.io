@@ -18,9 +18,10 @@
 }
 
 .event-item.show {
-    display: flex;
+    display: grid;
+    grid-template-columns: 55% 45%;
     place-items: center;
-    gap: 25px;
+    /* gap: 25px; */
 }
 
 .event-item-btn {
@@ -36,7 +37,7 @@
     flex-direction: column;
     place-items: center;
     text-align: center;
-    width: 50%;
+    width: 100%;
 }
 
 .event-date {
@@ -79,4 +80,9 @@
 
 .marker-dot.marked {
     background: white;
+}
+
+.description {
+    color: white;
+    opacity: .8;
 }

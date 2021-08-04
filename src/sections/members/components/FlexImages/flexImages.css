@@ -33,8 +33,9 @@
     box-shadow: 0px 5px 100px 10px rgb(0 0 0 / 80%);
 }
 
-.flex-image:hover {
+.flex-image:hover:not(.active) {
     box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
+    cursor: pointer;
 }
 
 .flex-image-info {

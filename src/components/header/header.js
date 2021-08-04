@@ -1,12 +1,10 @@
 import logo from '../../assets/img/logo/logo_knedle.svg';
-
 import brFlag from '../../assets/img/iconBrasil.png'
 import usFlag from '../../assets/img/iconUK.png'
+import githubLogo from '../../assets/img/iconGithub.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendarWeek, faBookOpen, faTools, faUsers, faHandshake } from '@fortawesome/free-solid-svg-icons'
-
-import githubLogo from '../../assets/img/iconGithub.png'
 
 import './header.css'
 
@@ -16,7 +14,7 @@ export default function Header(props){
     return (
         <header className={background ? "navbar" : "navbar no-bg"}>
             <div className="container navbar-content">
-                <img src={logo} className="logo navbar-img" alt="logo" />
+                <a href="./"><img src={logo} className="logo navbar-img" alt="logo" /></a>
                 <div className="navbar-menu">
                     <a className="navbar-item" href=".">
                         <FontAwesomeIcon icon={faCalendarWeek} />
@@ -42,8 +40,8 @@ export default function Header(props){
                         <img src={githubLogo} alt="github-logo"/>
                     </a>
                     <div className="navbar-flags">
-                        <a className="navbar-flag" href="."><img className="navbar-img" alt="flag" src={usFlag}/></a>
-                        <a className="navbar-flag" href="."><img className="navbar-img" alt="flag" src={brFlag}/></a>
+                        <a className="navbar-flag" href="."><img src={usFlag} className="navbar-img" alt="flag"/></a>
+                        <a className="navbar-flag" href="."><img src={brFlag} className="navbar-img" alt="flag"/></a>
                     </div>
                 </div>
             </div>

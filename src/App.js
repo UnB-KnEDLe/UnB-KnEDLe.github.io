@@ -1,14 +1,14 @@
 import { useEffect, useState } from 'react'
 
 import Header from './components/header/header'
-import FrontPage from './components/frontpage/frontpage'
-import About from './components/about/about'
-import Events from './components/events/events'
-import Publications from './components/publications/publications'
-import DodfMiner from './components/dodfminer/dodfminer'
-import Members from './components/members/members'
-import Partners from './components/partners/partners'
-import Contact from './components/contact/contact'
+import FrontPage from './sections/frontpage/frontpage'
+import About from './sections/about/about'
+import Events from './sections/events/events'
+import Publications from './sections/publications/publications'
+import DodfMiner from './sections/dodfminer/dodfminer'
+import Members from './sections/members/members'
+import Partners from './sections/partners/partners'
+import Contact from './sections/contact/contact'
 
 import './App.css';
 import './sections.css'

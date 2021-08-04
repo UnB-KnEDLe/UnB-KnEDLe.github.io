@@ -1,6 +1,7 @@
 :root {
   --theme-color: #0F4C81;
   background: #f6f6f6;
+  transition: .3s;
 }
 
 section {

@@ -10,15 +10,15 @@ function FlexImage(props) {
 
     const [showInfo, setShowInfo] = useState(false);
 
-    if(showInfo) {
-        return (
-            <>
-            <div className="flex-image">
-                <div onClick={ setShowInfo } className="flex-image-info">
-                    <img src={item.avatar} alt={item.name}/>
-                    <h4>{item.name}</h4>
-                </div>
+    return (
+        <>
+        <div className="flex-image">
+            <div onClick={ setShowInfo } className="flex-image-info">
+                <img src={item.avatar} alt={item.name}/>
+                <h4>{item.name}</h4>
             </div>
+        </div>
+        {showInfo ? 
             <div className="flex-image active">
                 <div onClick={ setShowInfo } className="flex-image-info">
                     <img src={item.avatar} alt={item.name}/>
@@ -42,18 +42,9 @@ function FlexImage(props) {
                     </div>
                 </div>
             </div>
-            </>
-        );
-    } else {
-        return (
-            <div className="flex-image">
-                <div onClick={ setShowInfo } className="flex-image-info">
-                    <img src={item.avatar} alt={item.name}/>
-                    <h4>{item.name}</h4>
-                </div>
-            </div>
-        )
-    }
+        : null }
+        </>
+    );
 
 }
 

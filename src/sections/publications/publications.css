@@ -26,3 +26,7 @@
     text-align: center;
     margin: auto;
 }
+
+.show-all-btn a {
+    color: white;
+}

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import publicationsList from './publicationsList'
+import publicationsList from '../../components/publicationsList/publicationsList'
 
 import './publications.css'
 
@@ -14,7 +14,7 @@ export default function Publications(){
                 <h1>Publications</h1>
                 <ul className="publications-list">
                     {publicationsList.map((item, index) => {
-                        if(index < publicationsLimit || showAll) {
+                        if(index < publicationsLimit) {
                             return (
                                 <li className="publication-item" key={index}>
                                     <h3>{item?.title}</h3>
@@ -30,12 +30,10 @@ export default function Publications(){
                             )
                         } else return null
                     })}
-                </ul>
-                <div className="publications-show-all">
-                    <button className="btn show-all-btn" onClick={ () => setShowAll(!showAll) }>
-                    {!showAll ? "Ver todas as publicações" : "Ver menos publicações"}
+                    <button className="btn show-all-btn">
+                        <a href="./publications" >Ver todas as publicações</a>
                     </button>
-                </div>
+                </ul>
             </div>
         </section>
     )

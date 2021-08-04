@@ -1,17 +1,15 @@
 import { useEffect, useState } from 'react'
-
-import Header from './components/header/header'
-import FrontPage from './sections/frontpage/frontpage'
-import About from './sections/about/about'
-import Events from './sections/events/events'
-import Publications from './sections/publications/publications'
-import DodfMiner from './sections/dodfminer/dodfminer'
-import Members from './sections/members/members'
-import Partners from './sections/partners/partners'
-import Contact from './sections/contact/contact'
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch
+} from 'react-router-dom'
 
 import './App.css';
-import './sections.css'
+
+import Home from './pages/home/home'
+import Publications from './pages/publications/publications'
 
 function App() {
   const [withBg, setWithBg] = useState(false)
@@ -24,17 +22,13 @@ function App() {
   })
 
   return (
-    <div className="App">
-      <Header bg={withBg}/>
-      <FrontPage/>
-      <About/>
-      <Events/>
-      <Publications/>
-      <DodfMiner/>
-      <Members/>
-      <Partners/>
-      <Contact/>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path={'/'} component={Home}/>
+        <Route exact path={'/publications'} component={Publications}/>
+        <Redirect to={'/'} />
+      </Switch>
+    </Router>
   );
 }
 

@@ -59,3 +59,9 @@
 .no-bg .navbar-flags {
     opacity: .7 !important;
 }
+
+@media (max-width: 992px) {
+    .navbar-item:not(.bars), .navbar-flags {
+        display: none !important;
+    }
+}

@@ -1,16 +1,16 @@
 .flex-images {
     display: flex;
-    
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 15px;
+    margin-bottom: 25px;
+    gap: 24px;
 }
 
 .flex-image {
     text-align: center;
     background: white;
     display: flex;
-    place-items: center;
+    place-items: start;
     justify-content: center;
     width: 180px;
     height: 280px;
@@ -19,16 +19,22 @@
 }
 
 .flex-image.active {
-    position: absolute;
-    z-index: 200;
+    position: fixed;
+    top: calc(50% - 140px);
+    left: var(--container-width) / 2;
+    z-index: 900;
     justify-content: start;
     width: var(--container-width);
-    box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%)
+    height: auto;
+    box-shadow: 0px 5px 100px 10px rgb(0 0 0 / 80%);
+}
 
+.flex-image.active:hover {
+    box-shadow: 0px 5px 100px 10px rgb(0 0 0 / 80%);
 }
 
 .flex-image:hover {
-    box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%)
+    box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%);
 }
 
 .flex-image-info {
@@ -44,10 +50,12 @@
     margin: 0;
 }
 
-.flex-image img {
+.flex-image-info img {
     width: 150px;
+    height: 150px;
     border-radius: 100%;
-    box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%)
+    box-shadow: 0px 5px 25px 5px rgb(0 0 0 / 20%);
+    object-fit: cover;
 }
 
 .flex-image.active .flex-image-description {
@@ -59,6 +67,12 @@
     flex-direction: column;
     text-align: left;
     margin-left: 50px;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.flex-image-description h3, .flex-image-description a {
+    margin: 8px 0;
 }
 
 .close-image {
@@ -70,6 +84,12 @@
     border-radius: 100%;
 }
 
+.media {
+    display: flex;
+    gap: 15px;
+    margin: 16px 0; 
+}
+
 .members-icon {
     width: 20px !important;
     height: auto;
@@ -78,4 +98,13 @@
 .close-image:hover {
     color: white;
     background: #666;
+}
+
+
+.lattes-btn {
+    border-radius: 0 !important;
+    display: flex;
+    place-items: center;
+    font-weight: bold;
+    height: 28px;
 }

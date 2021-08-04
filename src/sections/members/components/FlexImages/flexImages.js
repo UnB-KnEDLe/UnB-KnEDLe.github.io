@@ -1,7 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTimes, faEnvelope, faWindowMaximize, faIdBadge } from '@fortawesome/free-solid-svg-icons'
-import githubIcon from '../../../../assets/img/iconGithub.png'
-import linkedinIcon from '../../../../assets/img/iconLinkedIn.png'
 
 import { useState } from 'react';
 

@@ -56,6 +56,12 @@
     place-items: center;
 }
 
+
+.navbar-flag {
+    background: transparent !important;
+    border: none;
+}
+
 .no-bg .navbar-flags {
     opacity: .7 !important;
 }

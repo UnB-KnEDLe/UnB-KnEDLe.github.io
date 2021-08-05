@@ -1,5 +1,13 @@
 const publicationsList = [
     {
+        title: ' Domain-specific datasets for document classification and named entity recognition',
+        content: ['• Alexandre Rademaker • Thiago de Paulo Faleiros • Luís Paulo F. Garcia'],
+        link: [
+            {title: 'MSc thesis (8.7 MB)', url: 'https://cic.unb.br/~teodecampos/peluz/luz_de_araujo_msc_2021.pdf'},
+            {title: 'Slides (4.5 MB)', url: 'https://cic.unb.br/~teodecampos/peluz/luz_de_araujo_msc_2021_slides.pdf'}
+        ],
+    },
+    {
         title: 'KnEDLe/NIDO Project Partial Technical Report 2',
         content: ['• Isaque Alves • Vinícius R. P. Borges • Thiago de Paulo Faleiros • Pedro H. Luz de Araujo • Frederico Guth • Lívia Fonseca • Tatiana Pereira • Carolina Alves Okimoto • Teófilo E. de Campos'],
         link: [{title: 'PDF', url: 'https://cic.unb.br/~teodecampos/KnEDLe/reports/knedle_release_2.pdf'}],

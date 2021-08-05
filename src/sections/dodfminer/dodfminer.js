@@ -14,8 +14,8 @@ export default function DodfMiner(){
                         <p>Extraction of data from documents in PDF format referring to the publications of the Official Gazette of the Federal District.</p>
                     </div>
                     <div className="miner-btn">
-                        <a href="."><button className="btn">Documentation</button></a>
-                        <a href="."><button className="btn">Repository</button></a>
+                        <a href="https://dodfminer.readthedocs.io/en/stable/"><button className="btn">Documentation</button></a>
+                        <a href="https://github.com/UnB-KnEDLe/DODFMiner"><button className="btn">Repository</button></a>
                     </div>
                 </div>
                 <div className="miner-frame">

@@ -43,8 +43,8 @@ export default function Header(props){
                         <FontAwesomeIcon icon={faHandshake} />
                         {t('Partners')}
                     </a>
-                    <a className="navbar-item github-logo" href=".">
-                        <img src={githubLogo} alt="github-logo"/>
+                    <a className="navbar-item" href=".">
+                        <img src={githubLogo} className="github-logo" alt="github-logo"/>
                     </a>
                     <div className="navbar-flags">
                         <button onClick={() => setLang('en')} className="navbar-flag">

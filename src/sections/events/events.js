@@ -19,7 +19,7 @@ export default function Events(props){
         dateArray = dateArray.map( item => parseInt(item))
         dateArray[1] = months[dateArray[1]]
 
-        return dateArray.join(t('/'))
+        return dateArray.join(t(' / '))
     }
 
     if(slide < 0) {

@@ -43,7 +43,7 @@ export default function Header(props){
                         <FontAwesomeIcon icon={faHandshake} />
                         {t('Partners')}
                     </button>
-                    <a className="navbar-item" href=".">
+                    <a className="navbar-item" href="https://github.com/UnB-KnEDLe">
                         <img src={githubLogo} className="github-logo" alt="github-logo"/>
                     </a>
                     <div className="navbar-flags">

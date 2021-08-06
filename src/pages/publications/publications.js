@@ -4,10 +4,22 @@ import publicationsList from '../../components/publicationsList/publicationsList
 
 import './publications.css'
 
-export default function Publications() {
+import { withNamespaces } from 'react-i18next';
+import i18n from '../../i18n'
+
+function Publications({ t }) {
+
+    const changeLang = (lang) => {
+        i18n.changeLanguage(lang)
+    }
+
     return (
         <div className="publications-page">
-            <Header bg={true}/>
+            <Header
+            changeLangFunction={changeLang}
+            translationFunction={t}
+            bg={true}
+        />
             <div className="container publications-content">
                 <h1>Publications</h1>
                 <ul className="publications-list">
@@ -31,3 +43,5 @@ export default function Publications() {
         </div>
     )
 }
+
+export default withNamespaces()(Publications);

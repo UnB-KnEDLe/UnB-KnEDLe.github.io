@@ -60,6 +60,7 @@
 .navbar-flag {
     background: transparent !important;
     border: none;
+    cursor: pointer;
 }
 
 .no-bg .navbar-flags {

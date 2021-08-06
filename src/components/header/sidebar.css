@@ -1,6 +1,6 @@
 .sidebar {
     position: fixed;
-    display: flex;
+    display: none;
     flex-direction: column;
     background: var(--theme-color);
     width: 300px;
@@ -31,11 +31,23 @@
     justify-content: flex-start;
 }
 
-.bars {
-    display: none;
+.sidebar-flag {
     background: none;
     border: none;
+    cursor: pointer;
+}
+
+.bars {
+    background: none;
+    border: none;
+    position: relative;
+    right: calc(var(--container-width) / 2);
+    top: 0;
     /* margin-right: 15px; */
+}
+
+.bars.active {
+    right: 300px;
 }
 
 @media (max-width: 992px) {
@@ -45,7 +57,8 @@
         right: calc(var(--container-width) / 2);
         top: 0;
     }
-    .bars.active {
-        right: 300px;
+
+    .sidebar {
+        display: flex;
     }
 }

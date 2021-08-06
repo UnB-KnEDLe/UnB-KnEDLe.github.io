@@ -16,12 +16,19 @@
 }
 
 .sidebar-item {
+    background: none;
+    border: none;
+    padding: 5px 0;
     padding-right: 30px;
     justify-content: flex-start;
     display: flex;
     flex-direction: row-reverse;
     gap: 10px;
     color: white
+}
+
+.sidebar-item:hover {
+    background: #ffffff77;
 }
 
 .sidebar-flags {

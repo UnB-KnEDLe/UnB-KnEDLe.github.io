@@ -40,6 +40,8 @@
     color: white;
     text-decoration: none;
     transition: .3s;
+    background: none;
+    border: none;
 }
 
 .github-logo {

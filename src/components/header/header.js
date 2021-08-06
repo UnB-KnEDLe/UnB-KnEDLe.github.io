@@ -15,34 +15,43 @@ export default function Header(props){
     var background = props.bg
     var t = props.translationFunction
     var setLang = props.changeLangFunction
+    var scrollFunctions = props.scrollFunctions
 
     const [showMenu, setShowMenu] = useState(false)
+
+    // const scrollTo = (ref) => {
+    //     pageRefs[ref].current.scrollIntoView()
+    // }
+
+    // const scrollTo = (page) => {
+    //     scrollFunctions[page]()
+    // }
 
     return (
         <header className={background ? "navbar" : "navbar no-bg"}>
             <div className="container navbar-content">
                 <a href="./"><img src={logo} className="logo navbar-img" alt="logo" /></a>
                 <div className="navbar-menu">
-                    <a className="navbar-item" href=".">
+                    <button onClick={ scrollFunctions }lassName="navbar-item">
                         <FontAwesomeIcon icon={faCalendarWeek} />
                         {t('Events')}
-                    </a>
-                    <a className="navbar-item" href=".">
+                    </button>
+                    <button className="navbar-item">
                         <FontAwesomeIcon icon={faBookOpen} />
                         {t('Publications')}
-                    </a>
-                    <a className="navbar-item" href=".">
+                    </button>
+                    <button className="navbar-item">
                         <FontAwesomeIcon icon={faTools} />
                         {t('Toolbox')}
-                    </a>
-                    <a className="navbar-item" href=".">
+                    </button>
+                    <button className="navbar-item">
                         <FontAwesomeIcon icon={faUsers} />
                         {t('Members')}
-                    </a>
-                    <a className="navbar-item" href=".">
+                    </button>
+                    <button className="navbar-item">
                         <FontAwesomeIcon icon={faHandshake} />
                         {t('Partners')}
-                    </a>
+                    </button>
                     <a className="navbar-item" href=".">
                         <img src={githubLogo} className="github-logo" alt="github-logo"/>
                     </a>
@@ -61,28 +70,28 @@ export default function Header(props){
                         >
                             <FontAwesomeIcon size="lg" icon={faBars} />
                         </button>
-                        <a className="sidebar-item" href=".">
+                        <button className="sidebar-item">
                             <FontAwesomeIcon icon={faCalendarWeek} />
                             Events
-                        </a>
-                        <a className="sidebar-item" href=".">
+                        </button>
+                        <button className="sidebar-item">
                             <FontAwesomeIcon icon={faBookOpen} />
                             Publications
-                        </a>
-                        <a className="sidebar-item" href=".">
+                        </button>
+                        <button className="sidebar-item">
                             <FontAwesomeIcon icon={faTools} />
                             Toolbox
-                        </a>
-                        <a className="sidebar-item" href=".">
+                        </button>
+                        <button className="sidebar-item">
                             <FontAwesomeIcon icon={faUsers} />
                             Members
-                        </a>
-                        <a className="sidebar-item" href=".">
+                        </button>
+                        <button className="sidebar-item">
                             <FontAwesomeIcon icon={faHandshake} />
                             Partners
-                        </a>
-                        <a className="sidebar-item github-logo" href=".">
-                            <img src={githubLogo} alt="github-logo"/>
+                        </button>
+                        <a className="sidebar-item" href=".">
+                            <img src={githubLogo} className="github-logo" alt="github-logo"/>
                         </a>
                         <div className="sidebar-flags">
                             <button onClick={() => setLang('en')} className="sidebar-flag">

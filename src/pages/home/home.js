@@ -13,7 +13,6 @@ import Contact from '../../sections/contact/contact'
 import '../../App.css';
 import '../../sections.css'
 
-// the hoc
 import { withNamespaces } from 'react-i18next';
 import i18n from '../../i18n'
 
@@ -40,11 +39,11 @@ function Home({ t }) {
         />
         <FrontPage translationFunction={t}/>
         <About translationFunction={t}/>
-        <Events ref={eventsRef} translationFunction={t}/>
-        <Publications ref={publicationsRef} translationFunction={t}/>
-        <DodfMiner ref={dodfminerRef} translationFunction={t}/>
-        <Members ref={membersRef} translationFunction={t}/>
-        <Partners ref={partnersRef} translationFunction={t}/>
+        <Events translationFunction={t}/>
+        <Publications translationFunction={t}/>
+        <DodfMiner translationFunction={t}/>
+        <Members translationFunction={t}/>
+        <Partners translationFunction={t}/>
         <Contact translationFunction={t}/>
         </div>
     );

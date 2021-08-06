@@ -32,7 +32,7 @@ export default function Header(props){
             <div className="container navbar-content">
                 <a href="./"><img src={logo} className="logo navbar-img" alt="logo" /></a>
                 <div className="navbar-menu">
-                    <button onClick={ scrollFunctions }lassName="navbar-item">
+                    <button onClick={ scrollFunctions } className="navbar-item">
                         <FontAwesomeIcon icon={faCalendarWeek} />
                         {t('Events')}
                     </button>

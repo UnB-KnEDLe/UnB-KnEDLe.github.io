@@ -19,12 +19,6 @@ import i18n from '../../i18n'
 
 function Home({ t }) {
     const [withBg, setWithBg] = useState(false)
-    
-    const eventsRef = useRef(null)
-    const publicationsRef = useRef(null)
-    const dodfminerRef = useRef(null)
-    const membersRef = useRef(null)
-    const partnersRef = useRef(null)
 
     useEffect(() => {
         window.addEventListener('scroll', () => {

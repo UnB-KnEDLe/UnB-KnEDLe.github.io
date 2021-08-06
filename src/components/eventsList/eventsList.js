@@ -8,9 +8,9 @@ const eventsList = [
         comment: '',
         date: new Date(2021, 8, 6),
         schedule: [
-            '14:00 - Opening - Thiago Faleiros',
-            '14:10 - Deep Active-Self learning applied to NER - José Reinaldo',
-            '14:30 - DODFMiner - Thiago Faleiros',
+            '14:00 - Opening - Teo de Campos and Thiago Faleiros',
+            '14:10 - DODFMiner - Thiago Faleiros',
+            '14:30 - Deep Active-Self learning applied to NER - José Reinaldo',
             '14:50 - Annotation of Personnel Acts - Vinícius Borges',
             '15:10 - Visnote - Tatiana Franco Pereira',
             '15:30 - Bids and Contracts Timeline - Nilton Correia',

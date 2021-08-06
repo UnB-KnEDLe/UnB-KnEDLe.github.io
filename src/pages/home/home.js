@@ -13,7 +13,11 @@ import Contact from '../../sections/contact/contact'
 import '../../App.css';
 import '../../sections.css'
 
-function Home() {
+// the hoc
+import { withNamespaces } from 'react-i18next';
+import i18n from '../../i18n'
+
+function Home({ t }) {
     const [withBg, setWithBg] = useState(false)
 
     useEffect(() => {
@@ -23,19 +27,23 @@ function Home() {
         })
     })
 
+    const changeLang = (lang) => {
+        i18n.changeLanguage(lang)
+    }
+
     return (
         <div className="App">
-        <Header bg={withBg}/>
-        <FrontPage/>
-        <About/>
-        <Events/>
-        <Publications/>
-        <DodfMiner/>
-        <Members/>
-        <Partners/>
-        <Contact/>
+        <Header changeLangFunction={changeLang} translationFunction={t} bg={withBg}/>
+        <FrontPage translationFunction={t}/>
+        <About translationFunction={t}/>
+        <Events translationFunction={t}/>
+        <Publications translationFunction={t}/>
+        <DodfMiner translationFunction={t}/>
+        <Members translationFunction={t}/>
+        <Partners translationFunction={t}/>
+        <Contact translationFunction={t}/>
         </div>
     );
 }
 
-export default Home;
+export default withNamespaces()(Home);

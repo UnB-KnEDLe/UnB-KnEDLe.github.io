@@ -2,12 +2,13 @@ import FlexImages from './components/FlexImages/flexImages'
 
 import { teachers, students, exStudents } from '../../components/memebrsList/membersList.js'
 
-export default function Members(){
+export default function Members(props){
+    var t = props.translationFunction
 
     return (
         <section className="members">
             <div className="container members-content">
-                <h1>Members</h1>
+                <h1>{t('Members')}</h1>
                 <FlexImages list={teachers}/>
                 <FlexImages list={students}/>
 

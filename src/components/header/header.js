@@ -13,8 +13,10 @@ import './header.css'
 
 export default function Header(props){
     var background = props.bg
+    var t = props.translationFunction
+    var setLang = props.changeLangFunction
 
-    const [showMenu, setShowMenu] = useState(false);
+    const [showMenu, setShowMenu] = useState(false)
 
     return (
         <header className={background ? "navbar" : "navbar no-bg"}>
@@ -23,30 +25,34 @@ export default function Header(props){
                 <div className="navbar-menu">
                     <a className="navbar-item" href=".">
                         <FontAwesomeIcon icon={faCalendarWeek} />
-                        Events
+                        {t('Events')}
                     </a>
                     <a className="navbar-item" href=".">
                         <FontAwesomeIcon icon={faBookOpen} />
-                        Publications
+                        {t('Publications')}
                     </a>
                     <a className="navbar-item" href=".">
                         <FontAwesomeIcon icon={faTools} />
-                        Toolbox
+                        {t('Toolbox')}
                     </a>
                     <a className="navbar-item" href=".">
                         <FontAwesomeIcon icon={faUsers} />
-                        Members
+                        {t('Members')}
                     </a>
                     <a className="navbar-item" href=".">
                         <FontAwesomeIcon icon={faHandshake} />
-                        Partners
+                        {t('Partners')}
                     </a>
                     <a className="navbar-item github-logo" href=".">
                         <img src={githubLogo} alt="github-logo"/>
                     </a>
                     <div className="navbar-flags">
-                        <a className="navbar-flag" href="."><img src={usFlag} className="navbar-img" alt="flag"/></a>
-                        <a className="navbar-flag" href="."><img src={brFlag} className="navbar-img" alt="flag"/></a>
+                        <button onClick={() => setLang('en')} className="navbar-flag">
+                            <img src={usFlag} className="navbar-img" alt="flag"/>
+                        </button>
+                        <button onClick={() => setLang('br')} className="navbar-flag">
+                            <img src={brFlag} className="navbar-img" alt="flag"/>
+                        </button>
                     </div>
                     <div className={showMenu ? "sidebar active" : "sidebar"}>
                         <button
@@ -79,8 +85,12 @@ export default function Header(props){
                             <img src={githubLogo} alt="github-logo"/>
                         </a>
                         <div className="sidebar-flags">
-                            <a className="sidebar-flag" href="."><img src={usFlag} className="navbar-img" alt="flag"/></a>
-                            <a className="sidebar-flag" href="."><img src={brFlag} className="navbar-img" alt="flag"/></a>
+                            <button onClick={() => setLang('en')} className="sidebar-flag">
+                                <img src={usFlag} className="navbar-img" alt="flag"/>
+                            </button>
+                            <button onClick={() => setLang('br')} className="sidebar-flag">
+                                <img src={brFlag} className="navbar-img" alt="flag"/>
+                            </button>
                         </div>
                     </div>
                 </div>

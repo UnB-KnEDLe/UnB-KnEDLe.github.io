@@ -1,17 +1,16 @@
-import { useState } from 'react'
-
 import publicationsList from '../../components/publicationsList/publicationsList'
 
 import './publications.css'
 
-export default function Publications(){
-    const [showAll, setShowAll] = useState(false)
+export default function Publications(props){
+    var t = props.translationFunction
+
     const publicationsLimit = 3
 
     return (
         <section className="publications">
             <div className="container publications-content">
-                <h1>Publications</h1>
+                <h1>{t('Publications')}</h1>
                 <ul className="publications-list">
                     {publicationsList.map((item, index) => {
                         if(index < publicationsLimit) {
@@ -31,7 +30,7 @@ export default function Publications(){
                         } else return null
                     })}
                     <button className="btn show-all-btn">
-                        <a href="./publications" >Ver todas as publicações</a>
+                        <a href="./publications" >{t("See all publications")}</a>
                     </button>
                 </ul>
             </div>

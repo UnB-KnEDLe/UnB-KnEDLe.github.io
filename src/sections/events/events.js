@@ -6,19 +6,20 @@ import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons
 import { eventsList } from '../../components/eventsList/eventsList'
 import './events.css'
 
-export default function Events(){
+export default function Events(props){
+    var t = props.translationFunction
 
     const [slide, setSlide] = useState(0)
 
     function convertDate(date){
         const dateObj = new Date(date)
-        const months = [null, 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+        const months = [null, t('January'), t('February'), t('March'), t('April'), t('May'), t('June'), t('July'), t('August'), t('September'), t('October'), t('November'), t('December')]
 
         var dateArray = dateObj.toLocaleDateString().split('/')
         dateArray = dateArray.map( item => parseInt(item))
         dateArray[1] = months[dateArray[1]]
 
-        return dateArray.join(' ')
+        return dateArray.join(t('/'))
     }
 
     if(slide < 0) {
@@ -32,7 +33,7 @@ export default function Events(){
     return (
         <section className="events">
             <div className="container events-content">
-                <h1>Events</h1>
+                <h1>{t('Events')}</h1>
                 <div className="carousel">
                     <button className="events-btn prev" onClick={() => setSlide(slide - 1)}>
                         <FontAwesomeIcon className="events-icon" size="lg" icon={faChevronLeft} />
@@ -45,11 +46,11 @@ export default function Events(){
                                         <h2>{event.title}</h2>
                                         <a href={event.button.url}>
                                             <button className="btn">
-                                                <p>{event.button.title}</p>
+                                                <p>{t(event.button.title)}</p>
                                             </button>
                                         </a>
                                         <h3 className="event-date">{convertDate(event.date)}</h3>
-                                        <h4 className="description">{event.comment}</h4>
+                                        <h4 className="description">{t(event.comment)}</h4>
                                     </div>
                                     <ul>
                                         {event.schedule.map(function(event){

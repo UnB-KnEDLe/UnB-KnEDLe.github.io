@@ -3,11 +3,13 @@ import fapLogo from '../../assets/img/logo_fapdf.png'
 import finatecLogo from '../../assets/img/logo_finatec.png'
 import './partners.css'
 
-export default function Partners(){
+export default function Partners(props){
+    var t = props.translationFunction
+
     return (
         <section className="partners">
             <div className="container">
-                <h2><b>Partners</b></h2>
+                <h2><b>{t('Partners')}</b></h2>
                 <div className="partners-img">
                     <a href="https://www.unb.br/">
                         <img src={unbLogo} className="unb-logo" alt="Universidade de Brasília" />

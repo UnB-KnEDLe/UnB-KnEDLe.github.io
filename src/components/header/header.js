@@ -15,24 +15,15 @@ export default function Header(props){
     var background = props.bg
     var t = props.translationFunction
     var setLang = props.changeLangFunction
-    var scrollFunctions = props.scrollFunctions
 
     const [showMenu, setShowMenu] = useState(false)
-
-    // const scrollTo = (ref) => {
-    //     pageRefs[ref].current.scrollIntoView()
-    // }
-
-    // const scrollTo = (page) => {
-    //     scrollFunctions[page]()
-    // }
 
     return (
         <header className={background ? "navbar" : "navbar no-bg"}>
             <div className="container navbar-content">
                 <a href="./"><img src={logo} className="logo navbar-img" alt="logo" /></a>
                 <div className="navbar-menu">
-                    <button onClick={ scrollFunctions } className="navbar-item">
+                    <button className="navbar-item">
                         <FontAwesomeIcon icon={faCalendarWeek} />
                         {t('Events')}
                     </button>

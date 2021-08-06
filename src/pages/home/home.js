@@ -26,13 +26,6 @@ function Home({ t }) {
     const membersRef = useRef(null)
     const partnersRef = useRef(null)
 
-    const goToEventsSection = () => {
-        window.scrollTo({
-            top: eventsRef.current.offsetTop,
-            behavior: 'smooth'
-        })
-    }
-
     useEffect(() => {
         window.addEventListener('scroll', () => {
             const windowHeight = window.innerHeight - 100
@@ -47,7 +40,6 @@ function Home({ t }) {
     return (
         <div className="App">
         <Header
-            scrollFunctions={goToEventsSection}
             changeLangFunction={changeLang}
             translationFunction={t}
             bg={withBg}

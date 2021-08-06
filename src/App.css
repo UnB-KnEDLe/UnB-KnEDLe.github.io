@@ -15,7 +15,7 @@ section {
   margin-left: auto;
 }
 .btn {
-  background-color: var(--theme-color);
+  background-color: #092472;
   color: white;
   border: none;
   border-radius: 40px;
@@ -23,7 +23,7 @@ section {
 }
 
 .btn:hover {
-  opacity: .7;
+  background: #fa7a50;
   cursor: pointer;
 }
 

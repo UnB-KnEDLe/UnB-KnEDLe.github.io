@@ -16,6 +16,12 @@ export default function Header(props){
     var t = props.translationFunction
     var setLang = props.changeLangFunction
 
+    const scrollTo = (page) => {
+        var offsetTop = document.querySelector('.' + page).offsetTop
+
+        window.scrollTo({ top: offsetTop - 71, behavior: 'smooth' })
+    }
+
     const [showMenu, setShowMenu] = useState(false)
 
     return (
@@ -23,23 +29,23 @@ export default function Header(props){
             <div className="container navbar-content">
                 <a href="./"><img src={logo} className="logo navbar-img" alt="logo" /></a>
                 <div className="navbar-menu">
-                    <button className="navbar-item">
+                    <button onClick={ () => scrollTo('events') } className="navbar-item">
                         <FontAwesomeIcon icon={faCalendarWeek} />
                         {t('Events')}
                     </button>
-                    <button className="navbar-item">
+                    <button onClick={ () => scrollTo('publications') } className="navbar-item">
                         <FontAwesomeIcon icon={faBookOpen} />
                         {t('Publications')}
                     </button>
-                    <button className="navbar-item">
+                    <button onClick={ () => scrollTo('dodfminer') } className="navbar-item">
                         <FontAwesomeIcon icon={faTools} />
                         {t('Toolbox')}
                     </button>
-                    <button className="navbar-item">
+                    <button onClick={ () => scrollTo('members') } className="navbar-item">
                         <FontAwesomeIcon icon={faUsers} />
                         {t('Members')}
                     </button>
-                    <button className="navbar-item">
+                    <button onClick={ () => scrollTo('partners') } className="navbar-item">
                         <FontAwesomeIcon icon={faHandshake} />
                         {t('Partners')}
                     </button>
@@ -61,23 +67,23 @@ export default function Header(props){
                         >
                             <FontAwesomeIcon size="lg" icon={faBars} />
                         </button>
-                        <button className="sidebar-item">
+                        <button onClick={ () => scrollTo('events') } className="sidebar-item">
                             <FontAwesomeIcon icon={faCalendarWeek} />
                             Events
                         </button>
-                        <button className="sidebar-item">
+                        <button onClick={ () => scrollTo('publications') } className="sidebar-item">
                             <FontAwesomeIcon icon={faBookOpen} />
                             Publications
                         </button>
-                        <button className="sidebar-item">
+                        <button onClick={ () => scrollTo('dodfminer') } className="sidebar-item">
                             <FontAwesomeIcon icon={faTools} />
                             Toolbox
                         </button>
-                        <button className="sidebar-item">
+                        <button onClick={ () => scrollTo('members') } className="sidebar-item">
                             <FontAwesomeIcon icon={faUsers} />
                             Members
                         </button>
-                        <button className="sidebar-item">
+                        <button onClick={ () => scrollTo('partners') } className="sidebar-item">
                             <FontAwesomeIcon icon={faHandshake} />
                             Partners
                         </button>

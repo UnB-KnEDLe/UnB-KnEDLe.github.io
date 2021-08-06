@@ -56,7 +56,7 @@ export default function Events(props){
                                         {event.schedule.map(function(event){
                                             return (
                                                 <li key={event}>
-                                                    <p>{event}</p>
+                                                    <p>{t(event)}</p>
                                                 </li>
                                             )
                                         })}

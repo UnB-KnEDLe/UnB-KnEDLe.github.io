@@ -32,6 +32,12 @@
     place-items: center;
 }
 
+.logo {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
 .navbar-item {
     display: flex;
     gap: 5px;

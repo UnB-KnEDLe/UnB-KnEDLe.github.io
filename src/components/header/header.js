@@ -17,8 +17,11 @@ export default function Header(props){
     var setLang = props.changeLangFunction
 
     const scrollTo = (page) => {
-        var offsetTop = document.querySelector('.' + page).offsetTop
-
+        var offsetTop = 0
+        if(page) {
+            offsetTop = document.querySelector('.' + page).offsetTop
+        }
+        
         window.scrollTo({ top: offsetTop - 71, behavior: 'smooth' })
     }
 
@@ -27,7 +30,7 @@ export default function Header(props){
     return (
         <header className={background ? "navbar" : "navbar no-bg"}>
             <div className="container navbar-content">
-                <a href="./"><img src={logo} className="logo navbar-img" alt="logo" /></a>
+                <button className="logo" onClick={ () => scrollTo() }><img src={logo} className="logo navbar-img" alt="logo" /></button>
                 <div className="navbar-menu">
                     <button onClick={ () => scrollTo('events') } className="navbar-item">
                         <FontAwesomeIcon icon={faCalendarWeek} />

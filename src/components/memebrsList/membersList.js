@@ -189,11 +189,10 @@ const students = [
         name: 'Lucelia Vieira',
         avatar: aLuceliaVieira,
         descr: {
-            resume: 'Graduando em Ciência da Computação',
-            email: 'jonatasgomesb@gmail.com',
-            linkedin: 'https://www.linkedin.com/in/j%C3%B4natas-gomes-142982193/',
+            resume: 'Mestranda em Ciência da Computação',
+            email: 'luceliafn@gmail.com',
+            linkedin: 'https://www.linkedin.com/in/lucelia-vieira-mota/',
             github: 'https://github.com/jonatas1n',
-            badge: 'Aluno da Graduação - UnB',
         }
     },
     {

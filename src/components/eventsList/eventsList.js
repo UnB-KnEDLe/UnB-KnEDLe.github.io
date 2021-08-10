@@ -1,11 +1,17 @@
 const eventsList = [
     {
         title: 'III Workshop',
-        button : {
-            title: 'Click here to join the videoconference', 
-            url: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2NjZWFlZGQtNzFlMS00ZWMyLWE2NzktYzYxODE5ODBhNmJl%40thread.v2/0?context=%7b%22Tid%22%3a%22ec359ba1-630b-4d2b-b833-c8e6d48f8059%22%2c%22Oid%22%3a%22f47e421a-015c-47c0-8c0e-859a715a2943%22%7d'
-        },
-        comment: '',
+        button : [
+            {
+                title: 'Click here to watch the video', 
+                url: 'https://youtu.be/QaR8eQKyeJo'
+            },
+            {
+                title: 'Click here to get Workshop material', 
+                url: 'https://youtu.be/QaR8eQKyeJo'
+            }
+        ],
+        comment: 'This event took place in August 2021, and its video recording is available from the link above.',
         date: new Date(2021, 8, 6),
         schedule: [
             '14h00 - Opening - Teo de Campos and Thiago Faleiros',
@@ -20,10 +26,10 @@ const eventsList = [
     },
     {
         title: 'II Workshop',
-        button : {
+        button : [{
             title: 'Click here to watch the video', 
             url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-        },
+        }],
         comment: 'This event took place in February 2020, and its video recording is available from the link above.',
         date: new Date(2021, 2, 11),
         schedule: [
@@ -39,10 +45,10 @@ const eventsList = [
     },
     {
         title: 'I Workshop',
-        button : {
+        button : [{
             title: 'Click here to watch the video',
             url: 'https://www.youtube.com/watch?v=Q1bZIpFc5PY'
-        },
+        }],
         comment: 'This event took place in July 2020, and its video recording is available from the link above.',
         date: new Date(2020, 7, 23),
         schedule: [

@@ -35,7 +35,7 @@ export default function Events(props){
             <div className="container events-content">
                 <h1>{t('Events')}</h1>
                 <div className="carousel">
-                    <button className="events-btn prev" onClick={() => setSlide(slide - 1)}>
+                    <button className="events-action prev" onClick={() => setSlide(slide - 1)}>
                         <FontAwesomeIcon className="events-icon" size="lg" icon={faChevronLeft} />
                     </button>
                     <ul>
@@ -44,11 +44,17 @@ export default function Events(props){
                                 <li className={index === slide ? 'event-item show' : 'event-item'} key={index}>
                                     <div className="event-left">
                                         <h2>{event.title}</h2>
-                                        <a href={event.button.url}>
-                                            <button className="btn">
-                                                <p>{t(event.button.title)}</p>
-                                            </button>
-                                        </a>
+                                        <div className="events-btn">
+                                            { event.button.map( button => {
+                                                return (
+                                                    <a href={button.url}>
+                                                        <button className="btn">
+                                                            <p>{t(button.title)}</p>
+                                                        </button>
+                                                    </a>
+                                                )
+                                            }) }
+                                        </div>
                                         <h3 className="event-date">{convertDate(event.date)}</h3>
                                         <h4 className="description">{t(event.comment)}</h4>
                                     </div>
@@ -65,7 +71,7 @@ export default function Events(props){
                             )
                         })}
                     </ul>
-                    <button className="events-btn next" onClick={() => setSlide(slide + 1)}>
+                    <button className="events-action next" onClick={() => setSlide(slide + 1)}>
                         <FontAwesomeIcon className="events-icon" size="lg" icon={faChevronRight} />
                     </button>
                 </div>

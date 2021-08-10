@@ -45,6 +45,11 @@
 }
 
 .events-btn {
+    display: flex;
+    gap: 15px;
+}
+
+.events-action {
     background: none;
     color: white;
     border: none;
@@ -56,11 +61,11 @@
     border-radius: 20px;
 }
 
-.events-btn:hover .events-icon{
+.events-action:hover .events-icon{
     color: #333;
 }
 
-.events-btn:hover {
+.events-action:hover {
     background: #ffffff99;
 }
 

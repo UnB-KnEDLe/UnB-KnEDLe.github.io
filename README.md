@@ -1,4 +1,4 @@
-[<img src="assets/img/logo/knedle.svg" width="1300" title="">](https://unb-knedle.github.io/)
+[<img src="src/assets/img/logo/knedle.svg" width="1300" title="">](https://unb-knedle.github.io/)
 
 ### UnB-KnEDLe.github.io
 

@@ -1,5 +1,4 @@
 import React, { Suspense } from 'react';
-import { HashRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -8,11 +7,9 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
-      <Suspense fallback={<h4>Loading...</h4>}>
-        <App />
-      </Suspense>
-    </HashRouter>
+    <Suspense fallback={<h4>Loading...</h4>}>
+      <App />
+    </Suspense>
   </React.StrictMode>,
   document.getElementById('root')
 );

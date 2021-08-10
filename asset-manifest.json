@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/UnB-KnEDLe.github.io/static/css/main.8b180ecd.chunk.css",
-    "main.js": "/UnB-KnEDLe.github.io/static/js/main.d1341d06.chunk.js",
-    "main.js.map": "/UnB-KnEDLe.github.io/static/js/main.d1341d06.chunk.js.map",
-    "runtime-main.js": "/UnB-KnEDLe.github.io/static/js/runtime-main.fae59925.js",
-    "runtime-main.js.map": "/UnB-KnEDLe.github.io/static/js/runtime-main.fae59925.js.map",
-    "static/js/2.2f74cddd.chunk.js": "/UnB-KnEDLe.github.io/static/js/2.2f74cddd.chunk.js",
-    "static/js/2.2f74cddd.chunk.js.map": "/UnB-KnEDLe.github.io/static/js/2.2f74cddd.chunk.js.map",
-    "static/js/3.33a36bf7.chunk.js": "/UnB-KnEDLe.github.io/static/js/3.33a36bf7.chunk.js",
-    "static/js/3.33a36bf7.chunk.js.map": "/UnB-KnEDLe.github.io/static/js/3.33a36bf7.chunk.js.map",
+    "main.css": "/UnB-KnEDLe.github.io/static/css/main.b0ae5b47.chunk.css",
+    "main.js": "/UnB-KnEDLe.github.io/static/js/main.c3421b6b.chunk.js",
+    "main.js.map": "/UnB-KnEDLe.github.io/static/js/main.c3421b6b.chunk.js.map",
+    "runtime-main.js": "/UnB-KnEDLe.github.io/static/js/runtime-main.35cf175d.js",
+    "runtime-main.js.map": "/UnB-KnEDLe.github.io/static/js/runtime-main.35cf175d.js.map",
+    "static/js/2.e4fc7d91.chunk.js": "/UnB-KnEDLe.github.io/static/js/2.e4fc7d91.chunk.js",
+    "static/js/2.e4fc7d91.chunk.js.map": "/UnB-KnEDLe.github.io/static/js/2.e4fc7d91.chunk.js.map",
+    "static/js/3.7e96b968.chunk.js": "/UnB-KnEDLe.github.io/static/js/3.7e96b968.chunk.js",
+    "static/js/3.7e96b968.chunk.js.map": "/UnB-KnEDLe.github.io/static/js/3.7e96b968.chunk.js.map",
     "index.html": "/UnB-KnEDLe.github.io/index.html",
-    "static/css/main.8b180ecd.chunk.css.map": "/UnB-KnEDLe.github.io/static/css/main.8b180ecd.chunk.css.map",
-    "static/js/2.2f74cddd.chunk.js.LICENSE.txt": "/UnB-KnEDLe.github.io/static/js/2.2f74cddd.chunk.js.LICENSE.txt",
+    "static/css/main.b0ae5b47.chunk.css.map": "/UnB-KnEDLe.github.io/static/css/main.b0ae5b47.chunk.css.map",
+    "static/js/2.e4fc7d91.chunk.js.LICENSE.txt": "/UnB-KnEDLe.github.io/static/js/2.e4fc7d91.chunk.js.LICENSE.txt",
     "static/media/DODF.68053def.jpg": "/UnB-KnEDLe.github.io/static/media/DODF.68053def.jpg",
     "static/media/Logo_UnB.2671f05f.svg": "/UnB-KnEDLe.github.io/static/media/Logo_UnB.2671f05f.svg",
     "static/media/aAliceBorges.e1bc31c6.jpeg": "/UnB-KnEDLe.github.io/static/media/aAliceBorges.e1bc31c6.jpeg",
@@ -50,6 +50,7 @@
     "static/media/aThaisReboucas.7164d1ff.jpg": "/UnB-KnEDLe.github.io/static/media/aThaisReboucas.7164d1ff.jpg",
     "static/media/aVitorAraruna.8611e136.png": "/UnB-KnEDLe.github.io/static/media/aVitorAraruna.8611e136.png",
     "static/media/aVitorVasconcelos.4de25495.png": "/UnB-KnEDLe.github.io/static/media/aVitorVasconcelos.4de25495.png",
+    "static/media/backgroung2.bbcd5933.jpg": "/UnB-KnEDLe.github.io/static/media/backgroung2.bbcd5933.jpg",
     "static/media/hero-image-2.5293e0f5.png": "/UnB-KnEDLe.github.io/static/media/hero-image-2.5293e0f5.png",
     "static/media/iconBrasil.6d0fa2c0.png": "/UnB-KnEDLe.github.io/static/media/iconBrasil.6d0fa2c0.png",
     "static/media/iconUK.8d54f0fc.png": "/UnB-KnEDLe.github.io/static/media/iconUK.8d54f0fc.png",
@@ -61,9 +62,9 @@
     "static/media/unb_logo_b.ac4ef56c.svg": "/UnB-KnEDLe.github.io/static/media/unb_logo_b.ac4ef56c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fae59925.js",
-    "static/js/2.2f74cddd.chunk.js",
-    "static/css/main.8b180ecd.chunk.css",
-    "static/js/main.d1341d06.chunk.js"
+    "static/js/runtime-main.35cf175d.js",
+    "static/js/2.e4fc7d91.chunk.js",
+    "static/css/main.b0ae5b47.chunk.css",
+    "static/js/main.c3421b6b.chunk.js"
   ]
 }

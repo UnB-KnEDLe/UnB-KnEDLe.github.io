@@ -192,7 +192,7 @@ const students = [
             resume: 'Mestranda em Ciência da Computação',
             email: 'luceliafn@gmail.com',
             linkedin: 'https://www.linkedin.com/in/lucelia-vieira-mota/',
-            github: 'https://github.com/jonatas1n',
+            github: 'https://github.com/luceliafn',
         }
     },
     {
@@ -352,7 +352,7 @@ const students = [
         avatar: aFelipeXavier,
         descr: {
             resume: 'Graduando em Ciência da Computação',
-            email: 'jonatasgomesb@gmail.com',
+            email: 'felipexbds@gmail.com',
             linkedin: 'https://www.linkedin.com/in/felipe-xavier-barbosa/',
             github: 'https://github.com/felipexbds',
             badge: 'Aluno da Graduação - UnB',

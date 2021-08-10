@@ -1,4 +1,5 @@
 import React, { Suspense } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -7,9 +8,11 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Suspense fallback={<h4>Loading...</h4>}>
-      <App />
-    </Suspense>
+    <BrowserRouter>
+      <Suspense fallback={<h4>Loading...</h4>}>
+        <App />
+      </Suspense>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

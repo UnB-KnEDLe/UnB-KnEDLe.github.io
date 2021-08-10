@@ -109,6 +109,7 @@ const teachers = [
             linkedin: 'https://www.linkedin.com/in/lu%C3%ADs-paulo-faina-garcia-60b87b7/',
             github: 'https://github.com/lpfgarcia',
             badge: 'Aluno da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/1607852138156562'
         }
     },
 ]
@@ -309,6 +310,7 @@ const students = [
             linkedin: 'https://www.linkedin.com/in/j%C3%B4natas-gomes-142982193/',
             github: 'https://github.com/jonatas1n',
             badge: 'Aluno da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/4021049557685903'
         }
     },
     {
@@ -319,6 +321,7 @@ const students = [
             email: 'amarals16@hotmail.com',
             github: 'https://github.com/notopoloko',
             badge: 'Aluno da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/8939995054167023'
         }
     },
     {
@@ -330,6 +333,7 @@ const students = [
             linkedin: 'https://www.linkedin.com/in/vitor-vasconcelos-o-9b4582208/',
             github: 'https://github.com/VitorVVO',
             badge: 'Aluno da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/6832480867808781'
         }
     },
     {
@@ -341,6 +345,7 @@ const students = [
             linkedin: 'https://www.linkedin.com/in/larissa-santana-de-freitas-andrade-175165187/',
             github: 'https://github.com/Lary15',
             badge: 'Aluna da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/7021320053516597'
         }
     },
     {
@@ -352,6 +357,7 @@ const students = [
             linkedin: 'https://www.linkedin.com/in/felipe-xavier-barbosa/',
             github: 'https://github.com/felipexbds',
             badge: 'Aluno da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/7176105305396610'
         }
     },
     {
@@ -363,6 +369,7 @@ const students = [
             linkedin: 'https://www.linkedin.com/in/lacwerda',
             github: 'https://github.com/lacwerda',
             badge: 'Aluna da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/1770064410330224'
         }
     },
     {
@@ -374,6 +381,7 @@ const students = [
             linkedin: 'https://www.linkedin.com/in/alice-borges-9865021b0/',
             github: 'https://github.com/aliceborges42',
             badge: 'Aluna da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/8953434392714679'
         }
     },
     {
@@ -385,6 +393,7 @@ const students = [
             linkedin: 'https://www.linkedin.com/in/tucazorron/',
             github: 'https://github.com/tucazorron',
             badge: 'Aluno da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/5813097820555507'
         }
     },
 ]

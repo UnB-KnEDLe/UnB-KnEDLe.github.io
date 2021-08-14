@@ -1,10 +1,9 @@
 const publicationsList = [
     {
         title: ' Domain-specific datasets for document classification and named entity recognition',
-        content: ['• Alexandre Rademaker • Thiago de Paulo Faleiros • Luís Paulo F. Garcia'],
+        content: ['• Pedro Henrique Luz de Araujo', 'MSc Thesis, supervised by Teo de Campos'],
         link: [
-            {title: 'MSc thesis (8.7 MB)', url: 'https://cic.unb.br/~teodecampos/peluz/luz_de_araujo_msc_2021.pdf'},
-            {title: 'Slides (4.5 MB)', url: 'https://cic.unb.br/~teodecampos/peluz/luz_de_araujo_msc_2021_slides.pdf'}
+            {title: 'Web page', url: 'https://cic.unb.br/~teodecampos/peluz/'}
         ],
     },
     {

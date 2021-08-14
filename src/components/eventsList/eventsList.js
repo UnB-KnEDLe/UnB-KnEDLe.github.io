@@ -5,10 +5,6 @@ const eventsList = [
             {
                 title: 'Click here to watch the video', 
                 url: 'https://youtu.be/QaR8eQKyeJo'
-            },
-            {
-                title: 'Click here to get Workshop material', 
-                url: 'https://youtu.be/QaR8eQKyeJo'
             }
         ],
         comment: 'This event took place in August 2021, and its video recording is available from the link above.',

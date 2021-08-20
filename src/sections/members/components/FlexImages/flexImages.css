@@ -12,8 +12,8 @@
     display: flex;
     place-items: flex-start;
     justify-content: center;
-    width: 160px;
-    height: 280px;
+    width: 120px;
+    height: 250px;
     border-radius: 15px;
     padding: 15px;
 }
@@ -47,13 +47,13 @@
     gap: 15px;
 }
 
-.flex-image-info h4 {
+.flex-image-info h5 {
     margin: 0;
 }
 
 .flex-image-info img {
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 110px;
     border-radius: 100%;
     box-shadow: 0px 5px 25px 5px rgb(0 0 0 / 20%);
     object-fit: cover;

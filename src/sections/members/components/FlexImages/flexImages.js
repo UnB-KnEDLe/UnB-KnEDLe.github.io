@@ -15,14 +15,14 @@ function FlexImage(props) {
         <div className="flex-image">
             <div onClick={ setShowInfo } className="flex-image-info">
                 <img src={item.avatar} alt={item.name}/>
-                <h4>{item.name}</h4>
+                <h5>{item.name}</h5>
             </div>
         </div>
         {showInfo ? 
             <div className="flex-image active">
                 <div onClick={ setShowInfo } className="flex-image-info">
                     <img src={item.avatar} alt={item.name}/>
-                    <h4>{item.name}</h4>
+                    <h5>{item.name}</h5>
                 </div>
                 <div className="flex-image-description">
                     <FontAwesomeIcon

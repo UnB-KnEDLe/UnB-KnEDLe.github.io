@@ -2,6 +2,8 @@ import FlexImages from './components/FlexImages/flexImages'
 
 import { teachers, students, exStudents } from '../../components/membersList/membersList.js'
 
+import './members.css'
+
 export default function Members(props){
     var t = props.translationFunction
 

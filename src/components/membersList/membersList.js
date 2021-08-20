@@ -3,6 +3,7 @@ import aProfVinicius from '../../assets/img/time/fotoProfVinicius1.jpg';
 import aProfThiago from '../../assets/img/time/aProfThiago.jpeg';
 import aProfFabricio from '../../assets/img/time/aProfFabricio.jpg';
 import aProfNilton from '../../assets/img/time/aProfNilton.png';
+import aProfLuis from '../../assets/img/time/aLuizPaulo.png';
 
 import aLindebergPessoa from '../../assets/img/time/aLindebergPessoa.jpg';
 import aPatriciaMedyna from '../../assets/img/time/aPatriciaMedyna.jpg';
@@ -28,7 +29,6 @@ import aMariaEduarda from '../../assets/img/time/aMariaEduarda.png';
 import aAliceBorges from '../../assets/img/time/aAliceBorges.jpeg';
 import aArturZorron from '../../assets/img/time/aArturZorron.png';
 import aLuceliaVieira from '../../assets/img/time/aLuceliaVieira.png';
-import aLuisPaulo from '../../assets/img/time/aLuizPaulo.png';
 
 import aDaviAlves from '../../assets/img/time/aDaviAlves.jpg';
 import aFelipeCampos from '../../assets/img/time/aFelipeCampos.jpg';
@@ -102,7 +102,7 @@ const teachers = [
     },
     {
         name: 'Luis Paulo',
-        avatar: aLuisPaulo,
+        avatar: aProfLuis,
         descr: {
             resume: 'Doutor em Ciência da Computação',
             email: 'luis.garcia@unb.br',
@@ -166,7 +166,7 @@ const students = [
         avatar: aPedroHenrique,
         descr: {
             resume: 'Mestrando em Ciência da Computação',
-            email: 'josereinaldoneto@gmail.com',
+            email: 'pedrohluzaraujo@gmail.com',
             linkedin: 'https://www.linkedin.com/in/pedro-henrique-luz-de-araujo-7b9255143/',
             github: 'https://github.com/peluz',
             badge: 'Aluno de Mestrado - UnB',

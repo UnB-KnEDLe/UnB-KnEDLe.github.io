@@ -51,6 +51,11 @@
     margin: 0;
 }
 
+.flex-image.active .flex-image-info img {
+    width: 200px;
+    height: 200px;
+}
+
 .flex-image-info img {
     width: 110px;
     height: 110px;

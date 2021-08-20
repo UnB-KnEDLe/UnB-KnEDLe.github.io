@@ -108,7 +108,7 @@ const teachers = [
             email: 'luis.garcia@unb.br',
             linkedin: 'https://www.linkedin.com/in/lu%C3%ADs-paulo-faina-garcia-60b87b7/',
             github: 'https://github.com/lpfgarcia',
-            badge: 'Aluno da Graduação - UnB',
+            // badge: 'Aluno da Graduação - UnB',
             lattes: 'http://lattes.cnpq.br/1607852138156562'
         }
     },

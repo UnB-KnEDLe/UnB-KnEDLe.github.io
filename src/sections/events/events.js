@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
-import { eventsList } from '../../components/eventsList/eventsList'
+import { eventsList } from '../../components/eventsList'
 import './events.css'
 
 export default function Events(props){

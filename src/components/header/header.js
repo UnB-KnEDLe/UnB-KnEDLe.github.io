@@ -6,7 +6,7 @@ import usFlag from '../../assets/img/iconUK.png'
 import githubLogo from '../../assets/img/iconGithub.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCalendarWeek, faBookOpen, faTools, faUsers, faHandshake, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faCalendarWeek, faBookOpen, faTools, faUsers, faHandshake, faBars, faBalanceScale } from '@fortawesome/free-solid-svg-icons'
 
 import './sidebar.css'
 import './header.css'
@@ -15,6 +15,8 @@ export default function Header(props){
     var background = props.bg
     var t = props.translationFunction
     var setLang = props.changeLangFunction
+
+    const transparenciaUrl = "https://conveniar.finatec.org.br/Portaltransparencia/Default.aspx?txtNomeProjeto=&txtNomePessoaResponsavel=teofilo&txtNomePessoaFinanciador=&txtDataAssinatura=&ddlCodStatusConvenio=10&ddlFiltroClassificacao=0&pagina=projetos#projetos"
 
     const scrollTo = (page) => {
         var offsetTop = 0
@@ -52,6 +54,10 @@ export default function Header(props){
                         <FontAwesomeIcon icon={faHandshake} />
                         {t('Partners')}
                     </button>
+                    <a href={transparenciaUrl} className="navbar-item link">
+                        <FontAwesomeIcon icon={faBalanceScale} />
+                        {t('Transparency')}
+                    </a>
                     <a className="navbar-item" href="https://github.com/UnB-KnEDLe">
                         <img src={githubLogo} className="github-logo" alt="github-logo"/>
                     </a>
@@ -90,6 +96,10 @@ export default function Header(props){
                             <FontAwesomeIcon icon={faHandshake} />
                             Partners
                         </button>
+                        <a href={transparenciaUrl} className="sidebar-item link">
+                            <FontAwesomeIcon icon={faBalanceScale} />
+                            {t('Transparency')}
+                        </a>
                         <a className="sidebar-item" href=".">
                             <img src={githubLogo} className="github-logo" alt="github-logo"/>
                         </a>

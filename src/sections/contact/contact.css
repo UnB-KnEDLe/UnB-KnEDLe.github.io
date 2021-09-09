@@ -12,6 +12,27 @@
     place-items: center;
 }
 
+.contact-links {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-links a {
+    background-color: #f6f6f6;
+    color: #2c2c2c;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    place-items: center;
+    font-size: 14px;
+}
+
+.contact-us {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
 .description {
     padding: 0 10%;
 }

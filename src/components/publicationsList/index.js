@@ -2,7 +2,7 @@ const publicationsList = [
     {
         title: 'KnEDLe/NIDO Project Partial Technical Report 3',
         content: ['• Tatiana Franco Pereira • Matheus Stauffer Viana de Oliveira  • Isaque Alves • Vinícius R. P. Borges • Thiago de Paulo Faleiros • Fabrício A. Braz • Nilton Correia Silva • Carolina Alves Okimoto • Teófilo E. de Campos'],
-        link: [{title: 'PDF', url: 'https://github.com/UnB-KnEDLe/UnB-KnEDLe.github.io/raw/Altera-nome-de-arquivos-e-adiciona-item-no-menu/src/assets/documents/Relat_rio_KnEDLe___release_3.pdf'}],
+        link: [{title: 'PDF', url: 'https://github.com/UnB-KnEDLe/UnB-KnEDLe.github.io/raw/master/src/assets/papers/Relat_rio_KnEDLe___release_3.pdf'}],
     },
     {
         title: ' Domain-specific datasets for document classification and named entity recognition',

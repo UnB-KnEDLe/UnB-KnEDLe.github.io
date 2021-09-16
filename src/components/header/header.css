@@ -48,6 +48,12 @@
     transition: .3s;
     background: none;
     border: none;
+    font-size: 14px;
+}
+
+.navbar-item.link {
+    background: #ffffffdd;
+    color: var(--theme-color);
 }
 
 .github-logo {

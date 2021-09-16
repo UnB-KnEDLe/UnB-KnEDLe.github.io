@@ -24,7 +24,13 @@
     display: flex;
     flex-direction: row-reverse;
     gap: 10px;
-    color: white
+    color: white;
+    font-size: 14px;
+}
+
+.sidebar-item.link {
+    background: #ffffffaa !important;
+    color: var(--theme-color);
 }
 
 .sidebar-item:hover {

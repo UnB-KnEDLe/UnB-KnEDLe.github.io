@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import publicationsList from '../../components/publicationsList/publicationsList'
+import publicationsList from '../../components/publicationsList'
 
 import Modal from 'react-modal'
 

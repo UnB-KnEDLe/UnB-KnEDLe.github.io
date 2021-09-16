@@ -1,6 +1,6 @@
 import FlexImages from './components/FlexImages/flexImages'
 
-import { teachers, students, exStudents } from '../../components/membersList/membersList.js'
+import { teachers, students, exStudents } from '../../components/membersList'
 
 import './members.css'
 

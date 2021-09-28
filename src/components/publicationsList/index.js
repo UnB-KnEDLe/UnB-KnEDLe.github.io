@@ -1,3 +1,8 @@
+import visnoteAbstract from '../../assets/papers/VisNote_Abstract.pdf';
+import araujo from '../../assets/papers/8_Araujo.pdf';
+
+//Arquivos hospedados no repositório do site deve ser referenciados por importação, como exemplificado acima.
+
 const publicationsList = [
     {
         title: 'KnEDLe/NIDO Project Partial Technical Report 3',
@@ -27,17 +32,17 @@ const publicationsList = [
             '• Pedro H. Luz de Araujo • Teófilo E. de Campos',
             '33rd International Conference on Legal Knowledge and Information Systems (JURIX 2020)'
         ],
-        link: [{title: 'PDF', url: 'http://nido.unb.br/assets/papers/8_Araujo.pdf'}],
+        link: [{title: 'PDF', url: araujo}],
     },
     {
         title: 'VisNote: A Tool For Interactive Visual Exploration And Text Annotation Of Government Gazettes',
         content: ['• Tatiana F. Pereira • Lívia G. C Fonseca • Matheus S. V. de Oliveira • Teofilo E. Campos • Vinícius R. P. Borges', '33rd International Conference on Graphics, Patterns and Images (SIBGRAPI 2020)'],
-        link: [{title: 'Abstract', url: 'http://nido.unb.br/assets/papers/VisNote_Abstract.pdf'}],
+        link: [{title: 'Abstract', url: visnoteAbstract}],
     },
     {
         title: 'Topic Modelling Brazilian Supreme Court Lawsuits',
         content: ['• Pedro H. Luz de Araujo • Teófilo E. de Campos', '33rd International Conference on Legal Knowledge and Information Systems (JURIX 2020)'],
-        link: [{title: 'PDF', url: 'http://nido.unb.br/assets/papers/8_Araujo.pdf'}],
+        link: [{title: 'PDF', url: araujo}],
     },
     {
         title: 'Inferring The Source Of Official Texts: Can SVM Beat ULMFiT?',

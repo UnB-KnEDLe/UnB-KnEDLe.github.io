@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.7bde486c.chunk.css",
-    "main.js": "/static/js/main.5022d237.chunk.js",
-    "main.js.map": "/static/js/main.5022d237.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2673ba03.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2673ba03.js.map",
-    "static/js/2.f314a207.chunk.js": "/static/js/2.f314a207.chunk.js",
-    "static/js/2.f314a207.chunk.js.map": "/static/js/2.f314a207.chunk.js.map",
-    "static/js/3.3842ebf9.chunk.js": "/static/js/3.3842ebf9.chunk.js",
-    "static/js/3.3842ebf9.chunk.js.map": "/static/js/3.3842ebf9.chunk.js.map",
+    "main.css": "/static/css/main.42a6163d.chunk.css",
+    "main.js": "/static/js/main.557046cd.chunk.js",
+    "main.js.map": "/static/js/main.557046cd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.12cdb078.js",
+    "runtime-main.js.map": "/static/js/runtime-main.12cdb078.js.map",
+    "static/js/2.089cbbd6.chunk.js": "/static/js/2.089cbbd6.chunk.js",
+    "static/js/2.089cbbd6.chunk.js.map": "/static/js/2.089cbbd6.chunk.js.map",
+    "static/js/3.e0e59cdc.chunk.js": "/static/js/3.e0e59cdc.chunk.js",
+    "static/js/3.e0e59cdc.chunk.js.map": "/static/js/3.e0e59cdc.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.7bde486c.chunk.css.map": "/static/css/main.7bde486c.chunk.css.map",
-    "static/js/2.f314a207.chunk.js.LICENSE.txt": "/static/js/2.f314a207.chunk.js.LICENSE.txt",
+    "static/css/main.42a6163d.chunk.css.map": "/static/css/main.42a6163d.chunk.css.map",
+    "static/js/2.089cbbd6.chunk.js.LICENSE.txt": "/static/js/2.089cbbd6.chunk.js.LICENSE.txt",
+    "static/media/8_Araujo.e7e417f4.pdf": "/static/media/8_Araujo.e7e417f4.pdf",
     "static/media/DODF.68053def.jpg": "/static/media/DODF.68053def.jpg",
     "static/media/Logo_UnB.2671f05f.svg": "/static/media/Logo_UnB.2671f05f.svg",
+    "static/media/VisNote_Abstract.203c6fe7.pdf": "/static/media/VisNote_Abstract.203c6fe7.pdf",
     "static/media/aAliceBorges.89790089.jpg": "/static/media/aAliceBorges.89790089.jpg",
     "static/media/aArturZorron.9e42ff39.jpg": "/static/media/aArturZorron.9e42ff39.jpg",
     "static/media/aCarolinaAlves.4c09b1a1.jpg": "/static/media/aCarolinaAlves.4c09b1a1.jpg",
@@ -64,9 +66,9 @@
     "static/media/unb_logo_b.ac4ef56c.svg": "/static/media/unb_logo_b.ac4ef56c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2673ba03.js",
-    "static/js/2.f314a207.chunk.js",
-    "static/css/main.7bde486c.chunk.css",
-    "static/js/main.5022d237.chunk.js"
+    "static/js/runtime-main.12cdb078.js",
+    "static/js/2.089cbbd6.chunk.js",
+    "static/css/main.42a6163d.chunk.css",
+    "static/js/main.557046cd.chunk.js"
   ]
 }

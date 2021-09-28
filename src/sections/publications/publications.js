@@ -1,18 +1,8 @@
 import { useState } from 'react'
 import publicationsList from '../../components/publicationsList'
-
-import Modal from 'react-modal'
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTimes } from '@fortawesome/free-solid-svg-icons'
+import Modal from '../../components/Modal/modal'
 
 import './publications.css'
-
-var style = {
-    content: {
-        marginTop: '50px',
-    }
-}
 
 export default function Publications(props){
     var t = props.translationFunction
@@ -28,12 +18,12 @@ export default function Publications(props){
                     {publicationsList.map((item, index) => {
                         if(index < publicationsLimit) {
                             return (
-                                <li className="publication-item" key={index}>
+                                <li className="publication-item card" key={index}>
                                     <h3>{item?.title}</h3>
                                     {item?.content.map(contentEl => {return (<p>{contentEl}</p>)})}
                                     {item?.link.map(linkEl => {
                                         return (
-                                            <a href={linkEl.url}>
+                                            <a href={linkEl.url} target="_blank">
                                                 <button className="btn">{linkEl.title}</button>
                                             </a>
                                         )
@@ -46,26 +36,18 @@ export default function Publications(props){
                         {t("See all publications")}
                     </button>
                 </ul>
-                <Modal
-                    isOpen={showAll}
-                    style={style}
-                >
+                <Modal showSignal={showAll} setShowSignal={setShowAll} >
                     <div className="publications-content">
-                        <div className="publications-header">
-                            <h1>Publications</h1>
-                            <button onClick={ () => setShowAll(false) } className="btn">
-                                <FontAwesomeIcon size="lg" icon={faTimes}/>
-                            </button>
-                        </div>
-                        <ul className="publications-page-list">
+                        <h1>Publications</h1>
+                        <ul className="publications-list">
                             { publicationsList.map((item, index) => {
                                 return (
-                                    <li className="publication-page-item" key={index}>
+                                    <li className="publication-item card" key={index}>
                                         <h3>{item?.title}</h3>
                                         {item?.content.map(contentEl => {return (<p>{contentEl}</p>)})}
                                         {item?.link.map(linkEl => {
                                             return (
-                                                <a href={linkEl.url}>
+                                                <a href={linkEl.url} target="_blank">
                                                     <button className="btn">{linkEl.title}</button>
                                                 </a>
                                             )

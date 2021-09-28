@@ -7,7 +7,6 @@
     display: flex;
     justify-content: space-between;
     place-items: center;
-
 }
 
 .publications-content {
@@ -18,11 +17,11 @@
     list-style-type: none;
     display: grid;
     gap: 25px;
+    padding: 20px;
 }
 
 .publication-item {
-    padding: 15px;
-    box-shadow: 0px 5px 25px 0px rgb(0 0 0 / 20%)
+    padding: 20px;
 }
 
 .publication-item a{

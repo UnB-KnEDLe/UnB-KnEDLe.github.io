@@ -23,7 +23,7 @@ export default function Publications(props){
                                     {item?.content.map(contentEl => {return (<p>{contentEl}</p>)})}
                                     {item?.link.map(linkEl => {
                                         return (
-                                            <a href={linkEl.url} target="_blank">
+                                            <a href={linkEl.url} rel="noreferrer" target="_blank">
                                                 <button className="btn">{linkEl.title}</button>
                                             </a>
                                         )
@@ -47,7 +47,7 @@ export default function Publications(props){
                                         {item?.content.map(contentEl => {return (<p>{contentEl}</p>)})}
                                         {item?.link.map(linkEl => {
                                             return (
-                                                <a href={linkEl.url} target="_blank">
+                                                <a href={linkEl.url} rel="noreferrer" target="_blank">
                                                     <button className="btn">{linkEl.title}</button>
                                                 </a>
                                             )

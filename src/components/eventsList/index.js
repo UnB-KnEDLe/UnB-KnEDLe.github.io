@@ -24,7 +24,7 @@ const eventsList = [
         title: 'II Workshop',
         button : [{
             title: 'Click here to watch the video', 
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+            url: 'https://www.youtube.com/watch?v=I6-Q4Y37WWY&feature=youtu.be'
         }],
         comment: 'This event took place in February 2020, and its video recording is available from the link above.',
         date: new Date(2021, 2, 11),

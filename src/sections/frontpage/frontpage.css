@@ -66,6 +66,7 @@
 
 .alert-body {
     margin: 15px 0;
+    text-align: center;
 }
 
 .alert-header h4,

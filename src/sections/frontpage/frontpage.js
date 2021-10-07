@@ -13,6 +13,9 @@ import './frontpage.css'
 export default function FrontPage(props) {
     var t = props.translationFunction
 
+    var today = new Date()
+    var showAlert = today.getMonth() + 1 <= 10  && today.getDate() <= 15
+
     return (
         <Parallax bgImage={backgroundImg} strength={300} className="frontpage">
             <section className="frontpage">
@@ -24,15 +27,18 @@ export default function FrontPage(props) {
                             <h4>{t('Knowledge Extraction from Documents of Legal content')}</h4>
                         </div>
                     </div>
-                    <div className="alert">
-                        <div className="alert-header">
-                            <FontAwesomeIcon icon={faExclamationCircle} size="2x" />
-                            <h4>Edital de seleção de bolsista de graduação aberto</h4>
+                    { showAlert && (
+                        <div className="alert">
+                            <div className="alert-header">
+                                <FontAwesomeIcon icon={faExclamationCircle} size="2x" />
+                                <h4>Edital de seleção de bolsista de graduação aberto</h4>
+                            </div>
+                            <div className="alert-body">
+                                <a href={edital} target="_blank" rel="noreferrer"><h5>Clique aqui para saber mais</h5></a>
+                                <p><b>As inscrições vão até o dia 15 de outubro</b></p>
+                            </div>
                         </div>
-                        <div className="alert-body">
-                            <a href={edital} target="_blank" rel="noreferrer"><h5>Clique aqui para saber mais</h5></a>
-                        </div>
-                    </div>
+                    )}
                     <img src={unbLogo} className="unbLogo" alt="UNB Logo"/>
                     <FontAwesomeIcon className="iconDown" size="3x" icon={faChevronDown}/>
                 </div>

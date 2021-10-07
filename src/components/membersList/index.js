@@ -244,17 +244,6 @@ const students = [
         }
     },
     {
-        name: 'Lívia Gomes Costa Fonseca',
-        avatar: aLiviaGomes,
-        descr: {
-            resume: 'Graduanda em Engenharia Mecatrônica',
-            email: 'liviagcf@gmail.com',
-            github: 'https://github.com/Liviagcf',
-            badge: 'Aluna da Graduação - UnB',
-            lattes: 'http://lattes.cnpq.br/4924609011551885'
-        }
-    },
-    {
         name: 'Matheus Stauffer Viana de Oliveira',
         avatar: aMatheusStauffer,
         descr: {
@@ -459,18 +448,6 @@ const exStudents = [
         }
     },
     {
-        name: 'Isaque Alves de Lima',
-        avatar: aIsaqueAlves,
-        descr: {
-            resume: 'Graduando em Engenharia de Software',
-            email: 'isaquealvesdl@gmail.com',
-            linkedin: 'https://www.linkedin.com/in/isaque-alves-02453112a/',
-            github: 'https://github.com/alvesisaque',
-            badge: 'Aluno da Graduação - UnB',
-            lattes: 'http://lattes.cnpq.br/1705157743369545'
-        }
-    },
-    {
         name: 'Khalil Carsten do Nascimento',
         avatar: aKhalilCarsten,
         descr: {
@@ -494,6 +471,29 @@ const exStudents = [
             lattes: 'http://lattes.cnpq.br/3155443125935015'
         }
     },
+    {
+        name: 'Isaque Alves de Lima',
+        avatar: aIsaqueAlves,
+        descr: {
+            resume: 'Graduando em Engenharia de Software',
+            email: 'isaquealvesdl@gmail.com',
+            linkedin: 'https://www.linkedin.com/in/isaque-alves-02453112a/',
+            github: 'https://github.com/alvesisaque',
+            badge: 'Aluno da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/1705157743369545'
+        }
+    },
+    {
+        name: 'Lívia Gomes Costa Fonseca',
+        avatar: aLiviaGomes,
+        descr: {
+            resume: 'Graduanda em Engenharia Mecatrônica',
+            email: 'liviagcf@gmail.com',
+            github: 'https://github.com/Liviagcf',
+            badge: 'Aluna da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/4924609011551885'
+        }
+    }
 ]
 
 export { teachers, students, exStudents }

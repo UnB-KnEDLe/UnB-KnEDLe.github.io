@@ -6,7 +6,7 @@ import { faChevronDown, faExclamationCircle } from '@fortawesome/free-solid-svg-
 import knedleLogo from '../../assets/img/logo_knedle.svg';
 import unbLogo from '../../assets/img/unb_logo_b.svg';import backgroundImg from '../../assets/img/backgroung2.jpg';
 
-import edital from '../../assets/papers/Edital_KnEDLe_032021.pdf'
+import edital from '../../assets/papers/editaL_KnEDLe_032021_retificacao.pdf'
 
 import './frontpage.css'
 
@@ -14,7 +14,7 @@ export default function FrontPage(props) {
     var t = props.translationFunction
 
     var today = new Date()
-    var showAlert = today.getMonth() + 1 <= 10  && today.getDate() <= 15
+    var showAlert = today.getMonth() + 1 <= 10  && today.getDate() <= 22
 
     return (
         <Parallax bgImage={backgroundImg} strength={300} className="frontpage">
@@ -35,7 +35,7 @@ export default function FrontPage(props) {
                             </div>
                             <div className="alert-body">
                                 <a href={edital} target="_blank" rel="noreferrer"><h5>Clique aqui para saber mais</h5></a>
-                                <p><b>As inscrições vão até o dia 15 de outubro</b></p>
+                                <p><b>As inscrições vão até o dia 22 de outubro</b></p>
                             </div>
                         </div>
                     )}

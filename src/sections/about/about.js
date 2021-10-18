@@ -1,4 +1,5 @@
 import pageImage from '../../assets/img/DODF.jpg';
+import video from '../../assets/video/intro_knedle.webm';
 
 import './about.css'
 
@@ -13,6 +14,10 @@ export default function About(props){
                 <img src={pageImage} className="dodf-image" alt="DODF page example" align="right"/>
                 <h4>{t('Official publications such as the Diário Oficial do Distrito Federal (DODF) are sources of information on all official government acts. Although these documents are rich in knowledge, analysing these texts manually by specialists is a complex and unfeasible task considering the growing volume of documents, the result of the frequent number of publications in the Distrito Federal Government\'s (GDF) communication vehicle.')}</h4>
                 <h4>{t('This scenario is appropriate to employ computational techniques based on text mining and information visualization, in order to discover implicit and relevant knowledge in large textual data sets. It is known that these computational techniques receive data in a structured format. However, as DODF editions are originally published in unstructured format and in natural language, it is required to use techniques to prepare strategies in order to make the necessary adaptations to apply.')}</h4>
+                <hr/>
+                <video className="about-video" controls>
+                    <source src={video} className="video-player" />
+                </video>
             </div>
         </section>
     )

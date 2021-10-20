@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.7aa1460d.chunk.css",
-    "main.js": "/static/js/main.343544f8.chunk.js",
-    "main.js.map": "/static/js/main.343544f8.chunk.js.map",
+    "main.css": "/static/css/main.6661288a.chunk.css",
+    "main.js": "/static/js/main.b2a8180b.chunk.js",
+    "main.js.map": "/static/js/main.b2a8180b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b9b87e3d.js",
     "runtime-main.js.map": "/static/js/runtime-main.b9b87e3d.js.map",
     "static/js/2.7a9b1348.chunk.js": "/static/js/2.7a9b1348.chunk.js",
@@ -10,11 +10,10 @@
     "static/js/3.d8e39e47.chunk.js": "/static/js/3.d8e39e47.chunk.js",
     "static/js/3.d8e39e47.chunk.js.map": "/static/js/3.d8e39e47.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.7aa1460d.chunk.css.map": "/static/css/main.7aa1460d.chunk.css.map",
+    "static/css/main.6661288a.chunk.css.map": "/static/css/main.6661288a.chunk.css.map",
     "static/js/2.7a9b1348.chunk.js.LICENSE.txt": "/static/js/2.7a9b1348.chunk.js.LICENSE.txt",
     "static/media/8_Araujo.e7e417f4.pdf": "/static/media/8_Araujo.e7e417f4.pdf",
     "static/media/DODF.68053def.jpg": "/static/media/DODF.68053def.jpg",
-    "static/media/Edital_KnEDLe_032021.fd01c814.pdf": "/static/media/Edital_KnEDLe_032021.fd01c814.pdf",
     "static/media/Logo_UnB.2671f05f.svg": "/static/media/Logo_UnB.2671f05f.svg",
     "static/media/Relat_rio_KnEDLe___release_3.1647061d.pdf": "/static/media/Relat_rio_KnEDLe___release_3.1647061d.pdf",
     "static/media/VisNote_Abstract.203c6fe7.pdf": "/static/media/VisNote_Abstract.203c6fe7.pdf",
@@ -56,10 +55,12 @@
     "static/media/aVitorAraruna.5dd7b7e2.jpg": "/static/media/aVitorAraruna.5dd7b7e2.jpg",
     "static/media/aVitorVasconcelos.7c0b8e27.jpg": "/static/media/aVitorVasconcelos.7c0b8e27.jpg",
     "static/media/backgroung2.bbcd5933.jpg": "/static/media/backgroung2.bbcd5933.jpg",
+    "static/media/editaL_KnEDLe_032021_retificacao.5909f93a.pdf": "/static/media/editaL_KnEDLe_032021_retificacao.5909f93a.pdf",
     "static/media/fotoProfVinicius1.65fff22f.jpg": "/static/media/fotoProfVinicius1.65fff22f.jpg",
     "static/media/hero-image-2.5293e0f5.png": "/static/media/hero-image-2.5293e0f5.png",
     "static/media/iconBrasil.6d0fa2c0.png": "/static/media/iconBrasil.6d0fa2c0.png",
     "static/media/iconUK.8d54f0fc.png": "/static/media/iconUK.8d54f0fc.png",
+    "static/media/intro_knedle.f5614600.webm": "/static/media/intro_knedle.f5614600.webm",
     "static/media/logo_fapdf.7da49d3c.png": "/static/media/logo_fapdf.7da49d3c.png",
     "static/media/logo_finatec.5e3d973e.png": "/static/media/logo_finatec.5e3d973e.png",
     "static/media/logo_knedle.07b170d5.svg": "/static/media/logo_knedle.07b170d5.svg",
@@ -70,7 +71,7 @@
   "entrypoints": [
     "static/js/runtime-main.b9b87e3d.js",
     "static/js/2.7a9b1348.chunk.js",
-    "static/css/main.7aa1460d.chunk.css",
-    "static/js/main.343544f8.chunk.js"
+    "static/css/main.6661288a.chunk.css",
+    "static/js/main.b2a8180b.chunk.js"
   ]
 }

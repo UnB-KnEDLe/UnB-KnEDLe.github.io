@@ -41,18 +41,6 @@ import aLeonardoMaffei from '../../assets/img/time/aLeonardoMaffei.jpg';
 
 const teachers = [
     {
-        name: 'Teófilo Emídio de Campos',
-        avatar: aProfTeofilo,
-        descr: {
-            resume: 'Principal Investigator & PhD in Information Engineering',
-            email: 'teodecampos@unb.br',
-            github: 'https://github.com/teodecampos',
-            page: 'https://cic.unb.br/~teodecampos/',
-            badge: 'Professor Adjunto - UnB',
-            lattes: 'http://lattes.cnpq.br/5052452346402051'
-        }
-    },
-    {
         name: 'Thiago de Paulo Faleiros',
         avatar: aProfThiago,
         descr: {
@@ -138,18 +126,6 @@ const students = [
         }
     },
     {
-        name: 'Frederico Guth',
-        avatar: aFredericoGuth,
-        descr: {
-            resume: 'Mestrando em Ciência da Computação',
-            email: 'fredguth@fredguth.com',
-            linkedin: 'https://www.linkedin.com/in/fredguth/',
-            github: 'https://github.com/fredguth',
-            badge: 'Diretor Presidente da REMOTO Tecnologia',
-            lattes: 'http://lattes.cnpq.br/1350650095882051'
-        }
-    },
-    {
         name: 'José Reinaldo Neto',
         avatar: aJoseReinaldo,
         descr: {
@@ -159,18 +135,6 @@ const students = [
             github: 'https://github.com/avio11',
             badge: 'Aluno de Mestrado - UnB',
             lattes: 'http://lattes.cnpq.br/2808772465575284'
-        }
-    },
-    {
-        name: 'Pedro Henrique Luz de Araújo',
-        avatar: aPedroHenrique,
-        descr: {
-            resume: 'Mestrando em Ciência da Computação',
-            email: 'pedrohluzaraujo@gmail.com',
-            linkedin: 'https://www.linkedin.com/in/pedro-henrique-luz-de-araujo-7b9255143/',
-            github: 'https://github.com/peluz',
-            badge: 'Aluno de Mestrado - UnB',
-            lattes: 'http://lattes.cnpq.br/8374005378743328'
         }
     },
     {
@@ -219,18 +183,7 @@ const students = [
             lattes: 'http://lattes.cnpq.br/3129851141271942'
         }
     },
-    {
-        name: 'Guilherme Mendes Pereira',
-        avatar: aGuilhermeMendes,
-        descr: {
-            resume: 'Graduando em Engenharia de Software',
-            email: 'guimendesp12@gmail.com',
-            linkedin: 'https://www.linkedin.com/in/guilhermemendespereira/',
-            github: 'https://github.com/guilherme-mendes',
-            badge: 'Aluno da Graduação - UnB',
-            lattes: 'http://lattes.cnpq.br/9680791206239457'
-        }
-    },
+
     {
         name: 'Ian filipe Pontes Ferreira',
         avatar: aIanFilipe,
@@ -349,18 +302,6 @@ const students = [
         }
     },
     {
-        name: 'Maria Eduarda',
-        avatar: aMariaEduarda,
-        descr: {
-            resume: 'Graduanda em Ciência da Computação',
-            email: 'lacwerda@gmail.com',
-            linkedin: 'https://www.linkedin.com/in/lacwerda',
-            github: 'https://github.com/lacwerda',
-            badge: 'Aluna da Graduação - UnB',
-            lattes: 'http://lattes.cnpq.br/1770064410330224'
-        }
-    },
-    {
         name: 'Alice Borges',
         avatar: aAliceBorges,
         descr: {
@@ -372,7 +313,33 @@ const students = [
             lattes: 'http://lattes.cnpq.br/8953434392714679'
         }
     },
+]
+
+const exStudents = [
     {
+        name: 'Teófilo Emídio de Campos',
+        avatar: aProfTeofilo,
+        descr: {
+            resume: 'Principal Investigator & PhD in Information Engineering',
+            email: 'teodecampos@unb.br',
+            github: 'https://github.com/teodecampos',
+            page: 'https://cic.unb.br/~teodecampos/',
+            badge: 'Professor Adjunto - UnB',
+            lattes: 'http://lattes.cnpq.br/5052452346402051'
+        }
+    },
+    {
+        name: 'Maria Eduarda',
+        avatar: aMariaEduarda,
+        descr: {
+            resume: 'Graduanda em Ciência da Computação',
+            email: 'lacwerda@gmail.com',
+            linkedin: 'https://www.linkedin.com/in/lacwerda',
+            github: 'https://github.com/lacwerda',
+            badge: 'Aluna da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/1770064410330224'
+        }
+    },    {
         name: 'Artur Zorron',
         avatar: aArturZorron,
         descr: {
@@ -384,9 +351,42 @@ const students = [
             lattes: 'http://lattes.cnpq.br/5813097820555507'
         }
     },
-]
-
-const exStudents = [
+    {
+        name: 'Guilherme Mendes Pereira',
+        avatar: aGuilhermeMendes,
+        descr: {
+            resume: 'Graduando em Engenharia de Software',
+            email: 'guimendesp12@gmail.com',
+            linkedin: 'https://www.linkedin.com/in/guilhermemendespereira/',
+            github: 'https://github.com/guilherme-mendes',
+            badge: 'Aluno da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/9680791206239457'
+        }
+    },
+    {
+        name: 'Frederico Guth',
+        avatar: aFredericoGuth,
+        descr: {
+            resume: 'Mestrando em Ciência da Computação',
+            email: 'fredguth@fredguth.com',
+            linkedin: 'https://www.linkedin.com/in/fredguth/',
+            github: 'https://github.com/fredguth',
+            badge: 'Diretor Presidente da REMOTO Tecnologia',
+            lattes: 'http://lattes.cnpq.br/1350650095882051'
+        }
+    },
+    {
+        name: 'Pedro Henrique Luz de Araújo',
+        avatar: aPedroHenrique,
+        descr: {
+            resume: 'Mestrando em Ciência da Computação',
+            email: 'pedrohluzaraujo@gmail.com',
+            linkedin: 'https://www.linkedin.com/in/pedro-henrique-luz-de-araujo-7b9255143/',
+            github: 'https://github.com/peluz',
+            badge: 'Aluno de Mestrado - UnB',
+            lattes: 'http://lattes.cnpq.br/8374005378743328'
+        }
+    },
     {
         name: 'Davi Alves Bezerra',
         avatar: aDaviAlves,

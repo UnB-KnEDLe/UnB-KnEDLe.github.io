@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6661288a.chunk.css",
-    "main.js": "/static/js/main.88658839.chunk.js",
-    "main.js.map": "/static/js/main.88658839.chunk.js.map",
+    "main.js": "/static/js/main.e82798cf.chunk.js",
+    "main.js.map": "/static/js/main.e82798cf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b9b87e3d.js",
     "runtime-main.js.map": "/static/js/runtime-main.b9b87e3d.js.map",
     "static/js/2.7a9b1348.chunk.js": "/static/js/2.7a9b1348.chunk.js",
@@ -25,7 +25,9 @@
     "static/media/aFelipeCampos.27f4ec8d.jpg": "/static/media/aFelipeCampos.27f4ec8d.jpg",
     "static/media/aFelipeXavier.a7f6ed4c.jpg": "/static/media/aFelipeXavier.a7f6ed4c.jpg",
     "static/media/aFredericoGuth.fe3bd473.jpg": "/static/media/aFredericoGuth.fe3bd473.jpg",
+    "static/media/aGabrielCiriatico.39c4b565.jpg": "/static/media/aGabrielCiriatico.39c4b565.jpg",
     "static/media/aGabrielFilipe.9d3173d1.jpg": "/static/media/aGabrielFilipe.9d3173d1.jpg",
+    "static/media/aGabrielNogueira.e6624851.jpg": "/static/media/aGabrielNogueira.e6624851.jpg",
     "static/media/aGuilhermeMendes.45cbb4cd.jpg": "/static/media/aGuilhermeMendes.45cbb4cd.jpg",
     "static/media/aIanFilipe.839e34e1.jpg": "/static/media/aIanFilipe.839e34e1.jpg",
     "static/media/aIsaqueAlves.f6c684ed.jpg": "/static/media/aIsaqueAlves.f6c684ed.jpg",
@@ -39,6 +41,7 @@
     "static/media/aLiviaGomes.1d0c374e.jpg": "/static/media/aLiviaGomes.1d0c374e.jpg",
     "static/media/aLuceliaVieira.046786fb.jpg": "/static/media/aLuceliaVieira.046786fb.jpg",
     "static/media/aLuizPaulo.90d4fdaf.jpg": "/static/media/aLuizPaulo.90d4fdaf.jpg",
+    "static/media/aManuelaMatos.9e85b60a.jpeg": "/static/media/aManuelaMatos.9e85b60a.jpeg",
     "static/media/aMariaEduarda.8278781a.jpg": "/static/media/aMariaEduarda.8278781a.jpg",
     "static/media/aMatheusStauffer.6f5924b7.jpg": "/static/media/aMatheusStauffer.6f5924b7.jpg",
     "static/media/aMicaelFilipe.24dbfc81.jpg": "/static/media/aMicaelFilipe.24dbfc81.jpg",
@@ -72,6 +75,6 @@
     "static/js/runtime-main.b9b87e3d.js",
     "static/js/2.7a9b1348.chunk.js",
     "static/css/main.6661288a.chunk.css",
-    "static/js/main.88658839.chunk.js"
+    "static/js/main.e82798cf.chunk.js"
   ]
 }

@@ -308,7 +308,7 @@ const students = [
         name: 'Manuela M. C. de Souza',
         avatar: aManuelaMatos,
         descr: {
-            // resume: 'Graduando em Ciência da Computação',
+            resume: 'Graduanda em Ciência da Computação',
             github: 'https://github.com/munak98',
             badge: 'Aluna da Graduação - UnB',
             lattes: 'http://lattes.cnpq.br/5559167231469764'
@@ -318,7 +318,7 @@ const students = [
         name: 'Gabriel Nogueira',
         avatar: aGabrielNogueira,
         descr: {
-            // resume: 'Graduando em Ciência da Computação',
+            resume: 'Graduando em Ciência da Computação',
             github: 'https://github.com/nosgueira',
             badge: 'Aluno da Graduação - UnB',
             lattes: 'http://lattes.cnpq.br/4502530059306774'
@@ -328,7 +328,7 @@ const students = [
         name: 'Gabriel Ciriático',
         avatar: aGabrielCiriatico,
         descr: {
-            // resume: 'Graduando em Ciência da Computação',
+            resume: 'Graduando em Ciência da Computação',
             github: 'https://github.com/ciriatico',
             badge: 'Aluno da Graduação - UnB',
             lattes: 'http://lattes.cnpq.br/3703349431990018'

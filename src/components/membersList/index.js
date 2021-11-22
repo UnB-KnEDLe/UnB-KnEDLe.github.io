@@ -29,6 +29,9 @@ import aMariaEduarda from '../../assets/img/time/aMariaEduarda.jpg';
 import aAliceBorges from '../../assets/img/time/aAliceBorges.jpg';
 import aArturZorron from '../../assets/img/time/aArturZorron.jpg';
 import aLuceliaVieira from '../../assets/img/time/aLuceliaVieira.jpg';
+import aGabrielNogueira from '../../assets/img/time/aGabrielNogueira.jpg';
+import aGabrielCiriatico from '../../assets/img/time/aGabrielCiriatico.jpg';
+import aManuelaMatos from '../../assets/img/time/aManuelaMatos.jpeg';
 
 import aDaviAlves from '../../assets/img/time/aDaviAlves.jpg';
 import aFelipeCampos from '../../assets/img/time/aFelipeCampos.jpg';
@@ -299,6 +302,39 @@ const students = [
             github: 'https://github.com/aliceborges42',
             badge: 'Aluna da Graduação - UnB',
             lattes: 'http://lattes.cnpq.br/8953434392714679'
+        }
+    },
+    {
+        name: 'Manuela M. C. de Souza',
+        avatar: aManuelaMatos,
+        descr: {
+            // resume: 'Graduando em Ciência da Computação',
+            linkedin: 'https://www.linkedin.com/in/alice-borges-9865021b0/',
+            github: 'https://github.com/munak98',
+            badge: 'Aluna da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/5559167231469764'
+        }
+    },
+    {
+        name: 'Gabriel Nogueira',
+        avatar: aGabrielNogueira,
+        descr: {
+            // resume: 'Graduando em Ciência da Computação',
+            linkedin: 'https://www.linkedin.com/in/alice-borges-9865021b0/',
+            github: 'https://github.com/nosgueira',
+            badge: 'Aluno da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/4502530059306774'
+        }
+    },
+    {
+        name: 'Gabriel Ciriático',
+        avatar: aGabrielCiriatico,
+        descr: {
+            // resume: 'Graduando em Ciência da Computação',
+            linkedin: 'https://www.linkedin.com/in/alice-borges-9865021b0/',
+            github: 'https://github.com/ciriatico',
+            badge: 'Aluno da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/3703349431990018'
         }
     },
 ]

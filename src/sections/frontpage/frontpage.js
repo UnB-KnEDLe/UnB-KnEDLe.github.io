@@ -4,7 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown, faExclamationCircle } from '@fortawesome/free-solid-svg-icons'
 
 import knedleLogo from '../../assets/img/logo_knedle.svg';
-import unbLogo from '../../assets/img/unb_logo_b.svg';import backgroundImg from '../../assets/img/backgroung2.jpg';
+import unbLogo from '../../assets/img/unb_logo_b.svg';
+import backgroundImg from '../../assets/img/backgroung2.jpg';
+import fapLogo from '../../assets/img/logo_fapdf.png';
 
 import edital from '../../assets/papers/editaL_KnEDLe_032021_retificacao.pdf'
 
@@ -39,7 +41,10 @@ export default function FrontPage(props) {
                             </div>
                         </div>
                     )}
-                    <img src={unbLogo} className="unbLogo" alt="UNB Logo"/>
+                    <div className="frontpage-brands">
+                        <img src={unbLogo} className="unbLogo" alt="UNB Logo"/>
+                        <img src={fapLogo} className="unbLogo" alt="UNB Logo"/>
+                    </div>
                     <FontAwesomeIcon className="iconDown" size="3x" icon={faChevronDown}/>
                 </div>
             </section>

@@ -29,6 +29,11 @@
     font-size: 1.5em;
 }
 
+.frontpage-brands {
+    display: flex;
+    place-items: center;
+}
+
 .unbLogo { 
     max-width: 300px;
 }

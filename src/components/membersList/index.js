@@ -309,7 +309,6 @@ const students = [
         avatar: aManuelaMatos,
         descr: {
             // resume: 'Graduando em Ciência da Computação',
-            linkedin: 'https://www.linkedin.com/in/alice-borges-9865021b0/',
             github: 'https://github.com/munak98',
             badge: 'Aluna da Graduação - UnB',
             lattes: 'http://lattes.cnpq.br/5559167231469764'
@@ -320,7 +319,6 @@ const students = [
         avatar: aGabrielNogueira,
         descr: {
             // resume: 'Graduando em Ciência da Computação',
-            linkedin: 'https://www.linkedin.com/in/alice-borges-9865021b0/',
             github: 'https://github.com/nosgueira',
             badge: 'Aluno da Graduação - UnB',
             lattes: 'http://lattes.cnpq.br/4502530059306774'
@@ -331,7 +329,6 @@ const students = [
         avatar: aGabrielCiriatico,
         descr: {
             // resume: 'Graduando em Ciência da Computação',
-            linkedin: 'https://www.linkedin.com/in/alice-borges-9865021b0/',
             github: 'https://github.com/ciriatico',
             badge: 'Aluno da Graduação - UnB',
             lattes: 'http://lattes.cnpq.br/3703349431990018'

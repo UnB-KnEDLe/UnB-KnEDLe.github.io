@@ -76,7 +76,7 @@ const teachers = [
             github: 'https://github.com/fabraz',
             page: 'http://softwareseguro.blogspot.com/',
             badge: 'Professor Adjunto - UnB',
-            lattes: 'http://lattes.cnpq.br/1841593572448050'
+            lattes: 'http://lattes.cnpq.br/1700216932505005'
         }
     },
     {
@@ -311,7 +311,8 @@ const students = [
             resume: 'Graduanda em Ciência da Computação',
             github: 'https://github.com/munak98',
             badge: 'Aluna da Graduação - UnB',
-            lattes: 'http://lattes.cnpq.br/5559167231469764'
+            lattes: 'http://lattes.cnpq.br/5559167231469764',
+            orcid: 'https://orcid.org/0000-0002-8858-579X'
         }
     },
     {
@@ -321,7 +322,8 @@ const students = [
             resume: 'Graduando em Ciência da Computação',
             github: 'https://github.com/nosgueira',
             badge: 'Aluno da Graduação - UnB',
-            lattes: 'http://lattes.cnpq.br/4502530059306774'
+            lattes: 'http://lattes.cnpq.br/4502530059306774',
+            orcid: 'https://orcid.org/0000-0001-9954-315X'
         }
     },
     {

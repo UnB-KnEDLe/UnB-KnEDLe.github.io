@@ -36,9 +36,10 @@ function FlexImage(props) {
                     {item.descr?.badge ? <p><FontAwesomeIcon size="lg" icon={faIdBadge} className="members-icon" alt="linkedin"/> {item.descr?.badge}</p> : null }
                     {item.descr?.page ? <a target="_blank" href={item.descr?.page}><FontAwesomeIcon size="lg" icon={ faWindowMaximize }/> {item.descr?.page}</a> : null }
                     <div className="media">
-                        {item.descr?.lattes ? <a target="_blank" href={item.descr?.lattes}><button className="btn lattes-btn">Lattes</button></a> : null }
-                        {item.descr?.github ? <a target="_blank" href={item.descr?.github}><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" className="media-icon" alt="github"/> </a> : null }
-                        {item.descr?.linkedin ? <a target="_blank" href={item.descr?.linkedin}><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" className="media-icon" alt="linkedin"/> </a> : null }
+                        {item.descr?.lattes ? <a target="_blank" rel="noreferrer" href={item.descr?.lattes}><button className="btn lattes-btn">Lattes</button></a> : null }
+                        {item.descr?.github ? <a target="_blank" rel="noreferrer" href={item.descr?.github}><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" className="media-icon" alt="github"/> </a> : null }
+                        {item.desr?.linkedin ? <a target="_blank" rel="noreferrer" href={item.descr?.linkedin}><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" className="media-icon" alt="linkedin"/> </a> : null }
+                        {item.desr?.orcid ? <a target="_blank" rel="noreferrer" href={item.descr?.orcid}><button className="btn orcid-btn">Orcid</button></a> : null }
                     </div>
                 </div>
             </div>

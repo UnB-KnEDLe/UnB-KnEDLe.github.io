@@ -106,11 +106,15 @@
     background: #666;
 }
 
-
+.orcid-btn,
 .lattes-btn {
     border-radius: 0 !important;
     display: flex;
     place-items: center;
     font-weight: bold;
     height: 28px;
+}
+
+.orcid-btn {
+    background: green;
 }

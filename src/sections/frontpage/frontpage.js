@@ -16,7 +16,7 @@ export default function FrontPage(props) {
     var t = props.translationFunction
 
     var today = new Date()
-    var showAlert = today.getMonth() + 1 <= 10  && today.getDate() <= 22
+    var showAlert = false
 
     return (
         <Parallax bgImage={backgroundImg} strength={300} className="frontpage">

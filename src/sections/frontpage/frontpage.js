@@ -14,8 +14,6 @@ import './frontpage.css'
 
 export default function FrontPage(props) {
     var t = props.translationFunction
-
-    var today = new Date()
     var showAlert = false
 
     return (

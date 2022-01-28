@@ -34,7 +34,7 @@ function FlexImage(props) {
                     {item.descr?.resume ? <h3>{item.descr?.resume}</h3> : null }
                     {item.descr?.email ? <p><FontAwesomeIcon size="lg" icon={ faEnvelope }/> {item.descr?.email}</p> : null }
                     {item.descr?.badge ? <p><FontAwesomeIcon size="lg" icon={faIdBadge} className="members-icon" alt="linkedin"/> {item.descr?.badge}</p> : null }
-                    {item.descr?.page ? <a target="_blank" href={item.descr?.page}><FontAwesomeIcon size="lg" icon={ faWindowMaximize }/> {item.descr?.page}</a> : null }
+                    {item.descr?.page ? <a target="_blank" rel='noreferrer' href={item.descr?.page}><FontAwesomeIcon size="lg" icon={ faWindowMaximize }/> {item.descr?.page}</a> : null }
                     <div className="media">
                         {item.descr?.lattes ? <a target="_blank" rel="noreferrer" href={item.descr?.lattes}><button className="btn lattes-btn">Lattes</button></a> : null }
                         {item.descr?.github ? <a target="_blank" rel="noreferrer" href={item.descr?.github}><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" className="media-icon" alt="github"/> </a> : null }

@@ -1,93 +1,93 @@
 .carousel {
-    display: grid;
-    grid-template-columns: 50px auto 50px;
-    width: 100%;
+  display: grid;
+  grid-template-columns: 50px auto 50px;
+  width: 100%;
 }
 
-.events { 
-    padding-bottom: 4em;
+.events {
+  padding-bottom: 4em;
 }
 
 .events ul {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .event-item {
-    display: none;
+  display: none;
 }
 
 .event-item.show {
-    display: grid;
-    grid-template-columns: 55% 45%;
-    place-items: center;
-    /* gap: 25px; */
+  display: grid;
+  grid-template-columns: 55% 45%;
+  place-items: center;
+  /* gap: 25px; */
 }
 
 .event-item-btn {
-    background-color: var(--theme-color);
-    color: white;
-    border: none;
-    border-radius: 40px;
-    padding: 10px;
+  background-color: var(--theme-color);
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 10px;
 }
 
 .event-left {
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    text-align: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  text-align: center;
+  width: 100%;
 }
 
 .event-date {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .events-btn {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .events-action {
-    background: none;
-    color: white;
-    border: none;
-    border-radius: 10px;
+  background: none;
+  color: white;
+  border: none;
+  border-radius: 10px;
 }
 
 .events-icon {
-    padding: 10px;
-    border-radius: 20px;
+  padding: 10px;
+  border-radius: 20px;
 }
 
-.events-action:hover .events-icon{
-    color: #333;
+.events-action:hover .events-icon {
+  color: #333;
 }
 
 .events-action:hover {
-    background: #ffffff99;
+  background: #ffffff99;
 }
 
 .index-marker {
-    width: 100%;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 
 .marker-dot {
-    width: 10px;
-    height: 10px;
-    border: 2px solid white;
-    border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 .marker-dot.marked {
-    background: white;
+  background: white;
 }
 
 .description {
-    color: white;
-    opacity: .8;
+  color: white;
+  opacity: 0.8;
 }

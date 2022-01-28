@@ -162,7 +162,18 @@ const students = [
             github: 'https://github.com/luceliafn',
         }
     },
-
+    {
+        name: 'Carolina Alves Okimoto',
+        avatar: aCarolinaAlves,
+        descr: {
+            resume: 'Especializada em Gestão de Recursos Humanos',
+            email: 'carolinaalves@unb.br',
+            page: 'http://nido.unb.br/carolinaalves@unb.br',
+            linkedin: 'https://www.linkedin.com/in/carolina-alves-okimoto-b3598232/',
+            badge: 'Secretária Executiva CiC/UnB',
+            lattes: 'http://lattes.cnpq.br/7500862454896523'
+        }
+    },
     {
         name: 'Daniel Sousa',
         avatar: aDanielSousa,
@@ -349,18 +360,6 @@ const exStudents = [
             page: 'https://cic.unb.br/~teodecampos/',
             badge: 'Professor Adjunto - UnB',
             lattes: 'http://lattes.cnpq.br/5052452346402051'
-        }
-    },
-    {
-        name: 'Carolina Alves Okimoto',
-        avatar: aCarolinaAlves,
-        descr: {
-            resume: 'Especializada em Gestão de Recursos Humanos',
-            email: 'carolinaalves@unb.br',
-            page: 'http://nido.unb.br/carolinaalves@unb.br',
-            linkedin: 'https://www.linkedin.com/in/carolina-alves-okimoto-b3598232/',
-            badge: 'Secretária Executiva CiC/UnB',
-            lattes: 'http://lattes.cnpq.br/7500862454896523'
         }
     },
     {

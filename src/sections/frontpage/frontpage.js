@@ -8,13 +8,16 @@ import unbLogo from '../../assets/img/unb_logo_b.svg';
 import backgroundImg from '../../assets/img/backgroung2.jpg';
 import fapLogo from '../../assets/img/logo_fapdf.png';
 
-import edital from '../../assets/papers/editaL_KnEDLe_032021_retificacao.pdf'
-
 import './frontpage.css'
 
 export default function FrontPage(props) {
     var t = props.translationFunction
-    var showAlert = false
+    var showAlert = true
+
+    const scrollTo = () => {
+        const offsetTop = document.querySelector('.events').offsetTop
+        window.scrollTo({ top: offsetTop - 71, behavior: 'smooth' })
+    }
 
     return (
         <Parallax bgImage={backgroundImg} strength={300} className="frontpage">
@@ -31,11 +34,10 @@ export default function FrontPage(props) {
                         <div className="alert">
                             <div className="alert-header">
                                 <FontAwesomeIcon icon={faExclamationCircle} size="2x" />
-                                <h4>Edital de seleção de bolsista de graduação aberto</h4>
+                                <h4>IV Workshop do NIDO</h4>
                             </div>
                             <div className="alert-body">
-                                <a href={edital} target="_blank" rel="noreferrer"><h5>Clique aqui para saber mais</h5></a>
-                                <p><b>As inscrições vão até o dia 22 de outubro</b></p>
+                                <a><h5 onClick={scrollTo}>Clique aqui para saber mais</h5></a>
                             </div>
                         </div>
                     )}

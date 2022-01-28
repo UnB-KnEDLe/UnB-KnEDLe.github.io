@@ -17,7 +17,6 @@ export default function Events(props) {
   function convertDate(date) {
     const dateObj = new Date(date);
     const months = [
-      null,
       t("January"),
       t("February"),
       t("March"),
@@ -34,20 +33,16 @@ export default function Events(props) {
 
     var dateArray = dateObj.toLocaleDateString().split("/");
     dateArray = dateArray.map((item) => parseInt(item));
-    // console.log("vem ai");
-    // console.log(dateArray);
-    dateArray[1] = months[dateArray[1]];
+    dateArray[1] = months[dateArray[1] - 2];
 
     return dateArray.join(t(" / "));
   }
 
-  if (slide < 0) {
-    setSlide(eventsList.length - 1);
-  }
+  if (slide < 0) 
+    setSlide(eventsList.length - 1)
 
-  if (slide >= eventsList.length) {
-    setSlide(0);
-  }
+  if (slide >= eventsList.length) 
+    setSlide(0)
 
   return (
     <section className="events">
@@ -85,7 +80,6 @@ export default function Events(props) {
                       })}
                     </div>
                     <h3 className="event-date">{convertDate(event.date)}</h3>
-                    {console.log(event)}
                     <h4 className="description">{t(event.comment)}</h4>
                   </div>
                   <ul>

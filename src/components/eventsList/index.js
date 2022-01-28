@@ -3,12 +3,12 @@ const eventsList = [
     title: "IV Workshop",
     button: [
       {
-        title: "Click here to go to the meeting",
+        title: "Click here to join the videoconference",
         url: "https://bit.ly/iv-workshop-nido",
       },
     ],
     comment:
-      "This event took place in Frebruery 2022, and its video recording is available from the link above.",
+      "This event took place in February 2022, and its video recording is available from the link above.",
     date: new Date(2022, 2, 11),
     schedule: [
       "14h00 - Opening - Thiago Faleiros",

@@ -38,6 +38,10 @@
     max-width: 300px;
 }
 
+.faplogo {
+    max-height: 300px;
+}
+
 .iconDown {
     color: #fff;
     animation: blink 2s infinite linear;

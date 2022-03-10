@@ -3,8 +3,8 @@ const eventsList = [
     title: "IV Workshop",
     button: [
       {
-        title: "Click here to join the videoconference",
-        url: "https://bit.ly/iv-workshop-nido",
+        title: "Click here to watch the video",
+        url: "https://youtu.be/WC82VLMWk0k",
       },
     ],
     comment:

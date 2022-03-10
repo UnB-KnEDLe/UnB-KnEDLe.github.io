@@ -5,14 +5,15 @@ import { faChevronDown, faExclamationCircle } from '@fortawesome/free-solid-svg-
 
 import knedleLogo from '../../assets/img/logo_knedle.svg';
 import unbLogo from '../../assets/img/unb_logo_b.svg';
-import backgroundImg from '../../assets/img/backgroung2.jpg';
 import fapLogo from '../../assets/img/logo_fapdf.png';
+import finatecLogo from '../../assets/img/logo_finatec.png';
+import backgroundImg from '../../assets/img/backgroung2.jpg';
 
 import './frontpage.css'
 
 export default function FrontPage(props) {
     var t = props.translationFunction
-    var showAlert = true
+    var showAlert = false
 
     const scrollTo = () => {
         const offsetTop = document.querySelector('.events').offsetTop
@@ -37,13 +38,14 @@ export default function FrontPage(props) {
                                 <h4>IV Workshop do NIDO</h4>
                             </div>
                             <div className="alert-body">
-                                <a><h5 onClick={scrollTo}>Clique aqui para saber mais</h5></a>
+                                <a href="#"><h5 onClick={scrollTo}>Clique aqui para saber mais</h5></a>
                             </div>
                         </div>
                     )}
                     <div className="frontpage-brands">
                         <img src={unbLogo} className="unbLogo" alt="UNB Logo"/>
-                        <img src={fapLogo} className="unbLogo" alt="UNB Logo"/>
+                        <img src={fapLogo} className="unbLogo" alt="FAP Logo"/>
+                        <img src={finatecLogo} className="unbLogo" alt="Fundação de Empreendimentos Científicos e Tecnológicos"/>
                     </div>
                     <FontAwesomeIcon className="iconDown" size="3x" icon={faChevronDown}/>
                 </div>

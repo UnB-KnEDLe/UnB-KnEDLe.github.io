@@ -12,6 +12,7 @@ const publicationsList = [
         title: 'KnEDLe/NIDO Project Partial Technical Report 3',
         content: ['• Tatiana Franco Pereira • Matheus Stauffer Viana de Oliveira  • Isaque Alves • Vinícius R. P. Borges • Thiago de Paulo Faleiros • Fabrício A. Braz • Nilton Correia Silva • Carolina Alves Okimoto • Teófilo E. de Campos'],
         link: [{title: 'PDF', url: release_3}],
+        section: 'Technical Reports'
     },
     {
         title: ' Domain-specific datasets for document classification and named entity recognition',
@@ -21,14 +22,14 @@ const publicationsList = [
             'Supervisor • Teófilo E. de Campos, University of Brasilia',
             'Committee • Alexandre Rademaker (IBM and FGV) • Thiago de Paulo Faleiros (UnB)'
         ],
-        link: [
-            {title: 'Web page', url: 'https://cic.unb.br/~teodecampos/peluz/'}
-        ],
+        link: [{title: 'Web page', url: 'https://cic.unb.br/~teodecampos/peluz/'}],
+        section: 'Dissertations'
     },
     {
         title: 'KnEDLe/NIDO Project Partial Technical Report 2',
         content: ['• Isaque Alves • Vinícius R. P. Borges • Thiago de Paulo Faleiros • Pedro H. Luz de Araujo • Frederico Guth • Lívia Fonseca • Tatiana Pereira • Carolina Alves Okimoto • Teófilo E. de Campos'],
         link: [{title: 'PDF', url: 'https://cic.unb.br/~teodecampos/KnEDLe/reports/knedle_release_2.pdf'}],
+        section: 'Technical Reports'
     },
     {
         title: 'Topic Modelling Brazilian Supreme Court Lawsuits',
@@ -37,16 +38,19 @@ const publicationsList = [
             '33rd International Conference on Legal Knowledge and Information Systems (JURIX 2020)'
         ],
         link: [{title: 'PDF', url: araujo}],
+        section: 'Articles'
     },
     {
         title: 'VisNote: A Tool For Interactive Visual Exploration And Text Annotation Of Government Gazettes',
         content: ['• Tatiana F. Pereira • Lívia G. C Fonseca • Matheus S. V. de Oliveira • Teofilo E. Campos • Vinícius R. P. Borges', '33rd International Conference on Graphics, Patterns and Images (SIBGRAPI 2020)'],
         link: [{title: 'Abstract', url: visnoteAbstract}],
+        section: 'Articles'
     },
     {
         title: 'Topic Modelling Brazilian Supreme Court Lawsuits',
         content: ['• Pedro H. Luz de Araujo • Teófilo E. de Campos', '33rd International Conference on Legal Knowledge and Information Systems (JURIX 2020)'],
         link: [{title: 'PDF', url: araujo}],
+        section: 'Articles'
     },
     {
         title: 'Inferring The Source Of Official Texts: Can SVM Beat ULMFiT?',
@@ -56,6 +60,7 @@ const publicationsList = [
             {title: 'PDF', url: 'https://cic.unb.br/~teodecampos/KnEDLe/propor2020/luz_de_araujo_etal_propor2020.pdf'},
             {title: 'All', url: 'https://cic.unb.br/~teodecampos/KnEDLe/propor2020/'}
         ],
+        section: 'Articles'
     },
     {
         title: 'Victor: A Dataset For Brazilian Legal Documents Classification',
@@ -65,11 +70,13 @@ const publicationsList = [
             {title: 'PDF', url: 'https://cic.unb.br/~teodecampos/ViP/lrec/luz_etal_lrec2020.pdf'},
             {title: 'All', url: 'https://cic.unb.br/~teodecampos/ViP/lrec/'}
         ],
+        section: 'Articles'
     },
     {
         title: 'KnEDLe/NIDO Project Partial Technical Report 1',
         content: ['• Teófilo E. de Campos • Thiago de Paulo Faleiros • Vinícius R. P. Borges • Isaque Alves • Carolina Alves Okimoto'],
         link: [{title: 'PDF', url: 'https://cic.unb.br/~teodecampos/KnEDLe/reports/knedle_release_1.pdf'}],
+        section: 'Technical Reports'
     },
     {
         title: 'The Information Bottleneck Theory Of Deep Learning',
@@ -82,7 +89,8 @@ const publicationsList = [
         link: [
             {title: 'MSc qualification report (33.7MB)', url: 'https://cic.unb.br/~teodecampos/fred_guth/guth_msc_qualify_unb_2020.pdf'},
             {title: 'Slides (8.5MB)', url: 'https://cic.unb.br/~teodecampos/fred_guth/guth_msc_qualify_unb_2020_slides.pdf'}
-        ]
+        ],
+        section: 'Dissertations'
     },
     {
         title: 'From Documents To Entities: A Journey Through Natural Language Processing Tasks And Domains',
@@ -96,7 +104,8 @@ const publicationsList = [
             {title: 'MSc qualification report (882KB)', url: 'https://cic.unb.br/~teodecampos/peluz/luz_de_araujo_MSc_qualify.pdf'},
             {title: 'Slides (1.5MB)', url: 'https://cic.unb.br/~teodecampos/peluz/luz_de_araujo_MSc_qualify_slides.pdf'},
             {title: 'All', url: 'https://cic.unb.br/~teodecampos/peluz/'}
-        ]
+        ],
+        section: 'Dissertations'
     },
 ]
 

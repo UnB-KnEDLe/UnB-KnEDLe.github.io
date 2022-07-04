@@ -66,31 +66,6 @@ const teachers = [
             lattes: 'http://lattes.cnpq.br/1841593572448050'
         }
     },
-    
-    {
-        name: 'Fabrício Ataides Braz',
-        avatar: aProfFabricio,
-        descr: {
-            resume: 'Doutor em Engenharia Elétrica',
-            email: 'fabraz@unb.br',
-            github: 'https://github.com/fabraz',
-            page: 'http://softwareseguro.blogspot.com/',
-            badge: 'Professor Adjunto - UnB',
-            lattes: 'http://lattes.cnpq.br/1700216932505005'
-        }
-    },
-    {
-        name: 'Nilton Correia da Silva',
-        avatar: aProfNilton,
-        descr: {
-            resume: 'Doutor em Processamento de Dados e Análise Ambiental',
-            email: 'niltoncs@unb.br',
-            page: 'http://fga.unb.br/nilton.silva',
-            github: 'https://github.com/fabraz',
-            badge: 'Professor Adjunto - UnB',
-            lattes: 'http://lattes.cnpq.br/5916642485883241'
-        }
-    },
     {
         name: 'Luis Paulo',
         avatar: aProfLuis,
@@ -350,6 +325,30 @@ const students = [
 ]
 
 const exStudents = [
+    {
+        name: 'Fabrício Ataides Braz',
+        avatar: aProfFabricio,
+        descr: {
+            resume: 'Doutor em Engenharia Elétrica',
+            email: 'fabraz@unb.br',
+            github: 'https://github.com/fabraz',
+            page: 'http://softwareseguro.blogspot.com/',
+            badge: 'Professor Adjunto - UnB',
+            lattes: 'http://lattes.cnpq.br/1700216932505005'
+        }
+    },
+    {
+        name: 'Nilton Correia da Silva',
+        avatar: aProfNilton,
+        descr: {
+            resume: 'Doutor em Processamento de Dados e Análise Ambiental',
+            email: 'niltoncs@unb.br',
+            page: 'http://fga.unb.br/nilton.silva',
+            github: 'https://github.com/fabraz',
+            badge: 'Professor Adjunto - UnB',
+            lattes: 'http://lattes.cnpq.br/5916642485883241'
+        }
+    },
     {
         name: 'Teófilo Emídio de Campos',
         avatar: aProfTeofilo,

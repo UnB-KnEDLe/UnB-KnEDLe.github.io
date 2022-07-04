@@ -9,6 +9,30 @@ import release_3 from '../../assets/papers/Relat_rio_KnEDLe___release_3.pdf';
 
 const publicationsList = [
     {
+        title: 'Data Augmented 3D Semantic Scene Completion With 2D Segmentation Priors',
+        content: [
+            '• Aloisio Dourado • Frederico Guth • Teófilo E. de Campos',
+            'IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2022'
+        ],
+        link: [{title: 'Link', url: 'https://openaccess.thecvf.com/content/WACV2022/html/Dourado_Data_Augmented_3D_Semantic_Scene_Completion_With_2D_Segmentation_Priors_WACV_2022_paper.html'}],
+        section: 'Articles'
+    },
+    {
+        title: 'Learn by Guessing: Multi-step Pseudo-label Refinement for Person Re-Identification',
+        content: [
+            '• Tiago de C. G. Pereira • Teófilo E. de Campos',
+            '17th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Aplications'
+        ],
+        link: [{title: 'Link', url: 'https://www.insticc.org/node/TechnicalProgram/visigrapp/2022/presentationDetails/108435'}],
+        section: 'Articles'
+    },
+    {
+        title: 'KnEDLe/NIDO Project Partial Technical Report 4',
+        content: ['• Vinícius R. P. Borges • Thiago de Paulo Faleiros • Fabrício A. Braz • Nilton Correia Silva • Carolina Alves Okimoto • Alice Borges • Luís P. F. Garcia • Marcelo Mandelli'],
+        link: [{title: 'PDF', url: 'https://github.com/UnB-KnEDLe/viabilidade-tecnica/blob/main/Relat_rio_KnEDLe___release_4.pdf'}],
+        section: 'Technical Reports'
+    },
+    {
         title: 'KnEDLe/NIDO Project Partial Technical Report 3',
         content: ['• Tatiana Franco Pereira • Matheus Stauffer Viana de Oliveira  • Isaque Alves • Vinícius R. P. Borges • Thiago de Paulo Faleiros • Fabrício A. Braz • Nilton Correia Silva • Carolina Alves Okimoto • Teófilo E. de Campos'],
         link: [{title: 'PDF', url: release_3}],

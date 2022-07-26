@@ -38,10 +38,10 @@ export default function Events(props) {
     return dateArray.join(t(" / "));
   }
 
-  if (slide < 0) 
+  if (slide < 0)
     setSlide(eventsList.length - 1)
 
-  if (slide >= eventsList.length) 
+  if (slide >= eventsList.length)
     setSlide(0)
 
   return (
@@ -69,7 +69,7 @@ export default function Events(props) {
                   <div className="event-left">
                     <h2>{event.title}</h2>
                     <div className="events-btn">
-                      {event.button.map((button) => {
+                      {event.button && event.button.map((button) => {
                         return (
                           <a href={button.url}>
                             <button className="btn">

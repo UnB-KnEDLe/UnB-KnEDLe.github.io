@@ -14,7 +14,7 @@ export default function Members(props){
                 <FlexImages list={teachers}/>
                 <FlexImages list={students}/>
 
-                <h2>Ex-Members</h2>
+                <h2>{t('Collaborators')}</h2>
                 <FlexImages list={exStudents}/>
             </div>
         </section>

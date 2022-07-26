@@ -4,6 +4,9 @@ import aProfThiago from '../../assets/img/time/aProfThiago.jpg';
 import aProfFabricio from '../../assets/img/time/aProfFabricio.jpg';
 import aProfNilton from '../../assets/img/time/aProfNilton.jpg';
 import aProfLuis from '../../assets/img/time/aLuizPaulo.jpg';
+import aAndreiQueiroz from '../../assets/img/time/aAndreiQueiroz.jpg';
+import aRicardoMarcacini from '../../assets/img/time/aRicardoMarcacini.png';
+import aMarceloMandelli from '../../assets/img/time/aMarceloMandelli.jpeg';
 
 import aLindebergPessoa from '../../assets/img/time/aLindebergPessoa.jpg';
 import aPatriciaMedyna from '../../assets/img/time/aPatriciaMedyna.jpg';
@@ -32,6 +35,10 @@ import aLuceliaVieira from '../../assets/img/time/aLuceliaVieira.jpg';
 import aGabrielNogueira from '../../assets/img/time/aGabrielNogueira.jpg';
 import aGabrielCiriatico from '../../assets/img/time/aGabrielCiriatico.jpg';
 import aManuelaMatos from '../../assets/img/time/aManuelaMatos.jpeg';
+import aMaicon from '../../assets/img/time/aMaicon.jpeg';
+import aAliceLima from '../../assets/img/time/aAliceLima.jpeg';
+import aLuisFernando from '../../assets/img/time/aLuisFernando.jpeg';
+import aArturHugo from '../../assets/img/time/aArturHugo.jpeg';
 
 import aDaviAlves from '../../assets/img/time/aDaviAlves.jpg';
 import aFelipeCampos from '../../assets/img/time/aFelipeCampos.jpg';
@@ -74,47 +81,47 @@ const teachers = [
             email: 'luis.garcia@unb.br',
             linkedin: 'https://www.linkedin.com/in/lu%C3%ADs-paulo-faina-garcia-60b87b7/',
             github: 'https://github.com/lpfgarcia',
-            // badge: 'Aluno da Graduação - UnB',
+            badge: 'Professor Adjunto - UnB',
             lattes: 'http://lattes.cnpq.br/1607852138156562'
+        }
+    },
+    {
+        name: 'Andrei Lima Queiroz',
+        avatar: aAndreiQueiroz,
+        descr: {
+            resume: 'Doutorando em Computação',
+            email: 'andreiqueiroz@unb.br',
+            github: 'https://github.com/andlq',
+            badge: 'Analista de Tecnologia da Informação - UnB',
+            lattes: 'http://lattes.cnpq.br/9528925102946015'
+        }
+    },
+    {
+        name: 'Ricardo Marcondes Marcacin',
+        avatar: aRicardoMarcacini,
+        descr: {
+            resume: 'Doutor em Ciência da Computação',
+            email: 'rmm@icmc.usp.br',
+            github: 'https://github.com/rmarcacini',
+            badge: 'Professor Adjunto - USP',
+            lattes: 'http://lattes.cnpq.br/3272611282260295'
+        }
+    },
+    {
+        name: 'Marcelo Grandi Mandelli',
+        avatar: aMarceloMandelli,
+        descr: {
+            resume: 'Doutor em Ciência da Computação',
+            email: 'mgmandelli@unb.br',
+            github: 'https://github.com/mgmandelli',
+            badge: 'Professor Adjunto - UnB',
+            lattes: 'http://lattes.cnpq.br/9131118431418928'
         }
     },
 ]
 
 const students = [
-    {
-        name: 'Lindeberg Pessoa Leite',
-        avatar: aLindebergPessoa,
-        descr: {
-            resume: 'Doutorando em Informática',
-            email: 'lindpessoa@gmail.com',
-            linkedin: 'https://www.linkedin.com/in/lindeberg-leite-029618aa/',
-            badge: 'Perito Criminal Federal',
-            lattes: 'http://lattes.cnpq.br/5942436715284954'
-        }
-    },
-    {
-        name: 'Patrícia Medyna Drumond',
-        avatar: aPatriciaMedyna,
-        descr: {
-            resume: 'Doutoranda em Informática',
-            email: 'patriciamedyna@gmail.com',
-            linkedin: 'https://www.linkedin.com/in/patricia-drumond-285b5231/',
-            badge: ' Professora Adjunta II - UFPI',
-            lattes: 'http://lattes.cnpq.br/4139401241377019'
-        }
-    },
-    {
-        name: 'José Reinaldo Neto',
-        avatar: aJoseReinaldo,
-        descr: {
-            resume: 'Mestrando em Ciência da Computação',
-            email: 'josereinaldoneto@gmail.com',
-            linkedin: 'https://www.linkedin.com/in/jos%C3%A9-reinaldo-neto-630457b9/',
-            github: 'https://github.com/avio11',
-            badge: 'Aluno de Mestrado - UnB',
-            lattes: 'http://lattes.cnpq.br/2808772465575284'
-        }
-    },
+
     {
         name: 'Micael Filipe Ribeiro de Lima',
         avatar: aMicaelFilipe,
@@ -186,17 +193,6 @@ const students = [
         }
     },
     {
-        name: 'Tatiana Franco Pereira',
-        avatar: aTatianaFranco,
-        descr: {
-            resume: 'Graduanda em Ciência da Computação',
-            email: 'fpereira.tatiana@gmail.com',
-            linkedin: 'https://www.linkedin.com/in/tatiana-franco-pereira/',
-            badge: 'Aluna da Graduação - UnB',
-            lattes: 'http://lattes.cnpq.br/6503681647703666'
-        }
-    },
-    {
         name: 'Thais Rebouças Araujo',
         avatar: aThaisReboucas,
         descr: {
@@ -206,17 +202,6 @@ const students = [
             github: 'https://github.com/Thais-ra',
             badge: 'Aluna da Graduação - UnB',
             lattes: 'http://lattes.cnpq.br/1986622079746658'
-        }
-    },
-    {
-        name: 'Vitor Araruna',
-        avatar: aVitorAraruna,
-        descr: {
-            resume: 'Graduando em Ciência da Computação',
-            email: 'contato.vitorararuna@gmail.com',
-            linkedin: 'https://www.linkedin.com/in/vitorararuna/',
-            github: 'https://github.com/vitorararuna',
-            badge: 'Aluno da Graduação - UnB',
         }
     },
     {
@@ -322,6 +307,49 @@ const students = [
             lattes: 'http://lattes.cnpq.br/3703349431990018'
         }
     },
+    {
+        name: 'Maicon Queiroz',
+        avatar: aMaicon,
+        descr: {
+            resume: 'Graduando em Engenharia de Software',
+            email: 'nociamrq27@gmail.com',
+            github: 'https://github.com/Maiconrq',
+            badge: 'Aluno da Graduação - UnB',
+        }
+    },
+    {
+        name: 'Alice Lima',
+        avatar: aAliceLima,
+        descr: {
+            resume: 'Graduanda em Ciência da Computação',
+            email: 'alice.lima@aluno.unb.br',
+            linkedin: 'https://www.linkedin.com/in/alice-s-lima/',
+            github: 'https://github.com/alice7lima',
+            badge: 'Aluna da Graduação - UnB',
+        }
+    },
+    {
+        name: 'Luís Fernando',
+        avatar: aLuisFernando,
+        descr: {
+            resume: 'Graduando em Engenharia de Redes',
+            email: 'contato.vitorararuna@gmail.com',
+            linkedin: 'https://www.linkedin.com/in/devthumos/',
+            github: 'https://github.com/devthumos',
+            badge: 'Aluno da Graduação - UnB',
+        }
+    },
+    {
+        name: 'Artur Hugo',
+        avatar: aArturHugo,
+        descr: {
+            resume: 'Graduando em Engenharia de Computação',
+            email: 'arturhcpereira@aluno.unb.br',
+            linkedin: 'https://www.linkedin.com/in/arturhcpereira/',
+            github: 'https://github.com/ArturHugo',
+            badge: 'Aluno da Graduação - UnB',
+        }
+    },
 ]
 
 const exStudents = [
@@ -359,6 +387,62 @@ const exStudents = [
             page: 'https://cic.unb.br/~teodecampos/',
             badge: 'Professor Adjunto - UnB',
             lattes: 'http://lattes.cnpq.br/5052452346402051'
+        }
+    },
+    {
+        name: 'Lindeberg Pessoa Leite',
+        avatar: aLindebergPessoa,
+        descr: {
+            resume: 'Doutorando em Informática',
+            email: 'lindpessoa@gmail.com',
+            linkedin: 'https://www.linkedin.com/in/lindeberg-leite-029618aa/',
+            badge: 'Perito Criminal Federal',
+            lattes: 'http://lattes.cnpq.br/5942436715284954'
+        }
+    },
+    {
+        name: 'Patrícia Medyna Drumond',
+        avatar: aPatriciaMedyna,
+        descr: {
+            resume: 'Doutoranda em Informática',
+            email: 'patriciamedyna@gmail.com',
+            linkedin: 'https://www.linkedin.com/in/patricia-drumond-285b5231/',
+            badge: ' Professora Adjunta II - UFPI',
+            lattes: 'http://lattes.cnpq.br/4139401241377019'
+        }
+    },
+    {
+        name: 'José Reinaldo Neto',
+        avatar: aJoseReinaldo,
+        descr: {
+            resume: 'Mestrando em Ciência da Computação',
+            email: 'josereinaldoneto@gmail.com',
+            linkedin: 'https://www.linkedin.com/in/jos%C3%A9-reinaldo-neto-630457b9/',
+            github: 'https://github.com/avio11',
+            badge: 'Aluno de Mestrado - UnB',
+            lattes: 'http://lattes.cnpq.br/2808772465575284'
+        }
+    },
+    {
+        name: 'Tatiana Franco Pereira',
+        avatar: aTatianaFranco,
+        descr: {
+            resume: 'Graduanda em Ciência da Computação',
+            email: 'fpereira.tatiana@gmail.com',
+            linkedin: 'https://www.linkedin.com/in/tatiana-franco-pereira/',
+            badge: 'Aluna da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/6503681647703666'
+        }
+    },
+    {
+        name: 'Vitor Araruna',
+        avatar: aVitorAraruna,
+        descr: {
+            resume: 'Graduando em Ciência da Computação',
+            email: 'contato.vitorararuna@gmail.com',
+            linkedin: 'https://www.linkedin.com/in/vitorararuna/',
+            github: 'https://github.com/vitorararuna',
+            badge: 'Aluno da Graduação - UnB',
         }
     },
     {

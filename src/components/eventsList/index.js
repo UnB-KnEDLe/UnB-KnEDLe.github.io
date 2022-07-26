@@ -1,5 +1,26 @@
 const eventsList = [
   {
+    title: "V Workshop",
+    button: [
+      {
+        title: "Click here to join the meeting",
+        url: "https://bit.ly/workshop_nido",
+      },
+    ],
+
+    comment:
+      "This event will take place on July 29, 2022, and the meeting can be accessed via the link above",
+    date: new Date(2022, 7, 29),
+    schedule: [
+      "14h00 - Opening - Thiago Faleiros",
+      "14h10 - Knedash - Luís Paulo",
+      "14h30 - Label Studio - Gabriel Nogueira | Vitor Vasconcelos",
+      "14h50 - DODFKge - Rafael Amaral",
+      "15h10 - Bids and Contracts - Andrei Queiroz",
+      "15h30 - Discussions and Closing",
+    ],
+  },
+  {
     title: "IV Workshop",
     button: [
       {

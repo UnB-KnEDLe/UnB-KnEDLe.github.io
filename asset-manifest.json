@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ccbc3083.chunk.css",
-    "main.js": "/static/js/main.bf71fe54.chunk.js",
-    "main.js.map": "/static/js/main.bf71fe54.chunk.js.map",
+    "main.js": "/static/js/main.ce0dc857.chunk.js",
+    "main.js.map": "/static/js/main.ce0dc857.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b9b87e3d.js",
     "runtime-main.js.map": "/static/js/runtime-main.b9b87e3d.js.map",
     "static/js/2.9062ba0d.chunk.js": "/static/js/2.9062ba0d.chunk.js",
@@ -18,6 +18,8 @@
     "static/media/Relat_rio_KnEDLe___release_3.1647061d.pdf": "/static/media/Relat_rio_KnEDLe___release_3.1647061d.pdf",
     "static/media/VisNote_Abstract.203c6fe7.pdf": "/static/media/VisNote_Abstract.203c6fe7.pdf",
     "static/media/aAliceBorges.89790089.jpg": "/static/media/aAliceBorges.89790089.jpg",
+    "static/media/aAliceLima.143ab9e7.jpeg": "/static/media/aAliceLima.143ab9e7.jpeg",
+    "static/media/aAndreiQueiroz.be3a9f3f.jpg": "/static/media/aAndreiQueiroz.be3a9f3f.jpg",
     "static/media/aArturZorron.9e42ff39.jpg": "/static/media/aArturZorron.9e42ff39.jpg",
     "static/media/aCarolinaAlves.4c09b1a1.jpg": "/static/media/aCarolinaAlves.4c09b1a1.jpg",
     "static/media/aDanielSousa.5e195788.jpg": "/static/media/aDanielSousa.5e195788.jpg",
@@ -40,7 +42,9 @@
     "static/media/aLindebergPessoa.2dddd847.jpg": "/static/media/aLindebergPessoa.2dddd847.jpg",
     "static/media/aLiviaGomes.1d0c374e.jpg": "/static/media/aLiviaGomes.1d0c374e.jpg",
     "static/media/aLuceliaVieira.046786fb.jpg": "/static/media/aLuceliaVieira.046786fb.jpg",
+    "static/media/aLuisFernando.19a6a3b2.jpeg": "/static/media/aLuisFernando.19a6a3b2.jpeg",
     "static/media/aLuizPaulo.90d4fdaf.jpg": "/static/media/aLuizPaulo.90d4fdaf.jpg",
+    "static/media/aMaicon.b14f66c0.jpeg": "/static/media/aMaicon.b14f66c0.jpeg",
     "static/media/aManuelaMatos.9e85b60a.jpeg": "/static/media/aManuelaMatos.9e85b60a.jpeg",
     "static/media/aMariaEduarda.8278781a.jpg": "/static/media/aMariaEduarda.8278781a.jpg",
     "static/media/aMatheusStauffer.6f5924b7.jpg": "/static/media/aMatheusStauffer.6f5924b7.jpg",
@@ -53,6 +57,7 @@
     "static/media/aProfThiago.c185a6ce.jpg": "/static/media/aProfThiago.c185a6ce.jpg",
     "static/media/aRafaelAmaral.71f8a196.jpg": "/static/media/aRafaelAmaral.71f8a196.jpg",
     "static/media/aRenatoAvellar.522cf152.jpg": "/static/media/aRenatoAvellar.522cf152.jpg",
+    "static/media/aRicardoMarcacini.1ee897a1.png": "/static/media/aRicardoMarcacini.1ee897a1.png",
     "static/media/aTatianaFranco.3ccb1765.jpg": "/static/media/aTatianaFranco.3ccb1765.jpg",
     "static/media/aThaisReboucas.68bd82eb.jpg": "/static/media/aThaisReboucas.68bd82eb.jpg",
     "static/media/aVitorAraruna.5dd7b7e2.jpg": "/static/media/aVitorAraruna.5dd7b7e2.jpg",
@@ -74,6 +79,6 @@
     "static/js/runtime-main.b9b87e3d.js",
     "static/js/2.9062ba0d.chunk.js",
     "static/css/main.ccbc3083.chunk.css",
-    "static/js/main.bf71fe54.chunk.js"
+    "static/js/main.ce0dc857.chunk.js"
   ]
 }

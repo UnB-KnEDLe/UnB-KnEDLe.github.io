@@ -12,7 +12,7 @@ const eventsList = [
       "This event will take place on July 29, 2022, and the meeting can be accessed via the link above.",
     subscription: [
       {
-        text:"Subscription for KnEDLe Project V Workshop -- Subscription is required to obtain the certificate issued by the TCDF",
+        text:"Subscription for KnEDLe Project V Workshop. Subscription is required to obtain the certificate issued by the TCDF",
         url:"https://escon.tc.df.gov.br/cursos/novo/evento/visualizar/1209"
       }
     ],

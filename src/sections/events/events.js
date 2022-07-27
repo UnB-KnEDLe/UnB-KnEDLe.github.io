@@ -84,9 +84,9 @@ export default function Events(props) {
                     {event.subscription && event.subscription.map((subscription)=>{
                       return (
                         <div>
-                          <p className="description">{subscription.text}</p>
+                          <p className="description">{t(subscription.text)}</p>
                           <a href={subscription.url}>
-                            Subscribe
+                            {t("Subscribe")}
                           </a>
                         </div>
                       );

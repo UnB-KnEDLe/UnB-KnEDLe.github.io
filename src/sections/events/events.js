@@ -81,6 +81,16 @@ export default function Events(props) {
                     </div>
                     <h3 className="event-date">{convertDate(event.date)}</h3>
                     <h4 className="description">{t(event.comment)}</h4>
+                    {event.subscription && event.subscription.map((subscription)=>{
+                      return (
+                        <div>
+                          <p className="description">{subscription.text}</p>
+                          <a href={subscription.url}>
+                            Subscribe
+                          </a>
+                        </div>
+                      );
+                    })}
                   </div>
                   <ul>
                     {event.schedule.map(function (event) {

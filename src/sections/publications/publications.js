@@ -14,7 +14,7 @@ export default function Publications(props){
     const [ showAll, setShowAll ] = useState(false)
     const [ section, setSection ] = useState('Articles')
     const [ publications, setPublications ] = useState(publicationsList.filter(publication => publication.section === section))
-    
+
     useEffect(() => {
         if(section === 'Todos') {
             setPublications(publicationsList);
@@ -34,7 +34,7 @@ export default function Publications(props){
                                 <li className="publication-item card" key={index}>
                                     <h3>{item?.title}</h3>
                                     {item?.content.map(contentEl => {return (<p>{contentEl}</p>)})}
-                                    {item?.link.map(linkEl => 
+                                    {item?.link.map(linkEl =>
                                         <a href={linkEl.url} rel="noreferrer" target="_blank">
                                             <button className="btn">{linkEl.title}</button>
                                         </a>
@@ -63,7 +63,7 @@ export default function Publications(props){
                                 <li className="publication-item card" key={index}>
                                     <h3>{item?.title}</h3>
                                     {item?.content.map(contentEl => {return (<p>{contentEl}</p>)})}
-                                    {item?.link.map(linkEl => 
+                                    {item?.link.map(linkEl =>
                                         <a href={linkEl.url} rel="noreferrer" target="_blank">
                                             <button className="btn">{linkEl.title}</button>
                                         </a>

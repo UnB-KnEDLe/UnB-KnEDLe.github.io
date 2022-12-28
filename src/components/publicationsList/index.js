@@ -9,6 +9,24 @@ import release_3 from '../../assets/papers/Relat_rio_KnEDLe___release_3.pdf';
 
 const publicationsList = [
     {
+        title: 'KnEDLe/NIDO Project Partial Technical Report 5',
+        content: ['• Thiago de Paulo Faleiros • Vinícius R. P. Borges • Luís P. F. Garcia • Carolina Alves Okimoto • Ricardo Marcacini • Andrei Lima Queiroz • Alice Borges'],
+        link: [{title: 'PDF', url: 'https://github.com/UnB-KnEDLe/viabilidade-tecnica/blob/main/Relat_rio_KnEDLe___release_5.pdf'}],
+        section: 'Technical Reports'
+    },
+    {
+        title: 'Named Entity Recognition Approaches Applied to Legal Document Segmentation.',
+        content: ['SILVA, F. ; GUIMARAES, G. ; QUEIROZ, A. ; BORGES, V. R. P. ; FALEIROS, THIAGO ; GARCIA, L. ; MARCACIN, R. M. ', 'In: Symposium on Knowledge Discovery, Mining and Learning -- KDMILE 22, 2022.'],
+        link: [],
+        section: 'Articles'
+    },
+    {
+        title: 'On the use of Query by Committee for Human-in-the-Loop Named Entity Recognition.',
+        content: ['NOGUEIRA, G. S.; OLIVEIRA, V. V.; MARCACINI, R.', 'In: Symposium on Knowledge Discovery, Mining and Learning -- KDMILE 22, 2022.'],
+        link: [],
+        section: 'Articles'
+    },
+    {
         title: 'Data Augmented 3D Semantic Scene Completion With 2D Segmentation Priors',
         content: [
             '• Aloisio Dourado • Frederico Guth • Teófilo E. de Campos',
@@ -131,7 +149,7 @@ const publicationsList = [
         ],
         section: 'Dissertations'
     },
+
 ]
 
 export default publicationsList;
-

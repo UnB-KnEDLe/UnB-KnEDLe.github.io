@@ -41,6 +41,7 @@ import aLuisFernando from '../../assets/img/time/aLuisFernando.jpeg';
 import aArturHugo from '../../assets/img/time/aArturHugo.jpeg';
 import aBrunoEsteves from '../../assets/img/time/aBrunoEsteves.jpeg';
 import aVictorHugo from '../../assets/img/time/aVictorHugo.jpeg';
+import aLucasABM from '../../assets/img/time/aLucasABM.jpeg';
 
 import aDaviAlves from '../../assets/img/time/aDaviAlves.jpg';
 import aFelipeCampos from '../../assets/img/time/aFelipeCampos.jpg';
@@ -320,7 +321,7 @@ const students = [
     },
     {
         name: 'Lucas de Almeida Bandeira',
-        avatar: aVictorHugo,
+        avatar: aLucasABM,
         descr: {
             resume: 'Graduando em Ciência da Computação',
             email: 'almeida.bandeira@aluno.unb.br',

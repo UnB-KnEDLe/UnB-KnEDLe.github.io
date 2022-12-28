@@ -39,6 +39,8 @@ import aMaicon from '../../assets/img/time/aMaicon.jpeg';
 import aAliceLima from '../../assets/img/time/aAliceLima.jpeg';
 import aLuisFernando from '../../assets/img/time/aLuisFernando.jpeg';
 import aArturHugo from '../../assets/img/time/aArturHugo.jpeg';
+import aBrunoEsteves from '../../assets/img/time/aBrunoEsteves.jpeg';
+import aVictorHugo from '../../assets/img/time/aVictorHugo.jpeg';
 
 import aDaviAlves from '../../assets/img/time/aDaviAlves.jpg';
 import aFelipeCampos from '../../assets/img/time/aFelipeCampos.jpg';
@@ -193,18 +195,6 @@ const students = [
         }
     },
     {
-        name: 'Thais Rebouças Araujo',
-        avatar: aThaisReboucas,
-        descr: {
-            resume: 'Graduanda em Engenharia de Software',
-            email: 'thaysreb@gmail.com',
-            linkedin: 'https://www.linkedin.com/in/thais-rebou%C3%A7as-643906174/',
-            github: 'https://github.com/Thais-ra',
-            badge: 'Aluna da Graduação - UnB',
-            lattes: 'http://lattes.cnpq.br/1986622079746658'
-        }
-    },
-    {
         name: 'Jônatas Gomes',
         avatar: aJonatasGomes,
         descr: {
@@ -217,17 +207,6 @@ const students = [
         }
     },
     {
-        name: 'Rafael Amaral',
-        avatar: aRafaelAmaral,
-        descr: {
-            resume: 'Graduando em Ciência da Computação',
-            email: 'amarals16@hotmail.com',
-            github: 'https://github.com/notopoloko',
-            badge: 'Aluno da Graduação - UnB',
-            lattes: 'http://lattes.cnpq.br/8939995054167023'
-        }
-    },
-    {
         name: 'Vitor Vasconcelos',
         avatar: aVitorVasconcelos,
         descr: {
@@ -237,18 +216,6 @@ const students = [
             github: 'https://github.com/VitorVVO',
             badge: 'Aluno da Graduação - UnB',
             lattes: 'http://lattes.cnpq.br/6832480867808781'
-        }
-    },
-    {
-        name: 'Larissa Andrade',
-        avatar: aLarissaAndrade,
-        descr: {
-            resume: 'Graduando em Ciência da Computação',
-            email: 'lari1415@hotmail.com',
-            linkedin: 'https://www.linkedin.com/in/larissa-santana-de-freitas-andrade-175165187/',
-            github: 'https://github.com/Lary15',
-            badge: 'Aluna da Graduação - UnB',
-            lattes: 'http://lattes.cnpq.br/7021320053516597'
         }
     },
     {
@@ -276,17 +243,6 @@ const students = [
         }
     },
     {
-        name: 'Manuela M. C. de Souza',
-        avatar: aManuelaMatos,
-        descr: {
-            resume: 'Graduanda em Ciência da Computação',
-            github: 'https://github.com/munak98',
-            badge: 'Aluna da Graduação - UnB',
-            lattes: 'http://lattes.cnpq.br/5559167231469764',
-            orcid: 'https://orcid.org/0000-0002-8858-579X'
-        }
-    },
-    {
         name: 'Gabriel Nogueira',
         avatar: aGabrielNogueira,
         descr: {
@@ -305,16 +261,6 @@ const students = [
             github: 'https://github.com/ciriatico',
             badge: 'Aluno da Graduação - UnB',
             lattes: 'http://lattes.cnpq.br/3703349431990018'
-        }
-    },
-    {
-        name: 'Maicon Queiroz',
-        avatar: aMaicon,
-        descr: {
-            resume: 'Graduando em Engenharia de Software',
-            email: 'nociamrq27@gmail.com',
-            github: 'https://github.com/Maiconrq',
-            badge: 'Aluno da Graduação - UnB',
         }
     },
     {
@@ -347,6 +293,39 @@ const students = [
             email: 'arturhcpereira@aluno.unb.br',
             linkedin: 'https://www.linkedin.com/in/arturhcpereira/',
             github: 'https://github.com/ArturHugo',
+            badge: 'Aluno da Graduação - UnB',
+        }
+    },
+    {
+        name: 'Bruno Esteves',
+        avatar: aBrunoEsteves,
+        descr: {
+            resume: 'Graduando em Ciência da Computação',
+            email: 'bruno.dalla@aluno.unb.br',
+            linkedin: 'https://www.linkedin.com/in/brunoedcf/',
+            github: 'https://github.com/brunoedcf',
+            badge: 'Aluno da Graduação - UnB',
+        }
+    },
+    {
+        name: 'Victor Hugo Lisboa',
+        avatar: aVictorHugo,
+        descr: {
+            resume: 'Graduando em Ciência da Computação',
+            email: 'victor.lisboa@aluno.unb.br',
+            linkedin: 'https://www.linkedin.com/in/victorhugoflisboa/',
+            github: 'https://github.com/victorlisboa',
+            badge: 'Aluno da Graduação - UnB',
+        }
+    },
+    {
+        name: 'Lucas de Almeida Bandeira',
+        avatar: aVictorHugo,
+        descr: {
+            resume: 'Graduando em Ciência da Computação',
+            email: 'almeida.bandeira@aluno.unb.br',
+            linkedin: 'https://www.linkedin.com/in/lucasabm/',
+            github: 'https://github.com/ABMHub',
             badge: 'Aluno da Graduação - UnB',
         }
     },
@@ -610,7 +589,63 @@ const exStudents = [
             badge: 'Aluna da Graduação - UnB',
             lattes: 'http://lattes.cnpq.br/4924609011551885'
         }
-    }
+    },
+    {
+        name: 'Maicon Queiroz',
+        avatar: aMaicon,
+        descr: {
+            resume: 'Graduando em Engenharia de Software',
+            email: 'nociamrq27@gmail.com',
+            github: 'https://github.com/Maiconrq',
+            badge: 'Aluno da Graduação - UnB',
+        }
+    },
+    {
+        name: 'Manuela M. C. de Souza',
+        avatar: aManuelaMatos,
+        descr: {
+            resume: 'Graduanda em Ciência da Computação',
+            github: 'https://github.com/munak98',
+            badge: 'Aluna da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/5559167231469764',
+            orcid: 'https://orcid.org/0000-0002-8858-579X'
+        }
+    },
+    {
+        name: 'Larissa Andrade',
+        avatar: aLarissaAndrade,
+        descr: {
+            resume: 'Graduando em Ciência da Computação',
+            email: 'lari1415@hotmail.com',
+            linkedin: 'https://www.linkedin.com/in/larissa-santana-de-freitas-andrade-175165187/',
+            github: 'https://github.com/Lary15',
+            badge: 'Aluna da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/7021320053516597'
+        }
+    },
+    {
+        name: 'Thais Rebouças Araujo',
+        avatar: aThaisReboucas,
+        descr: {
+            resume: 'Graduanda em Engenharia de Software',
+            email: 'thaysreb@gmail.com',
+            linkedin: 'https://www.linkedin.com/in/thais-rebou%C3%A7as-643906174/',
+            github: 'https://github.com/Thais-ra',
+            badge: 'Aluna da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/1986622079746658'
+        }
+    },
+    {
+        name: 'Rafael Amaral',
+        avatar: aRafaelAmaral,
+        descr: {
+            resume: 'Graduando em Ciência da Computação',
+            email: 'amarals16@hotmail.com',
+            github: 'https://github.com/notopoloko',
+            badge: 'Aluno da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/8939995054167023'
+        }
+    },
 ]
 
 export { teachers, students, exStudents }

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import { NavLink } from "react-router-dom"
 import logo from '../../assets/img/logo/logo_knedle.svg';
 import brFlag from '../../assets/img/iconBrasil.png'
 import usFlag from '../../assets/img/iconUK.png'
@@ -21,7 +21,7 @@ export default function Header(props){
         if(page) {
             offsetTop = document.querySelector('.' + page).offsetTop
         }
-        
+
         window.scrollTo({ top: offsetTop - 71, behavior: 'smooth' })
     }
 
@@ -36,10 +36,10 @@ export default function Header(props){
                         <FontAwesomeIcon icon={faCalendarWeek} />
                         {t('Events')}
                     </button>
-                    <button onClick={ () => scrollTo('publications') } className="navbar-item">
+                    <NavLink to='/publications' className="navbar-item">
                         <FontAwesomeIcon icon={faBookOpen} />
                         {t('Publications')}
-                    </button>
+                    </NavLink>
                     <button onClick={ () => scrollTo('dodfminer') } className="navbar-item">
                         <FontAwesomeIcon icon={faTools} />
                         {t('Toolbox')}
@@ -104,7 +104,7 @@ export default function Header(props){
                     </div>
                 </div>
             </div>
-            
+
         </header>
     )
 }

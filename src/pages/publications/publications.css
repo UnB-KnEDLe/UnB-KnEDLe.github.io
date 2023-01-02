@@ -1,0 +1,65 @@
+.publications-modal {
+    margin-top: 100px;
+    opacity: 1;
+}
+
+.publications-header {
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+
+.publications-content {
+    justify-content: center;
+}
+.publications {
+    padding-top: 100px;
+    height: auto;
+    margin-top: 0;
+}
+
+.publications-list {
+    list-style-type: none;
+    display: grid;
+    gap: 25px;
+    padding: 20px;
+}
+
+.publications-sections {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.publications-sections button {
+    font-weight: bold;
+}
+
+.publications-sections button.active {
+    background-color: #fa7a50;
+}
+
+.publication-item {
+    padding: 20px;
+}
+
+.publication-item a{
+    margin-right: 10px;
+}
+
+.publications-show-all {
+    display: flex;
+    padding: 15px;
+}
+
+.show-all-btn {
+    text-align: center;
+    margin: auto;
+}
+
+.show-all-btn a {
+    color: white;
+}

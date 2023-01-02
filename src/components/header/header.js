@@ -30,7 +30,7 @@ export default function Header(props){
     return (
         <header className={background ? "navbar" : "navbar no-bg"}>
             <div className="container navbar-content">
-                <button className="logo" onClick={ () => scrollTo() }><img src={logo} className="logo navbar-img" alt="logo" /></button>
+                <NavLink className="logo" to='/'><img src={logo} className="logo navbar-img" alt="logo" /></NavLink>
                 <div className="navbar-menu">
                     <button onClick={ () => scrollTo('events') } className="navbar-item">
                         <FontAwesomeIcon icon={faCalendarWeek} />

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.ccbc3083.chunk.css",
-    "main.js": "/static/js/main.9c3ecaaf.chunk.js",
-    "main.js.map": "/static/js/main.9c3ecaaf.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b9b87e3d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b9b87e3d.js.map",
-    "static/js/2.9062ba0d.chunk.js": "/static/js/2.9062ba0d.chunk.js",
-    "static/js/2.9062ba0d.chunk.js.map": "/static/js/2.9062ba0d.chunk.js.map",
-    "static/js/3.d8e39e47.chunk.js": "/static/js/3.d8e39e47.chunk.js",
-    "static/js/3.d8e39e47.chunk.js.map": "/static/js/3.d8e39e47.chunk.js.map",
+    "main.css": "/static/css/main.b7fb710e.chunk.css",
+    "main.js": "/static/js/main.4c50e2e2.chunk.js",
+    "main.js.map": "/static/js/main.4c50e2e2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1245b9a9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1245b9a9.js.map",
+    "static/js/2.d949cbc7.chunk.js": "/static/js/2.d949cbc7.chunk.js",
+    "static/js/2.d949cbc7.chunk.js.map": "/static/js/2.d949cbc7.chunk.js.map",
+    "static/js/3.357c9838.chunk.js": "/static/js/3.357c9838.chunk.js",
+    "static/js/3.357c9838.chunk.js.map": "/static/js/3.357c9838.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ccbc3083.chunk.css.map": "/static/css/main.ccbc3083.chunk.css.map",
-    "static/js/2.9062ba0d.chunk.js.LICENSE.txt": "/static/js/2.9062ba0d.chunk.js.LICENSE.txt",
+    "static/css/main.b7fb710e.chunk.css.map": "/static/css/main.b7fb710e.chunk.css.map",
+    "static/js/2.d949cbc7.chunk.js.LICENSE.txt": "/static/js/2.d949cbc7.chunk.js.LICENSE.txt",
     "static/media/8_Araujo.e7e417f4.pdf": "/static/media/8_Araujo.e7e417f4.pdf",
     "static/media/DODF.68053def.jpg": "/static/media/DODF.68053def.jpg",
     "static/media/Logo_UnB.2671f05f.svg": "/static/media/Logo_UnB.2671f05f.svg",
@@ -21,6 +21,7 @@
     "static/media/aAliceLima.143ab9e7.jpeg": "/static/media/aAliceLima.143ab9e7.jpeg",
     "static/media/aAndreiQueiroz.be3a9f3f.jpg": "/static/media/aAndreiQueiroz.be3a9f3f.jpg",
     "static/media/aArturZorron.9e42ff39.jpg": "/static/media/aArturZorron.9e42ff39.jpg",
+    "static/media/aBrunoEsteves.f8fab4df.jpeg": "/static/media/aBrunoEsteves.f8fab4df.jpeg",
     "static/media/aCarolinaAlves.4c09b1a1.jpg": "/static/media/aCarolinaAlves.4c09b1a1.jpg",
     "static/media/aDanielSousa.5e195788.jpg": "/static/media/aDanielSousa.5e195788.jpg",
     "static/media/aDaviAlves.566c2b93.jpg": "/static/media/aDaviAlves.566c2b93.jpg",
@@ -41,6 +42,7 @@
     "static/media/aLeonardoMaffei.18daedc3.jpg": "/static/media/aLeonardoMaffei.18daedc3.jpg",
     "static/media/aLindebergPessoa.2dddd847.jpg": "/static/media/aLindebergPessoa.2dddd847.jpg",
     "static/media/aLiviaGomes.1d0c374e.jpg": "/static/media/aLiviaGomes.1d0c374e.jpg",
+    "static/media/aLucasABM.5701389e.jpeg": "/static/media/aLucasABM.5701389e.jpeg",
     "static/media/aLuceliaVieira.046786fb.jpg": "/static/media/aLuceliaVieira.046786fb.jpg",
     "static/media/aLuisFernando.19a6a3b2.jpeg": "/static/media/aLuisFernando.19a6a3b2.jpeg",
     "static/media/aLuizPaulo.90d4fdaf.jpg": "/static/media/aLuizPaulo.90d4fdaf.jpg",
@@ -60,6 +62,7 @@
     "static/media/aRicardoMarcacini.1ee897a1.png": "/static/media/aRicardoMarcacini.1ee897a1.png",
     "static/media/aTatianaFranco.3ccb1765.jpg": "/static/media/aTatianaFranco.3ccb1765.jpg",
     "static/media/aThaisReboucas.68bd82eb.jpg": "/static/media/aThaisReboucas.68bd82eb.jpg",
+    "static/media/aVictorHugo.838ac558.jpeg": "/static/media/aVictorHugo.838ac558.jpeg",
     "static/media/aVitorAraruna.5dd7b7e2.jpg": "/static/media/aVitorAraruna.5dd7b7e2.jpg",
     "static/media/aVitorVasconcelos.7c0b8e27.jpg": "/static/media/aVitorVasconcelos.7c0b8e27.jpg",
     "static/media/backgroung2.bbcd5933.jpg": "/static/media/backgroung2.bbcd5933.jpg",
@@ -76,9 +79,9 @@
     "static/media/unb_logo_b.ac4ef56c.svg": "/static/media/unb_logo_b.ac4ef56c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b9b87e3d.js",
-    "static/js/2.9062ba0d.chunk.js",
-    "static/css/main.ccbc3083.chunk.css",
-    "static/js/main.9c3ecaaf.chunk.js"
+    "static/js/runtime-main.1245b9a9.js",
+    "static/js/2.d949cbc7.chunk.js",
+    "static/css/main.b7fb710e.chunk.css",
+    "static/js/main.4c50e2e2.chunk.js"
   ]
 }

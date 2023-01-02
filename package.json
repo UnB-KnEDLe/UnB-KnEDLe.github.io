@@ -19,7 +19,7 @@
     "react-parallax": "^3.3.0",
     "react-responsive-carousel": "^3.2.20",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "5.0.1",
     "react-use": "^17.2.4",
     "web-vitals": "^1.0.1"
   },

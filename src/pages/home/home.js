@@ -4,6 +4,7 @@ import Header from '../../components/header/header'
 import FrontPage from '../../sections/frontpage/frontpage'
 import About from '../../sections/about/about'
 import Events from '../../sections/events/events'
+import Publications from '../../sections/publications/publications'
 import DodfMiner from '../../sections/dodfminer/dodfminer'
 import Members from '../../sections/members/members'
 import Partners from '../../sections/partners/partners'
@@ -39,6 +40,7 @@ function Home({ t }) {
         <FrontPage translationFunction={t}/>
         <About translationFunction={t}/>
         <Events translationFunction={t}/>
+        <Publications translationFunction={t}/>
         <DodfMiner translationFunction={t}/>
         <Members translationFunction={t}/>
         <Partners translationFunction={t}/>

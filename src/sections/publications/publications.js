@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import publicationsList from '../../components/publicationsList'
 import Modal from '../../components/Modal/modal'
 
@@ -43,9 +44,9 @@ export default function Publications(props){
                             )
                         } else return null
                     })}
-                    <button onClick={ () => { setShowAll(true) }}className="btn show-all-btn">
+                    <Link to='/publications'className="btn show-all-btn">
                         {t("See all publications")}
-                    </button>
+                    </Link>
                 </ul>
                 <Modal showSignal={showAll} setShowSignal={setShowAll} >
                     <div className="publications-content">

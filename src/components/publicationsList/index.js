@@ -9,6 +9,12 @@ import release_3 from '../../assets/papers/Relat_rio_KnEDLe___release_3.pdf';
 
 const publicationsList = [
     {
+        title: 'Aprendizado de maquina para a sugestão automática de correções em anotações de dados textuais',
+        content: ['• Tatiana F. Pereira • Vinícius R. P. Borges'],
+        link: [{title: 'PDF', url: 'https://github.com/UnB-KnEDLe/viabilidade-tecnica/blob/main/PIBIC_2022___Relat_rio_Final___Tatiana.pdf'}, {title: 'certificate', url: 'https://proic.unb.br/images/Editais/2021_2022/Congresso2022/MencaoHonrosa/MencaoHonrosa-269.pdf'}],
+        section: 'PIBIC'
+    },
+    {
         title: 'KnEDLe/NIDO Project Partial Technical Report 5',
         content: ['• Thiago de Paulo Faleiros • Vinícius R. P. Borges • Luís P. F. Garcia • Carolina Alves Okimoto • Ricardo Marcacini • Andrei Lima Queiroz • Alice Borges'],
         link: [{title: 'PDF', url: 'https://github.com/UnB-KnEDLe/viabilidade-tecnica/blob/main/Relat_rio_KnEDLe___release_5.pdf'}],
@@ -17,7 +23,7 @@ const publicationsList = [
     {
         title: 'Named Entity Recognition Approaches Applied to Legal Document Segmentation.',
         content: ['SILVA, F. ; GUIMARAES, G. ; QUEIROZ, A. ; BORGES, V. R. P. ; FALEIROS, THIAGO ; GARCIA, L. ; MARCACIN, R. M. ', 'In: Symposium on Knowledge Discovery, Mining and Learning -- KDMILE 22, 2022.'],
-        link: [],
+        link: [{title:'certificate', url: 'https://github.com/UnB-KnEDLe/viabilidade-tecnica/blob/main/premio_felipe.jpeg'}],
         section: 'Articles'
     },
     {

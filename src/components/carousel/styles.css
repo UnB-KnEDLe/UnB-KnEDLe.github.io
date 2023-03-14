@@ -1,0 +1,80 @@
+.carousel {
+	width: 100%;
+	display: flex;
+	min-height: 300px;
+	justify-content: space-between;
+	/* padding: 0 40px; */
+}
+@media all and (max-width: 860px) {
+	.carousel-wrapper {
+		padding: 0 8px 48px 8px !important;
+		gap: 0px !important;
+	}
+	.carousel-slide {
+		margin: 16px 16px !important;
+		max-width: 100% !important;
+	}
+
+}
+
+.carousel-wrapper {
+	display: flex;
+	/* justify-content: flex-start; */
+	gap: 32px;
+	padding: 0 4em 48px 4em;
+	width: 100%;
+}
+
+.carousel-slide{
+	margin: 16px 42px;
+	max-width: 50%;
+	display: none;
+}
+.carousel-slide.active{
+	display: flex;
+}
+.tool-links {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	gap:16px;
+}
+.tool-links a{
+	color: white;
+	border-bottom: 1px solid white;
+	padding-bottom: 2px;
+}
+
+.tool-logo{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 80px;
+}
+
+.tool-logo img{
+	width: 200px;
+}
+
+.tool-info h2, h3, p {
+	text-align: left;
+}
+.tools-action {
+	background: none;
+	color: white;
+	border: none;
+	border-radius: 10px;
+}
+
+.tools-icon {
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.tools-action:hover .tools-icon {
+	color: #333;
+}
+
+.tools-action:hover {
+	background: #ffffff99;
+}

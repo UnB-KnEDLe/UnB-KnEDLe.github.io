@@ -18,6 +18,9 @@ export default function About(props){
                 <video className="about-video" controls>
                     <source src={video} className="video-player" />
                 </video>
+                <br/>
+                <hr/>
+                <h4><strong><a href="https://www.fap.df.gov.br/inteligencia-artificial-na-extracao-de-informacoes-no-diario-oficial-do-df/">{t("[FAPDF Post] Artificial Intelligence in the extraction of information in the Official Gazette of the DF")}</a></strong></h4>
             </div>
         </section>
     )

@@ -1,9 +1,27 @@
 const eventsList = [
   {
+    title: "VI Workshop",
+
+    comment:
+      "This event will take place on March 24, 2023, and will take place in the TCDF auditorium - Tribunal de Contas do Distrito Federal - Palácio Costa e Silva, Praça do Buriti 70075-901 - Brasília, DF",
+
+    date: new Date(2023, 3, 24),
+    schedule: [
+      "14h00 - Opening - Thiago Faleiros",
+      "14h10 - The Knedle Project - Vinícius Borges, Luis Paulo Faina and Andrei Queiroz",
+      "Annotation, NitoTat and VisNote",
+      "DODFMiner and Knedash",
+      "14h30 - DODFMiner CLI - Gabriel Nogueira",
+      "14h50 - DODFMiner Lib - Bruno Esteves",
+      "15h10 - Knedash and Timeline - Ian F. P. Ferreira",
+      "15h30 - Discussions and Closing",
+    ],
+  },
+  {
     title: "V Workshop",
     button: [
       {
-        title: "Click here to join the meeting",
+        title: "Click here to watch the video",
         url: "https://bit.ly/workshop_nido",
       },
     ],

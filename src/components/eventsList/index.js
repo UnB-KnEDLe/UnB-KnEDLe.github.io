@@ -3,7 +3,7 @@ const eventsList = [
     title: "VI Workshop",
 
     comment:
-      "This event will take place on March 24, 2023, in the TCDF auditorium - Tribunal de Contas do Distrito Federal - Palácio Costa e Silva, Praça do Buriti 70075-901 - Brasília, DF",
+      "This event will take place on March 24, 2023, in the TCDF auditorium - Federal District Court of Auditors. - Palácio Costa e Silva, Praça do Buriti 70075-901 - Brasília, DF",
 
     date: new Date(2023, 3, 24),
     schedule: [

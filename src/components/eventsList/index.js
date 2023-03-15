@@ -11,7 +11,7 @@ const eventsList = [
       "14h10 - The Knedle Project - Vinícius Borges, Luis Paulo Faina and Andrei Queiroz",
       "Annotation, NitoTat and VisNote",
       "DODFMiner and Knedash",
-      "14h30 - DODFMiner CLI - Gabriel Nogueira",
+      "14h30 - DODFMiner CLI - Gabriel Guimarães",
       "14h50 - DODFMiner Lib - Bruno Esteves",
       "15h10 - Knedash and Timeline - Ian F. P. Ferreira",
       "15h30 - Discussions and Closing",

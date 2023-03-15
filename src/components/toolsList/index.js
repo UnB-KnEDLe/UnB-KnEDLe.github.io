@@ -36,8 +36,8 @@ const toolsList = [
     {
         id: '3',
         name: 'VisNote',
-        description: "A visualization-based tool developed for exploring and annotating textual data from Government Gazettes.",
-        // subtitle: "The Official Gazette of the Federal District in a simple way",
+        subtitle: "A visualization-based tool developed for exploring and annotating textual data from Government Gazettes.",
+        description: "A visualization tool for publications of the Official Gazette of the Federal District that mainly employs visualizations based on the positioning of points, such as t-Distributed Stochastic Neighbor Embedding (t-SNE) and Uniform Manifold Approximation and Projection (UMAP). The idea is to involve the specialist in knowledge discovery tasks in official publications with the support of visualizations that graphically represent the main implicit patterns in the associated texts.",
         // documentation: "https://unb-knedle.github.io/Dash/",
         github: "https://github.com/UnB-KnEDLe/VisNote",
         // url: 'http://knedash.unb.br/'
@@ -45,8 +45,8 @@ const toolsList = [
     {
         id: '4',
         name: 'NidoTat',
-        description: "Text annotation tool for team collaboration. ",
-        // subtitle: "The Official Gazette of the Federal District in a simple way",
+        description: "This tool is useful for creating corpus for named entity recognition tasks, with support for collaborative annotation (multiple annotators) and centered on the person responsible for conducting the annotation process.",
+        subtitle: "A custom annotation tool from the TeamTat tool for the purposes of the KnEDLe project. ",
         // documentation: "https://unb-knedle.github.io/Dash/",
         github: "https://github.com/UnB-KnEDLe/TeamTat",
         // url: 'http://knedash.unb.br/'

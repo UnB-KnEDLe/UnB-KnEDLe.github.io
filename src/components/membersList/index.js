@@ -184,15 +184,14 @@ const students = [
         }
     },
     {
-        name: 'Matheus Stauffer Viana de Oliveira',
-        avatar: aMatheusStauffer,
+        name: 'Tatiana Franco Pereira',
+        avatar: aTatianaFranco,
         descr: {
-            resume: 'Graduando em Computação',
-            email: 'matheusvostauffer@gmail.com',
-            linkedin: 'https://www.linkedin.com/in/matheus-stauffer-698b3b161/',
-            github: 'https://github.com/MatheusStauffer',
-            badge: 'Aluno da Graduação - UnB',
-            lattes: 'http://lattes.cnpq.br/3634456971616689'
+            resume: 'Graduanda em Ciência da Computação',
+            email: 'fpereira.tatiana@gmail.com',
+            linkedin: 'https://www.linkedin.com/in/tatiana-franco-pereira/',
+            badge: 'Aluna da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/6503681647703666'
         }
     },
     {
@@ -401,17 +400,6 @@ const exStudents = [
             github: 'https://github.com/avio11',
             badge: 'Aluno de Mestrado - UnB',
             lattes: 'http://lattes.cnpq.br/2808772465575284'
-        }
-    },
-    {
-        name: 'Tatiana Franco Pereira',
-        avatar: aTatianaFranco,
-        descr: {
-            resume: 'Graduanda em Ciência da Computação',
-            email: 'fpereira.tatiana@gmail.com',
-            linkedin: 'https://www.linkedin.com/in/tatiana-franco-pereira/',
-            badge: 'Aluna da Graduação - UnB',
-            lattes: 'http://lattes.cnpq.br/6503681647703666'
         }
     },
     {
@@ -645,6 +633,18 @@ const exStudents = [
             github: 'https://github.com/notopoloko',
             badge: 'Aluno da Graduação - UnB',
             lattes: 'http://lattes.cnpq.br/8939995054167023'
+        }
+    },
+    {
+        name: 'Matheus Stauffer Viana de Oliveira',
+        avatar: aMatheusStauffer,
+        descr: {
+            resume: 'Graduando em Computação',
+            email: 'matheusvostauffer@gmail.com',
+            linkedin: 'https://www.linkedin.com/in/matheus-stauffer-698b3b161/',
+            github: 'https://github.com/MatheusStauffer',
+            badge: 'Aluno da Graduação - UnB',
+            lattes: 'http://lattes.cnpq.br/3634456971616689'
         }
     },
 ]

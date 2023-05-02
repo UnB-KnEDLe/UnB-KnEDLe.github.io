@@ -9,6 +9,18 @@ import release_3 from '../../assets/papers/Relat_rio_KnEDLe___release_3.pdf';
 
 const publicationsList = [
     {
+        title: 'LayoutQT—Layout Quadrant Tags to embed visual features for document analysis',
+        content: ['• Patricia Medyna Lauritzen de Lucena Drumond • Lindeberg Pessoa Leite • Fabricio A. Braz • Teofilo E. de Campos'],
+        link: [{title: 'Link', url: 'https://www.sciencedirect.com/science/article/abs/pii/S0952197623002750?dgcid=rss_sd_all'}],
+        section: 'Articles'
+    },
+    {
+        title: 'Sequence-aware multimodal page classification of Brazilian legal documents',
+        content: ['• Pedro H. Luz de Araujo • Ana Paula G. S. de Almeida • Fabricio A. Braz • Nilton C. da Silva • Flavio de Barros Vidal • Teofilo E. de Campos'],
+        link: [{title: 'Link', url: 'https://arxiv.org/abs/2207.00748?context=cs'}],
+        section: 'Articles'
+    },
+    {
         title: 'Aprendizado de maquina para a sugestão automática de correções em anotações de dados textuais',
         content: ['• Tatiana F. Pereira • Vinícius R. P. Borges'],
         link: [{title: 'PDF', url: 'https://github.com/UnB-KnEDLe/viabilidade-tecnica/blob/main/PIBIC_2022___Relat_rio_Final___Tatiana.pdf'}, {title: 'certificate', url: 'https://proic.unb.br/images/Editais/2021_2022/Congresso2022/MencaoHonrosa/MencaoHonrosa-269.pdf'}],

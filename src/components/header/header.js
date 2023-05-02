@@ -36,10 +36,10 @@ export default function Header(props){
                         <FontAwesomeIcon icon={faCalendarWeek} />
                         {t('Events')}
                     </button>
-                    <NavLink to='/publications' className="navbar-item">
+                    <button onClick={ () => scrollTo('publications') } className="navbar-item">
                         <FontAwesomeIcon icon={faBookOpen} />
                         {t('Publications')}
-                    </NavLink>
+                    </button>
                     <button onClick={ () => scrollTo('dodfminer') } className="navbar-item">
                         <FontAwesomeIcon icon={faTools} />
                         {t('Toolbox')}
